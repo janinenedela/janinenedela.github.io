@@ -1,32 +1,57 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer id="footer-global" role="contentinfo" class="clearfix">
 
-  <div class="wrapper">
+  <section id="contact">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
+    <div class="container">
 
-      <div class="footer-col one-half">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+      <div class="row">
 
-      <div class="social-links">
-        {%- include social.html -%}
-      </div>
-    </div>
+        <div class="sixteen columns">
 
-  </div>
+
+          <div class="icon-holder contact">
+            <i class="icon-phone"></i>						</div>
+
+          <h1>The Royal Jungle</h1>
+
+          <p class="overview">100% PLASTIC FREE</p>
+
+          <address id="contact-details">
+
+            <p><a href="mailto:booking@theroyaljungle.com">booking@theroyaljungle.com</a> // +49 (0) 176 72 84 69 38<br>
+              Christian Velbinger // 114 Whitechapel High Street // E1 7PT London<br><a href="http://www.facebook.com/theroyaljungle/">Facebook</a> // <a href="https://www.linkedin.com/company/9213312//">Linkedin</a> // <a href="https://www.instagram.com/theroyaljungle/">Instagram</a><br><a href="https://www.facebook.com/theroyaljungle/app/100265896690345/">Sign up for the Newsletter</a><br><a href="https://www.theroyaljungle.com/privacy-policy">Privacy Policy</a></p>
+
+          </address>
+
+        </div>
+
+      </div><!-- end .row -->
+
+      <div class="row">
+
+        <div class="sixteen columns">
+
+          <ul class="social-icons footer">
+
+
+          </ul>
+
+        </div>
+
+      </div><!-- end .row -->
+
+      <div class="row">
+
+        <div class="sixteen columns">
+
+          <p id="copyright-details">© 2020 The Royal Jungle. </p>
+
+        </div>
+
+      </div><!-- end .row -->
+
+    </div><!-- end .container -->
+
+  </section><!-- end #contact -->
 
 </footer>
