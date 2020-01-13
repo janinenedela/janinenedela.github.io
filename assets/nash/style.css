@@ -727,7 +727,7 @@ select {
 
 .container {
   position: relative;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0;
 }
@@ -900,7 +900,7 @@ select {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
   .container {
-    width: 768px
+    max-width: 768px
   }
 
   .container .column,
@@ -1071,7 +1071,7 @@ select {
 @media only screen and (max-width: 767px) {
 
   .container {
-    width: 260px;
+    max-width: 260px;
   }
 
   .container .columns,
@@ -1130,7 +1130,7 @@ select {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
   .container {
-    width: 300px;
+    max-width: 300px;
   }
 
   .container .columns,
@@ -3499,6 +3499,7 @@ a.return-home-btn:hover {
 /* Section Dividers
 --------------------------------------------------*/
 
+#section-divider-0,
 #section-divider-1,
 #section-divider-2,
 #section-divider-3,
