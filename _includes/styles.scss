@@ -1508,7 +1508,7 @@ a, a:active, a:visited {
 }
 
 .ampstart-dropdown > [expanded] > header:after {
-  content: "–"
+  content: "-"
 }
 
 .absolute .ampstart-dropdown-items {
@@ -1576,7 +1576,7 @@ a, a:active, a:visited {
 }
 
 .ampstart-readmore:after {
-  content: "⌄";
+  //content: "⌄";
   font-size: 1.25rem
 }
 
@@ -1718,7 +1718,7 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-input > select + label:before {
-  content: "⌄";
+  //content: "⌄";
   line-height: 2.0625;
   position: absolute;
   right: 5px;
@@ -1778,7 +1778,7 @@ amp-carousel .ampstart-image-with-caption {
 .ampstart-input input[type=checkbox]:checked:after {
   background-color: #fff;
   color: #000;
-  content: "✓"
+  content: "x"
 }
 
 .ampstart-input input[type=radio]:checked {
