@@ -44,6 +44,29 @@ minima:
 #header_pages:
 # - about.md
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      meta: BlogPosting
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      sitemap: true
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-paginate
+ - jekyll-sitemap
