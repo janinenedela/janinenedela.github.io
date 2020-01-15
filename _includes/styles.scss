@@ -371,6 +371,10 @@ canvas {
   max-width: 100%
 }
 
+.width-200px {
+  width: 200px
+}
+
 .max-width-1 {
   max-width: 24rem
 }
@@ -992,8 +996,7 @@ canvas {
   align-items: flex-start
 }
 
-.items-
-end {
+.items-end {
   -ms-flex-align: end;
   align-items: flex-end
 }
