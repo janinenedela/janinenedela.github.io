@@ -6,9 +6,11 @@
 
   <nav class="ampstart-footer-nav">
     <ul class="list-reset flex flex-wrap mb3">
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="#">About</a></li>
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="#">Contact</a></li>
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="#">Terms</a></li>
+      {% for my_page in site.pages %}
+      {% if my_page.title and my_page.footer %}
+      <li class="px1"><a class="text-decoration-none ampstart-label" href="{{ my_page.url | prepend: site.baseurl }}" itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
+      {% endif %}
+      {% endfor %}
     </ul>
   </nav>
   <small>

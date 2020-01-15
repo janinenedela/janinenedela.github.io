@@ -19,11 +19,10 @@
     <ul class="ampstart-sidebar-faq list-reset m0">
       <li class="ampstart-faq-item"><a class="page-link" href="{{ site.baseurl }}/" itemprop="url" ><span itemprop="name">Home</span></a></li>
       {% for my_page in site.pages %}
-      {% if my_page.title and my_page.sitemap %}
+      {% if my_page.title and my_page.header %}
       <li class="ampstart-faq-item"><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
       {% endif %}
       {% endfor %}
-
     </ul>
   </nav>
 
