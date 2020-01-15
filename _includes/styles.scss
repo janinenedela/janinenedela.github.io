@@ -126,7 +126,48 @@ button, select {
 }
 
 [type=reset], [type=submit], button, html [type=button] {
-  -webkit-appearance: button
+  -webkit-appearance: button;
+
+  background-color: #9e9e9e;
+  border-radius: 3px;
+  color: #fff;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 5px 12px;
+  text-decoration: none;
+  border: 0;
+
+  &:hover, &:focus {
+    background-color: #757575;
+    text-decoration: none;
+  }
+  &:active {
+    opacity: .5;
+  }
+}
+
+.facebook-button {
+  background-color: #4267b2;
+  &:hover, &:focus {
+    background-color: #365899;
+  }
+}
+
+.meetup-button {
+  background-color: #f13a59;
+  &:hover, &:focus {
+    background-color: #d00f2f;
+  }
+}
+
+.eventbrite-button {
+  background-color: #f05537;
+  &:hover, &:focus {
+    background-color: #d1410c;
+  }
 }
 
 [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
