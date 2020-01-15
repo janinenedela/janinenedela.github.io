@@ -51,14 +51,14 @@ minima:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/_posts"
       type: posts
     values:
       layout: post
       meta: BlogPosting
   # _pages
   - scope:
-      path: ""
+      path: "/_pages"
       type: pages
     values:
       sitemap: true
