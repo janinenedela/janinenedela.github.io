@@ -2174,3 +2174,7 @@ search {
   margin-top: -67px;
   max-width: 196px;
 }
+
+section.m3 p {
+  @extend .m3;
+}
