@@ -1,8 +1,10 @@
+$font-family--primary: 'Poppins', sans-serif;
+
 /*! Bassplate | MIT License | http://github.com/basscss/bassplate */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: $font-family--primary;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
@@ -36,7 +38,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: $font-family--primary;
   font-size: 1em
 }
 
@@ -61,7 +63,7 @@ b, strong {
 }
 
 code, kbd, samp {
-  font-family: monospace, monospace;
+  font-family: $font-family--primary;
   font-size: 1em
 }
 
@@ -111,7 +113,7 @@ svg:not(:root) {
 }
 
 button, input, optgroup, select, textarea {
-  font-family: sans-serif;
+  font-family: $font-family--primary;
   font-size: 100%;
   line-height: 1.15;
   margin: 0
@@ -134,7 +136,7 @@ button, select {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  font-weight: 600;
+  font-weight: 700;
   margin-left: 10px;
   padding: 5px 12px;
   text-decoration: none;
@@ -144,6 +146,7 @@ button, select {
     background-color: #757575;
     text-decoration: none;
   }
+
   &:active {
     opacity: .5;
   }
@@ -151,6 +154,7 @@ button, select {
 
 .facebook-button {
   background-color: #4267b2;
+
   &:hover, &:focus {
     background-color: #365899;
   }
@@ -158,6 +162,7 @@ button, select {
 
 .meetup-button {
   background-color: #f13a59;
+
   &:hover, &:focus {
     background-color: #d00f2f;
   }
@@ -165,6 +170,7 @@ button, select {
 
 .eventbrite-button {
   background-color: #f05537;
+
   &:hover, &:focus {
     background-color: #d1410c;
   }
@@ -271,7 +277,7 @@ canvas {
 }
 
 .font-family-inherit {
-  font-family: inherit
+  font-family: $font-family--primary;
 }
 
 .font-size-inherit {
@@ -1325,7 +1331,7 @@ canvas {
 body {
   background: #fff;
   color: #4a4a4a;
-  font-family: EB Garamond, times, serif;
+  font-family: $font-family--primary;
   min-width: 315px;
   overflow-x: hidden;
   font-smooth: always;
@@ -1444,7 +1450,7 @@ a, a:active, a:visited {
 }
 
 .ampstart-btn {
-  font-family: inherit;
+  font-family: $font-family--primary;
   font-weight: inherit;
   font-size: 1rem;
   line-height: 1.42857;
@@ -2054,7 +2060,7 @@ search {
 
 .h3, h3 {
   color: #000;
-  font-family: Work Sans, arial, sans-serif;
+  font-family: $font-family--primary;
   letter-spacing: .6px
 }
 
@@ -2077,7 +2083,7 @@ search {
 }
 
 .ampstart-nav-dropdown .ampstart-dropdown-item, .ampstart-nav-dropdown .ampstart-dropdown > section > header, .ampstart-sidebar-faq {
-  font-family: Work Sans, arial, sans-serif
+  font-family: $font-family--primary;
 }
 
 .ampstart-nav-dropdown .ampstart-dropdown {
