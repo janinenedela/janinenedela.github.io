@@ -1,4 +1,5 @@
-title: Finanz Café
+lang: "de_DE"
+title: FiNANZCAFÉ
 author: Auhor
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
@@ -18,14 +19,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    rss: rss
+#    twitter: jekyllrb
+#    github:  jekyll
+#    rss: rss
     # dribbble: jekyll
-    # facebook: jekyll
+     facebook: FiNUMFiNANZCAFE
     # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
+     instagram: finanzcafe
+     linkedin: finanzcafé
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -70,6 +71,12 @@ defaults:
       layout: page
       header: true
       footer: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 
 # Reading Files
 include:

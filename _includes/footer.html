@@ -1,20 +1,36 @@
 <!-- Start Footer -->
-<footer class="ampstart-footer flex flex-column items-center px3 ">
+<footer>
+  <section id="contact">
+    <div class="container ampstart-footer flex flex-column items-center px3">
+      <h1>{{ site.title }}</h1>
+      <p>100% plastikfrei</p>
 
+      <address>
+        <p class="center">
+          <a href="booking@das-finanz-cafe.com">booking@das-finanz-cafe.com</a>
+          // +49 (0) 172 389 0571
+          <br>
+          André Kleinhans // Lindwurmstraße 41, 80337 München
+        </p>
+      </address>
 
-  {%- include social.html -%}
+      {%- include social.html -%}
 
-  <nav class="ampstart-footer-nav">
-    <ul class="list-reset flex flex-wrap mb3">
-      {% for my_page in site.pages %}
-      {% if my_page.title and my_page.footer %}
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="{{ my_page.url | prepend: site.baseurl }}" itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-  <small>
-    © Finanz Café, {{ site.time | date: '%Y' }}
-  </small>
+      <nav class="ampstart-footer-nav">
+        <ul class="list-reset flex flex-wrap mb3">
+          {% for my_page in site.pages %}
+          {% if my_page.title and my_page.footer %}
+          <li class="px1"><a class="text-decoration-none ampstart-label"
+                             href="{{ my_page.url | prepend: site.baseurl }}"
+                             itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+      <small>
+        © {{ site.title }}, {{ site.time | date: '%Y' }}
+      </small>
+    </div><!-- end .container -->
+  </section>
 </footer>
 <!-- End Footer -->
