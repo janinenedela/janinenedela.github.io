@@ -2108,8 +2108,11 @@ search {
 }
 
 .ampstart-image-fullpage-hero figcaption {
-  margin: 0;
   top: auto
+}
+
+.home-caption {
+  max-width: 40rem;
 }
 
 .ampstart-fullpage-hero-heading {
