@@ -7,23 +7,24 @@ amp-social-share: true
 amp-form: true
 ---
 
-Bei unseren Veranstaltungen wirst du innerhalb von 2 Stunden folgendes lernen:
+## Was erwartet dich?
 
-- Das Einmaleins zum Thema Finanzen in Deutschland
-- Wie erreichst du deine Ziele
-- Was ist Investment?
+👉 Wir sprechen auf Augenhöhe über Finanzthemen
 
-Wir wollen, dass du vielen deiner Mitmenschen einen großen Schritt voraus bist. „Einen großen Schritt voraus“, weil wir in diesen Zeiten überwiegend wahrnehmen, dass sich die meisten Menschen nicht mehr mit dem Thema Finanzen auseinandersetzen wollen. 
+👉 Kein um den heißen Brei sprechen
 
-Grund hierfür sind oftmals negative Erfahrungen und eine daraus resultierende Skepsis, Angst vor einer scheinbar hohen Komplexität der Thematik oder schlicht die mangelnde Begeisterung für das Thema. Das ist schade und vor allem ist das auch gefährlich. 
+👉 Unterstützung in Sachen Geld
 
-Denn eins steht außer Frage: Jeder Mensch in Deutschland hat finanzielle Ziele und Träume. Viele wollen sich zukünftig den Traum vom Eigenheim realisieren, schöne Urlaube leisten, streben einen sorgenfreien Ruhestand an, oder wollen sich und vor allem die Familie gut abgesichert wissen. Doch gerade in Zeiten von maroden Sozialsystemen, niedrigen Sparzinsen, Informationsasymmetrie und gesetzlichen Regelungen ist es gar nicht so einfach, sich diese Ziele und Wünsche zu verwirklichen. Und diese werden erst recht nicht realisierbar, wenn man sich der Thematik verweigert oder sich erst gar nicht damit beschäftigt.
-
-Genau deshalb wollen wir dir mit unseren außergewöhnlichen Veranstaltungen und Wissen zur Seite stehen. 
+👉 Aktuell noch freier Eintritt
 
 
+__Warum machen wir das?__
 
-Unsere Veranstaltungen sind Begegnungen auf Augenhöhe, bei denen du Teil einer schnellwachsenden Community bist, die viel wert auf einen gegenseitigen Austausch und Netzwerken legt. 
+Money Money Money – Finanzen ist für die meisten noch immer ein Tebu-Thema. Das sollte sich aber schleunigst ändern!  Die meisten Menschen wollen sich nicht mehr mit dem Thema Finanzenauseinander setzen.
+Entweder aus oftmals negativen Erfahrungen und einer daraus resultiereden Skepsis, Angst vor einer scheinbar hohen Komplexität oder schlicht aus mangelnder Begeisterung. Das ist schade. Doch vor allem ist das gefährlich.
 
-Wie schon John Davison Rockefeller zu sagen pflegte: „Es ist besser, einen Tag im Monat über sein Geld nachzudenken, als einen ganzen Monat dafür zu arbeiten.“ 
-Und bei sind es nur zwei Stunden ;)
+Denn jeder hat finanzielle Ziele und Träume. Sei es der Traum vom Eigenheim, schöne Urlaube, einen sorgenfreien Ruhestand oder sich gut abgesichert wissen. 
+Doch marode Sozialsysteme, Niedrigzinsen, einem finanziellen Analphabetismus und vielen gesetzlichen Regelungen ist es gar nicht so einfach, diese Ziele und Wünsche zu verwirklichen. Und schon gar nicht wenn man sich der Thematik verweigert oder sich erst gar nicht damit beschäftigt. 
+
+Genau hier wollen wir mit unseren außergewöhnlichen Veranstaltungen DIR helfen. Wir legen wert auf Kommunikation auf Augenhöhe und gegenseitigen Austausch in einer schnellwachsenden Community.
+
