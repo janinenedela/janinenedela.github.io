@@ -5,6 +5,7 @@ amp-accordion: true
 amp-instagram: true
 amp-social-share: true
 amp-form: true
+title: FiNANZCAFÉ
 ---
 
 ## Was erwartet dich?
