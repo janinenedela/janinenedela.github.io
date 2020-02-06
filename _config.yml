@@ -72,6 +72,11 @@ defaults:
       header: true
       footer: false
 
+# Collections
+collections:
+  events:
+    output: true
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
