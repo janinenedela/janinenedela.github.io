@@ -19,7 +19,7 @@ title: FiNANZCAFÉ
 👉 Aktuell noch freier Eintritt
 
 
-__Warum machen wir das?__
+## Warum machen wir das?
 
 Money Money Money – Finanzen ist für die meisten noch immer ein Tebu-Thema. Das sollte sich aber schleunigst ändern!  Die meisten Menschen wollen sich nicht mehr mit dem Thema Finanzenauseinander setzen.
 Entweder aus oftmals negativen Erfahrungen und einer daraus resultiereden Skepsis, Angst vor einer scheinbar hohen Komplexität oder schlicht aus mangelnder Begeisterung. Das ist schade. Doch vor allem ist das gefährlich.
