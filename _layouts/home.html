@@ -111,6 +111,17 @@ amp-form: true
                  height="200"></amp-img>
         {% endif %}
         <div class="center">
+            <amp-date-countdown
+              end-date="{{ post.date | date_to_xmlschema }}"
+              layout="fixed-height"
+              height="50"
+            >
+              <template type="amp-mustache">
+                <p>
+                  {% raw %} {{dd}}:{{hh}}:{{mm}}:{{ss}} {% endraw %}
+                </p>
+              </template>
+            </amp-date-countdown>
           <div class="flex justify-center">
             {% if post.facebook %}
             <a target="_blank" href="{{ post.facebook }}">

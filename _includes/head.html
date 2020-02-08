@@ -1,15 +1,9 @@
 <head>
-  <link async href='https://fonts.googleapis.com/css?family=Poppins:400,700' rel='stylesheet' type='text/css'>
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-  <style amp-custom>
-    {% capture include_to_scssify %}
-    {% include styles.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
-
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
   {% if page.amp-youtube%}
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   {% endif%}
@@ -34,11 +28,21 @@
   {% if page.amp-social-share %}
   <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async=""></script>
   {% endif %}
+  {% if page.amp-date-countdown %}
+  <script custom-element="amp-date-countdown" src="https://cdn.ampproject.org/v0/amp-date-countdown-0.1.js" async=""></script>
+  {% endif %}
+  {% if page.amp-mustache %}
+  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  {% endif %}
 
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <style amp-custom>
+    {% capture include_to_scssify %}
+    {% include styles.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+  <link async href='https://fonts.googleapis.com/css?family=Poppins:400,700' rel='stylesheet' type='text/css'>
 
   <title>
     {% if site.name %}{{ site.name | escape }} {% if site.title_separator %}{{ site.title_separator | escape }} {% else %}|{% endif %} {% endif %}

@@ -5,6 +5,8 @@ amp-accordion: true
 amp-instagram: true
 amp-social-share: true
 amp-form: true
+amp-mustache: true
+amp-date-countdown: true
 title: FiNANZCAFÉ
 ---
 
