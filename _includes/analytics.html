@@ -1,4 +1,5 @@
-{% if site.analytics.provider == "google" && site.analytics.google.tracking_id%}
+{% if site.analytics.google.tracking_id%}
+<!-- Google Analytics tracking -->
 <amp-analytics type="googleanalytics" id="amp-analytics">
 <script type="application/json">
 {
@@ -14,4 +15,25 @@
 }
 </script>
 </amp-analytics>
+<!-- End Google Analytics example -->
+{% endif %}
+
+{% if site.analytics.facebookpixel.tracking_id%}
+<!-- Facebook Pixel Analytics tracking -->
+<amp-analytics type="facebookpixel" id="facebook-pixel">
+  <script type="application/json">
+    {
+      "vars": {
+        "pixelId": "{{ site.analytics.facebookpixel.tracking_id }}"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+  </script>
+</amp-analytics>
+<!-- End Facebook Pixel Analytics example -->
 {% endif %}
