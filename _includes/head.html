@@ -34,6 +34,12 @@
   {% if page.amp-mustache %}
   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
   {% endif %}
+  {% if page.amp-script %}
+  <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+  {% endif %}
+  {% if page.script-hash %}
+  <meta name="amp-script-src" content="{{page.script-hash}}"/>
+  {% endif %}
 
 
   <style amp-custom>

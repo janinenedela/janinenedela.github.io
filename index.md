@@ -7,6 +7,8 @@ amp-social-share: true
 amp-form: true
 amp-mustache: true
 amp-date-countdown: true
+amp-script: true
+script-hash: sha384-saW2Sg2Q7UNMadIR_cjFdYnvodyTktdm8wH1AgGvnbFbRfSQZiBBh9AMSJmFqmw_
 title: FiNANZCAFÉ
 ---
 
