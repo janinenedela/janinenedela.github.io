@@ -15,6 +15,17 @@ logo-width: 147
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
+# Contact
+static_email: "https://formspree.io/your-email@domain.com"
+
+# Analytics
+analytics:
+  provider: true # false (default), "google", "google-universal", "custom"
+#  google:
+#    tracking_id: UA-asdf
+  facebookpixel:
+    tracking_id: 716482995548219
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
