@@ -2206,3 +2206,17 @@ section.m3 p {
   background-color: #333;
   color: #fff;
 }
+
+.banner-container {
+  width: 500px;
+}
+
+.banner-container, .banner-background {
+  height: 500px;
+  max-height: 100vw;
+}
+
+.banner-background {
+  background-color: #d94747;
+  width: 100%;
+}
