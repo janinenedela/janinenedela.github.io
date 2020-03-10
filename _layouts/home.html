@@ -134,8 +134,10 @@ amp-form: true
 
   </section>
 
+  <div class="banner-container m-auto mt4 mb4">
+    <div class="banner-background absolute left-0"></div>
   <amp-script class="max-width-100 max-height-100vw" width="700" height="700" script="hello-world">
-    <div class="ampstart-article-summary m0 mt4 mb4 relative">
+    <div class="ampstart-article-summary m0 relative">
       <amp-img width="700" height="700" layout="responsive"
                src="{{ 'assets/img/Tasse_RED.jpeg' | relative_url }}"></amp-img>
       <div class="absolute top-0 bottom-0 right-0 left-0 flex flex-column justify-center">
@@ -146,6 +148,7 @@ amp-form: true
       </div>
     </div>
   </amp-script>
+  </div>
 
   <script id="hello-world" type="text/plain" target="amp-script">
     function getRandomInt(min, max) {
