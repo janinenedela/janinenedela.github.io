@@ -98,14 +98,13 @@ amp-form: true
         {% endif %}
         <div class="center">
             <amp-date-countdown
-              end-date="{{ post.date | date_to_xmlschema }}"
+              end-date="{{ post.date | date: '%Y-%m-%dT18:30:00+01:00' }}"
               layout="fixed-height"
               height="50"
-              biggest-unit='hours'
             >
               <template type="amp-mustache">
                 <p>
-                  {% raw %} {{hh}}h {{mm}}min {{ss}}sec {% endraw %}
+                  {% raw %} {{dd}}Tage {{hh}}h {{mm}}min {% endraw %}
                 </p>
               </template>
             </amp-date-countdown>
