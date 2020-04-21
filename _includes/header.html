@@ -4,9 +4,13 @@
   <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
   </div>
   {% if site.logo %}
-  <amp-img src="{{ site.logo | relative_url }}" width={{site.logo-width}} height="50" layout="fixed" class="my0 mx-auto " alt="The Blog"></amp-img>
+  <a class="page-link my0 mx-auto" href="{{ site.baseurl }}/" itemprop="url">
+  <amp-img src="{{ site.logo | relative_url }}" width={{site.logo-width}} height="50" layout="fixed" alt="The Blog"></amp-img>
+  </a>
   {% else %}
-  <div class="ampstart-headerbar-title mx-auto h3">{{ site.title }}</div>
+  <a class="page-link ampstart-headerbar-title mx-auto h3" href="{{ site.baseurl }}/" itemprop="url">
+  {{ site.title }}
+  </a>
   {% endif %}
 </header>
 

@@ -2091,7 +2091,8 @@ search {
 }
 
 .ampstart-headerbar-title {
-  font: normal 1.25rem/1.6 $font-family--primary
+  font: normal 1.25rem/1.6 $font-family--primary;
+  text-decoration: none;
 }
 
 .ampstart-navbar-trigger {
