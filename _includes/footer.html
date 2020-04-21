@@ -9,21 +9,21 @@
       <address>
         <p class="center">
           {% if site.email %}
-          <a href="{{ site.email }}">{{ site.email }}</a>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           <br>
           {% endif %}
 
-          {% if site.email %}
+          {% if site.tel %}
           {{ site.tel }}
           <br>
           {% endif %}
 
-          {% if site.email %}
+          {% if site.author %}
           {{ site.author }}
           <br>
           {% endif %}
 
-          {% if site.email %}
+          {% if site.address %}
           {{ site.address }}
           {% endif %}
         </p>
