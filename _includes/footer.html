@@ -8,13 +8,24 @@
 
       <address>
         <p class="center">
-          <a href="mailto:booking@das-finanz-cafe.com">booking@das-finanz-cafe.com</a>
+          {% if site.email %}
+          <a href="{{ site.email }}">{{ site.email }}</a>
           <br>
-          +49 (0) 172 389 0571
+          {% endif %}
+
+          {% if site.email %}
+          {{ site.tel }}
           <br>
-          André Kleinhans
+          {% endif %}
+
+          {% if site.email %}
+          {{ site.author }}
           <br>
-          Lindwurmstraße 41, 80337 München
+          {% endif %}
+
+          {% if site.email %}
+          {{ site.address }}
+          {% endif %}
         </p>
       </address>
 
