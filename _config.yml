@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Werde jetzt Teil unserer Community und nimm an unseren kostenlosen
   Veranstaltungen teil.
 
-logo: assets/img/FINANZCAFÉ_logo_rough_schwarz.png
+logo: #assets/img/FINANZCAFÉ_logo_rough_schwarz.png
 logo-width: 147
 
 show_excerpts: false # set to true to show excerpts on the homepage
