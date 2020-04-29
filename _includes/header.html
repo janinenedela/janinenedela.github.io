@@ -34,3 +34,26 @@
 </amp-sidebar>
 <!-- End Sidebar -->
 <!-- End Navbar -->
+
+
+<amp-consent id="myUserConsent"
+             layout="nodisplay"
+             class="p1"
+>
+  <script type="application/json">
+    {
+      "consentInstanceId": "consent-id",
+      "consentRequired": true,
+      "promptUI": "consentDialog",
+      "postPromptUI": "post-consent-ui"
+    }
+  </script>
+  <div class="popupOverlay"
+       id="consentDialog">
+    <div class="consentPopup">
+      <span>Mit der Nutzung dieser Website erklären Sie sich damit einverstanden, dass wir Cookies verwenden.
+        <a href="{{ 'datenschutz' | prepend: site.baseurl }}">Mehr Informationen</a></span>
+      <button style="float: right" on="tap:myUserConsent.accept">Verstanden</button>
+    </div>
+  </div>
+</amp-consent>

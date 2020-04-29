@@ -1,6 +1,6 @@
 {% if site.analytics.google.tracking_id%}
 <!-- Google Analytics tracking -->
-<amp-analytics type="googleanalytics" id="amp-analytics">
+<amp-analytics data-block-on-consent type="googleanalytics" id="amp-analytics">
 <script type="application/json">
 {
   "vars": {
@@ -20,7 +20,7 @@
 
 {% if site.analytics.facebookpixel.tracking_id%}
 <!-- Facebook Pixel Analytics tracking -->
-<amp-analytics type="facebookpixel" id="facebook-pixel">
+<amp-analytics data-block-on-consent type="facebookpixel" id="facebook-pixel">
   <script type="application/json">
     {
       "vars": {
