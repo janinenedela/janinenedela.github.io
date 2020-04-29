@@ -130,7 +130,7 @@ button, select {
 [type=reset], [type=submit], button, html [type=button] {
   -webkit-appearance: button;
 
-  background-color: #9e9e9e;
+  background-color: #c62828;
   border-radius: 3px;
   color: #fff;
   -webkit-flex-shrink: 0;
@@ -143,8 +143,9 @@ button, select {
   border: 0;
 
   &:hover, &:focus {
-    background-color: #757575;
+    background-color: #B71C1C;
     text-decoration: none;
+    cursor: pointer;
   }
 
   &:active {
