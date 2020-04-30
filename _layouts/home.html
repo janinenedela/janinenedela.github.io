@@ -32,22 +32,22 @@ amp-form: true
         </h1>
 
         <div class="flex justify-center">
+          <a target="_blank" href="https://www.meetup.com/de-DE/Finanzcafe">
+          <button class="cta-button meetup-button">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#meetup' | relative_url }}"></use></svg>
+          </button>
+          </a>
           <a target="_blank" href="https://www.facebook.com/pg/finumfinanzcafe/events/?ref=page_internal">
           <button class="cta-button facebook-button">
             <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg>
           </button>
           </a>
-          </button>
           <a target="_blank" href="https://www.eventbrite.de/o/finanzcafe-20225011947" >
-          <button class="cta-button meetup-button">
-            <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#meetup' | relative_url }}"></use></svg>
-          </button>
-          </a>
-          <a target="_blank" href="https://www.meetup.com/de-DE/Finanzcafe">
           <button class="cta-button eventbrite-button">
             <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#eventbrite' | relative_url }}"></use></svg>
           </button>
           </a>
+          </button>
         </div>
       </header>
     </figcaption>
@@ -109,6 +109,15 @@ amp-form: true
               </template>
             </amp-date-countdown>
           <div class="flex justify-center">
+            {% if post.meetup %}
+            <a target="_blank" href="{{ post.meetup }}">
+              <button class="cta-button meetup-button">
+                <svg class="svg-icon">
+                  <use xlink:href="{{ '/assets/minima-social-icons.svg#meetup' | relative_url }}"></use>
+                </svg>
+              </button>
+            </a>
+            {% endif %}
             {% if post.facebook %}
             <a target="_blank" href="{{ post.facebook }}">
               <button class="cta-button facebook-button">
@@ -117,13 +126,6 @@ amp-form: true
             </a>
             {% endif %}
             </button>
-            {% if post.meetup %}
-            <a target="_blank" href="{{ post.meetup }}" >
-              <button class="cta-button meetup-button">
-                <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#meetup' | relative_url }}"></use></svg>
-              </button>
-            </a>
-            {% endif %}
             {% if post.eventbrite %}
             <a target="_blank" href="{{ post.eventbrite }}">
               <button class="cta-button eventbrite-button">
