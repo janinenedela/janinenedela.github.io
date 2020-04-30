@@ -93,7 +93,8 @@ amp-form: true
     </div>
 
     <div class="m3 flex flex-wrap">
-      {% for post in site.events %}
+      {% assign events = site.events | reverse %}
+      {% for post in events limit:3 %}
       <div class="width-200px ml-auto mr-auto mb1 mt1">
 
         {% if post.thumbnail %}
