@@ -101,10 +101,10 @@ amp-form: true
                  height="200"></amp-img>
         {% endif %}
         <div class="center">
-            <amp-date-countdown
+          <amp-date-countdown
               end-date="{{ post.date | date: '%Y-%m-%dT18:30:00+01:00' }}"
               layout="fixed-height"
-              height="50"
+              height="2.0625rem"
             >
               <template type="amp-mustache">
                 <p>
@@ -142,6 +142,9 @@ amp-form: true
             </a>
             {% endif %}
           </div>
+          {% if post.title %}
+          <h2>{{ post.title}}</h2>
+          {% endif %}
           {{ post.excerpt }}
         </div>
       </div>
