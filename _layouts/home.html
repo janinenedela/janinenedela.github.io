@@ -101,8 +101,9 @@ amp-form: true
                  height="200"></amp-img>
         {% endif %}
         <div class="center">
+          {% assign time = post.time | default: "19:00:00" | prepend: "%Y-%m-%dT" | append: "+02:00" %}
           <amp-date-countdown
-              end-date="{{ post.date | date: '%Y-%m-%dT18:30:00+01:00' }}"
+              end-date="{{ post.date | date: time }}"
               layout="fixed-height"
               height="2.0625rem"
             >
