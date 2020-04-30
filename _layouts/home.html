@@ -116,9 +116,7 @@ amp-form: true
             {% if post.meetup %}
             <a target="_blank" href="{{ post.meetup }}">
               <button class="cta-button meetup-button">
-                <svg class="svg-icon">
-                  <use xlink:href="{{ '/assets/minima-social-icons.svg#meetup' | relative_url }}"></use>
-                </svg>
+                <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#meetup' | relative_url }}"></use></svg>
               </button>
             </a>
             {% endif %}
@@ -129,11 +127,17 @@ amp-form: true
               </button>
             </a>
             {% endif %}
-            </button>
             {% if post.eventbrite %}
             <a target="_blank" href="{{ post.eventbrite }}">
               <button class="cta-button eventbrite-button">
                 <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#eventbrite' | relative_url }}"></use></svg>
+              </button>
+            </a>
+            {% endif %}
+            {% if post.eventbrite %}
+            <a target="_blank" href="{{ post.gotostage }}">
+              <button class="cta-button gotostage-button">
+                <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#gotostage' | relative_url }}"></use></svg>
               </button>
             </a>
             {% endif %}
