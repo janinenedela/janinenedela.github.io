@@ -2,7 +2,7 @@
 layout: default
 title: Persönliches Riskmanagement
 time: "19:01:00"
-thumbnail: assets/img/event_pictures/Coffee.PNG
+thumbnail: assets/img/event_pictures/4444.PNG
 gotostage: https://register.gotowebinar.com/register/6389174515000736270
 ---
 
