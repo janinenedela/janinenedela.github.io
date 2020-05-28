@@ -1,9 +1,10 @@
 ---
 layout: default
-thumbnail: assets/img/event_pictures/Coffee.PNG
+thumbnail: assets/img/event_pictures/444.png
 facebook: https://www.facebook.com/pg/finumfinanzcafe/events/?ref=page_internal
-eventbrite: https://www.eventbrite.de/o/finanzcafe-20225011947
+eventbrite:
 meetup: https://www.meetup.com/de-DE/Finanzcafe
+gotostage: https://register.gotowebinar.com/register/6389174515000736270
 ---
 
-Du bist zufällig ein Mann und willst über Finanzen sprechen? Meld dich jetzt an!
+test 123 
