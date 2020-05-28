@@ -1,5 +1,6 @@
 ---
 layout: default
+titel: FiNANZCAFÉ - persönliches Riskmanagement
 thumbnail: assets/img/event_pictures/Coffee.PNG
 facebook: https://www.facebook.com/pg/finumfinanzcafe/events/?ref=page_internal
 eventbrite: https://www.eventbrite.de/o/finanzcafe-20225011947
