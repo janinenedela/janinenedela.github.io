@@ -1,6 +1,6 @@
 ---
 layout: default
-thumbnail: assets/img/event_pictures/444.png
+thumbnail: assets/img/event_pictures/4444.png
 facebook: https://www.facebook.com/pg/finumfinanzcafe/events/?ref=page_internal
 eventbrite:
 meetup: https://www.meetup.com/de-DE/Finanzcafe
