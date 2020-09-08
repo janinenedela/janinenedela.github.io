@@ -4,9 +4,6 @@ amp-accordion: true
 amp-instagram: true
 amp-social-share: true
 amp-mustache: true
-amp-date-countdown: true
-amp-script: true
-script-hash: sha384-vsvlHv--r-CZ8x4d2YaqULo8VzqkhF8_XZojgIWOogqwjFBKp3f2pnk-sElJeE8U
 title: FiNANZCAFÉ
 ---
 
