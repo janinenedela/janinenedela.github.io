@@ -1,0 +1,8 @@
+# masthead navigation links
+masthead:
+  - title: "Über uns"
+    url: /#about
+  - title: "Sparten"
+    url: /#devisions
+  - title: "Service"
+    url: /#service

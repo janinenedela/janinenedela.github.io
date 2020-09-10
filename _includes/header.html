@@ -1,26 +1,41 @@
 
 <!-- Start Navbar -->
-<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
-  <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
-  </div>
+<header class="ampstart-headerbar">
   {% if site.logo %}
-  <a class="page-link my0 mx-auto width-100" href="{{ site.baseurl }}/" itemprop="url">
-  <amp-img src="{{ site.logo | relative_url }}" height="3.5rem" layout="fixed-height" alt="{{ site.title }}"></amp-img>
+  <a class="ampstart-headerbar-logo" href="{{ site.baseurl }}/" itemprop="url">
+  <amp-img src="{{ site.logo | relative_url }}" width="197" height="48" layout="responsive" alt="{{ site.title }}"></amp-img>
   </a>
   {% else %}
-  <a class="page-link ampstart-headerbar-title mx-auto h3" href="{{ site.baseurl }}/" itemprop="url">
+  <a class="ampstart-headerbar-title" href="{{ site.baseurl }}/" itemprop="url">
   {{ site.title }}
   </a>
   {% endif %}
+
+  <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0"
+       class="ampstart-navbar-trigger">☰
+  </div>
+
+
+  <ul>
+  {% for link in site.data.navigation.masthead %}
+  <li><a href="{{ link.url }}" class="masthead__menu-item">{{ link.title }}</a></li>
+  {% endfor %}
+  </ul>
+
+
+  <a role="button" href="https://cashflowkompass.typeform.com/to/WndRK0dJ">
+    <button>Erstgespräch buchen</button>
+  </a>
+
 </header>
 
 <!-- Start Sidebar -->
-<amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  " layout="nodisplay">
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar" layout="nodisplay">
   <div class="flex justify-start items-center ampstart-sidebar-header">
     <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
   </div>
   <nav class="ampstart-sidebar-nav ampstart-nav">
-    <ul class="ampstart-sidebar-faq list-reset m0">
+    <ul class="ampstart-sidebar-faq list-reset">
       <li class="ampstart-faq-item"><a class="page-link" href="{{ site.baseurl }}/" itemprop="url" ><span itemprop="name">Home</span></a></li>
       {% for my_page in site.pages %}
       {% if my_page.title and my_page.header %}
@@ -38,7 +53,6 @@
 
 <amp-consent id="myUserConsent"
              layout="nodisplay"
-             class="p1"
 >
   <script type="application/json">
     {
