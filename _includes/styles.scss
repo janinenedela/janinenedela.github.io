@@ -5,86 +5,17 @@ $color-white: #FFF;
 $color-lightblue: #009FE3;
 $color-darkblue: #144569;
 
+@import 'ampstart-headerbar';
+
+
 body {
   font-size: 1.125rem;
   font-family: $font-family--primary;
 }
 
 
-.ampstart-headerbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 123px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: $color-white;
-  z-index: 999;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(32px);
-
-
-  a {
-    color: $color-white;
-    text-decoration: none;
-    margin: 32px;
-  }
-
-  .ampstart-headerbar-logo {
-    width: 200px;
-  }
-
-  ul {
-    width: 356px;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-    text-align: center;
-
-    a{
-      margin: 0;
-    }
-  }
-}
-
-
-@media only screen and (min-width: $mobile-width) {
-  .ampstart-navbar-trigger {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: $mobile-width) {
-  .ampstart-headerbar {
-    ul, a[role="button"] {
-      display: none;
-    }
-
-    .ampstart-headerbar-logo {
-      width: 99px;
-    }
-
-    height: 64px;
-    a, div[role="button"] {
-      margin: 20px;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
 
 //BUTTONS
-
 [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
   border-style: none;
   padding: 0
