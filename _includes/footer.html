@@ -1,23 +1,35 @@
 <!-- Start Footer -->
 <footer>
-  <section id="contact" class="ampstart-footer flex flex-column justify-center">
-    <amp-img src="{{ 'assets/img/FINANZCAFÉ_logo_rough_weiss.svg' | relative_url }}" width="295" height="100"
-             class="m-auto"></amp-img>
-    <div class="container flex flex-column items-center px3 mt4">
-      <p>100% plastikfrei</p>
+  <section id="contact" class="ampstart-footer">
+    <div class="container">
+      <div>
+        <h3>FiNUM</h3>
+        <ul>
+          {% for link in site.data.navigation.footer %}
+          <li><a href="{{ link.url }}" target="_blank" class="masthead__menu-item">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
 
-      <address>
-        <p class="center">
-          {% if site.email %}
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          <br>
+      <div>
+        <h3>Rechtliches</h3>
+        <nav>
+          {% for my_page in site.pages %}
+          {% if my_page.title and my_page.footer %}
+          <a class="text-decoration-none ampstart-label"
+                             href="{{ my_page.url | prepend: site.baseurl }}"
+                             itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a>
           {% endif %}
+          {% endfor %}
+        </nav>
+        <small>
+          © {{ site.title }}, {{ site.time | date: '%Y' }}
+        </small>
+      </div>
 
-          {% if site.tel %}
-          {{ site.tel }}
-          <br>
-          {% endif %}
-
+      <div>
+        <h3>Kontakt</h3>
+        <address>
           {% if site.author %}
           {{ site.author }}
           <br>
@@ -25,27 +37,22 @@
 
           {% if site.address %}
           {{ site.address }}
+          <br>
           {% endif %}
-        </p>
-      </address>
 
+          <br>
+
+          {% if site.tel %}
+          {{ site.tel }}
+          <br>
+          {% endif %}
+          {% if site.email %}
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          {% endif %}
+        </address>
       {%- include social.html -%}
-
-      <nav class="ampstart-footer-nav">
-        <ul class="list-reset flex flex-wrap mb3">
-          {% for my_page in site.pages %}
-          {% if my_page.title and my_page.footer %}
-          <li class="px1"><a class="text-decoration-none ampstart-label"
-                             href="{{ my_page.url | prepend: site.baseurl }}"
-                             itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </nav>
-      <small>
-        © {{ site.title }}, {{ site.time | date: '%Y' }}
-      </small>
-    </div><!-- end .container -->
+      </div>
+    </div>
   </section>
 </footer>
 <!-- End Footer -->

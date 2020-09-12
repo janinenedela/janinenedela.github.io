@@ -1,0 +1,36 @@
+.ampstart-footer {
+  background: $color-darkblue_60;
+
+  h3, .ampstart-social-follow svg {
+    color: $color-white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 128px 52px;
+
+    & > div {
+      width: 272px;
+      margin-bottom: 64px;
+      &:last-child {
+        margin-bottom: 9990px;
+      }
+
+      &, a {
+        color: $color-gray_5;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    a {
+      margin: 0;
+    }
+  }
+
+}

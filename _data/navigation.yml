@@ -1,8 +1,19 @@
-# masthead navigation links
-masthead:
+header:
   - title: "Über uns"
     url: /#about
   - title: "Sparten"
     url: /#devisions
   - title: "Service"
     url: /#service
+
+footer:
+  - title: "FiNUM.Finanzhaus AG"
+    url: https://www.finumfinanzhaus.de/
+  - title: "FiNUM.Pension Consulting"
+    url: https://www.finum-pension.consulting/
+  - title: "FiNUM.Human Capital"
+    url: https://www.finumfinanzhaus.de/finum-human-capital/
+  - title: "FiNUM.Cum Laude"
+    url: http://www.finum-cum-laude.com/
+  - title: "JDC Group AG"
+    url: https://jdcgroup.de/en/home/

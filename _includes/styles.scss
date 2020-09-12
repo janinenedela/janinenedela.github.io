@@ -1,16 +1,59 @@
 $mobile-width: 940px;
 $font-family--primary: 'Poppins', serif;
+$container-max-width: 1208px;
 
 $color-white: #FFF;
 $color-lightblue: #009FE3;
 $color-darkblue: #144569;
+$color-darkblue_60: rgba(20, 69, 105, 0.6);
+$color-gray_5: #C8C9C7;
 
 @import 'ampstart-headerbar';
+@import 'ampstart-footer';
 
 
 body {
   font-size: 1.125rem;
   font-family: $font-family--primary;
+}
+
+address {
+  font-style: normal;
+}
+
+
+.container {
+  max-width: $container-max-width;
+  margin: auto;
+}
+
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+
+.ampstart-social-follow {
+  list-style: none;
+  padding-left: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  li {
+    padding: 12px;
+  }
+
+   :first-child{
+      padding-left: 0;
+   }
 }
 
 
