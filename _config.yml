@@ -13,9 +13,10 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Werde jetzt Teil unserer Community und nimm an unseren kostenlosen
   Veranstaltungen teil.
 
-logo: assets/FiNUM-KlinkMakler/Logo.svg
+show_excerpts: true # set to true to show excerpts on the homepage
 
-show_excerpts: false # set to true to show excerpts on the homepage
+logo: assets/FiNUM-KlinkMakler/Logo.svg
+defaultHeaderImage: assets/FiNUM-KlinkMakler/AdobeStock_224173795.jpg
 
 # Contact
 static_email: "https://formspree.io/your-email@domain.com"

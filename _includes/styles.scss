@@ -15,6 +15,12 @@ $color-gray_5: #C8C9C7;
 body {
   font-size: 1.125rem;
   font-family: $font-family--primary;
+  background: #121212;
+  color: $color-white;
+}
+
+a, a:active, a:visited {
+  color: inherit;
 }
 
 address {
@@ -56,6 +62,36 @@ address {
    }
 }
 
+.ampstart-image-fullpage-hero {
+  position: relative;
+
+  figure {
+    margin: 0;
+  }
+
+  > amp-img img {
+    -o-object-fit: cover;
+    object-fit: cover
+  }
+
+  .ampstart-social-follow {
+    position: fixed;
+    top: 143px;
+    right: 20px;
+    display: block;
+    margin: 0;
+
+    li {
+      padding: 12px;
+      width: 16px;
+      font-size: 0;
+    }
+
+    @media only screen and (max-width: $mobile-width) {
+      display: none;
+    }
+  }
+}
 
 
 //BUTTONS
