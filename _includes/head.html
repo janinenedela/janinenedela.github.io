@@ -68,6 +68,19 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="msapplication-TileColor" content="#da532c">
 
+
+  <script type="application/ld+json">
+  {% if page.meta == "BlogPosting" %}
+    {% include meta/metadata-BlogPosting.json %}
+  {% elsif page.meta == "AboutPage" %}
+    {% include meta/metadata-AboutPage.json %}
+  {% elsif page.meta == "ContactPage" %}
+    {% include meta/metadata-ContactPage.json %}
+  {% else %}
+    {% include meta/metadata.json %}
+  {% endif %}
+  </script>
+
   {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
   {% endif %}
