@@ -12,7 +12,9 @@
   {% endif %}
 
   <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0"
-       class="ampstart-navbar-trigger">☰
+       class="ampstart-navbar-trigger">
+    <span></span>
+    <span></span>
   </div>
 
 
@@ -30,22 +32,15 @@
 </header>
 
 <!-- Start Sidebar -->
-<amp-sidebar id="header-sidebar" class="ampstart-sidebar" layout="nodisplay">
-  <div class="flex justify-start items-center ampstart-sidebar-header">
-    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
-  </div>
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar" layout="nodisplay" side="right">
   <nav class="ampstart-sidebar-nav ampstart-nav">
-    <ul class="ampstart-sidebar-faq list-reset">
-      <li class="ampstart-faq-item"><a class="page-link" href="{{ site.baseurl }}/" itemprop="url" ><span itemprop="name">Home</span></a></li>
-      {% for my_page in site.pages %}
-      {% if my_page.title and my_page.header %}
-      <li class="ampstart-faq-item"><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
-      {% endif %}
+    <ul class="ampstart-sidebar-faq">
+      <li class="ampstart-faq-item"><a href="{{ site.baseurl }}/" itemprop="url" ><span itemprop="name">Home</span></a></li>
+      {% for link in site.data.navigation.header %}
+      <li class="ampstart-faq-item"><a href="{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>
       {% endfor %}
     </ul>
   </nav>
-
-  {%- include social.html -%}
 </amp-sidebar>
 <!-- End Sidebar -->
 <!-- End Navbar -->
