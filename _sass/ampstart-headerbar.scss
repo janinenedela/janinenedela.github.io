@@ -67,6 +67,7 @@
   padding-right: 10vw;
   padding-left: 10vw;
   background: none;
+  backdrop-filter: blur(32px);
 
   .ampstart-faq-item {
     font-weight: bold;
@@ -90,13 +91,6 @@
     text-decoration: none;
   }
 }
-
-.i-amphtml-sidebar-mask {
-  margin-top: 64px;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(32px);
-}
-
 
 .ampstart-navbar-trigger {
   width: 24px;
