@@ -45,7 +45,12 @@
 
   <style amp-custom>
     {% capture include_to_scssify %}
-    {% include styles.scss %}
+    {% include styles/styles.scss %}
+
+    {% for style in layout.styles %}
+        {% include styles/{{style}} %}
+    {% endfor %}
+
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
