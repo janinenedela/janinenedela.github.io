@@ -1,10 +1,29 @@
 ---
 layout: default
 headerImage: assets/FiNUM-KlinkMakler/AdobeStock_298001238.jpg
+styles:
+  - home.scss
 ---
 
-<main id="content" role="main">
-  <section class="post-content m3 justify">
+<main id="content" role="main" class="home">
+  <section class="post-content">
+
+    {% if page.content-title %}
+    <h1>{{page.content-title}}</h1>
+    {% endif %}
+    {% if page.content-subtitle %}
+    <h2>{{page.content-subtitle}}</h2>
+    {% endif %}
+
+    <div class="relative">
+      <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
+               layout="intrinsic" alt="Fish"></amp-img>
+      <p style=" font-size: min(36px, 4.7vw)">Kreative Kommunikation
+        für Ihre Gesundheit</p>
+    </div>
+
+    <div class="flex">
     {{ content }}
+    </div>
   </section>
 </main>

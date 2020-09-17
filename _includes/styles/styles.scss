@@ -27,8 +27,11 @@ address {
   font-style: normal;
 }
 
+.post-content {
+  padding: 16px;
+}
 
-.container {
+.container, .post-content {
   max-width: $container-max-width;
   margin: auto;
 }
@@ -141,3 +144,6 @@ button, select {
     opacity: .5;
   }
 }
+
+
+

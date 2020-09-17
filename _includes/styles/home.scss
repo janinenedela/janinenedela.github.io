@@ -1,0 +1,49 @@
+.home {
+  background: linear-gradient(161.37deg, rgba(20, 69, 105, 0.6) 5.29%, rgba(18, 18, 18, 0.982084) 69.16%, #121212 93.23%);
+
+  .post-content {
+    h1 {
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 128%;
+      letter-spacing: 0.02em;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 54px;
+      letter-spacing: 0.02em;
+      color: $color-gray_5;
+    }
+
+    h3, p {
+      width: 30%;
+
+    }
+
+    amp-img {
+      margin: auto;
+    }
+
+    .relative {
+      position: relative;
+      max-width: 860px;
+      margin: auto;
+
+      p {
+        position: absolute;
+        margin: 0;
+        left: 27%;
+        bottom: 24%;
+        right: 25%;
+        font-weight: 500;
+        line-height: 150%;
+      }
+    }
+
+    .flex {
+      display: flex;
+    }
+  }
+}
