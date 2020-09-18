@@ -34,10 +34,10 @@ styles:
         {% for item in page.list  %}
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 1 %}
-        <figure>
+        <figure style=" font-size: min(36px, 4.7vw)">
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
-          <figcaption style=" font-size: min(36px, 4.7vw)">
+          <figcaption>
             {{ item.text }}</figcaption>
         </figure>
         {% endif %}
@@ -48,10 +48,10 @@ styles:
         {% for item in page.list %}
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 0 %}
-        <figure>
+        <figure style=" font-size: min(36px, 4.7vw)">
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
-          <figcaption style=" font-size: min(36px, 4.7vw)">
+          <figcaption>
             {{ item.text }}</figcaption>
         </figure>
         {% endif %}
@@ -61,16 +61,14 @@ styles:
     </div>
 
     <div class="about">
-      <div>
         {% for item in page.list  %}
-        <figure>
+        <figure style=" font-size: min(36px, 4.7vw)">
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
-          <figcaption style=" font-size: min(36px, 4.7vw)">
+          <figcaption>
             {{ item.text }}</figcaption>
         </figure>
         {% endfor %}
-      </div>
     </div>
 
     <h2>Wo Sie uns finden:</h2>
@@ -82,4 +80,14 @@ styles:
 
 
   </section>
+
+  <figure style=" font-size: min(36px, 4.7vw); margin-top: 8em;">
+    <amp-img src="assets/FiNUM-KlinkMakler/FiNUM_Werte_Wegweisend.jpg" width="1600" height="1067"
+             layout="responsive" alt="Werte_Wegweisend"></amp-img>
+    <figcaption >
+      <h2>Wohin Sie auch gehen</h2>
+      <p>FiNUM.Klinik Makler begleitet Sie auf allen Wegen</p>
+    </figcaption>
+  </figure>
+
 </main>

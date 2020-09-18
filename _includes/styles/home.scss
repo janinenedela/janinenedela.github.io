@@ -1,5 +1,34 @@
 .home {
   background: linear-gradient(161.37deg, rgba(20, 69, 105, 0.6) 5.29%, rgba(18, 18, 18, 0.982084) 69.16%, #121212 93.23%);
+  margin-bottom: -7px;
+
+  .fish {
+    max-width: 860px;
+
+    figcaption {
+      left: 27%;
+      bottom: 24%;
+      right: 25%;
+    }
+  }
+
+  figure {
+    position: relative;
+    margin: auto;
+
+    figcaption {
+      width: auto;
+      margin: 0;
+      position: absolute;
+      bottom: 6.1%;
+      right: 0;
+      left: 0;
+      text-align: center;
+      font-weight: 500;
+      line-height: 150%;
+    }
+  }
+
 
   .post-content {
     h1 {
@@ -27,23 +56,6 @@
 
     .fish {
       margin: 128px auto;
-    }
-
-    figure {
-      position: relative;
-      max-width: 860px;
-      margin: auto;
-
-      figcaption {
-        position: absolute;
-        margin: 0;
-        left: 27%;
-        bottom: 24%;
-        right: 25%;
-        font-weight: 500;
-        line-height: 150%;
-        width: auto;
-      }
     }
 
     .flex {
