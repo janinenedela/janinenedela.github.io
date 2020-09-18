@@ -1,5 +1,6 @@
 ---
 layout: default
+amp-iframe: true
 headerImage: assets/FiNUM-KlinkMakler/AdobeStock_298001238.jpg
 styles:
   - home.scss
@@ -12,7 +13,7 @@ styles:
     <h1>{{page.content-title}}</h1>
     {% endif %}
     {% if page.content-subtitle %}
-    <h2>{{page.content-subtitle}}</h2>
+    <h2 class="subtitle">{{page.content-subtitle}}</h2>
     {% endif %}
 
     <div class="relative fish">
@@ -71,6 +72,13 @@ styles:
         {% endfor %}
       </div>
     </div>
+
+    <h2>Wo Sie uns finden:</h2>
+    <amp-iframe
+      sandbox="allow-scripts allow-same-origin"
+      src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJG_ID8GVWn0cRofdy7XiWTW4&key=AIzaSyA5jYy1ETiNFePjseIAjsGcl2TYa9-n9kM"
+      width="390" height="260" layout="responsive"></amp-iframe>
+
 
 
   </section>

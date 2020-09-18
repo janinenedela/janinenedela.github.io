@@ -4,39 +4,42 @@
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
   <script async src="https://cdn.ampproject.org/v0.js"></script>
-  {% if page.amp-youtube%}
+  {% if page.amp-youtube or layout.amp-youtube %}
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   {% endif%}
-  {% if page.amp-form %}
+  {% if page.amp-form or layout.amp-form %}
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   {% endif%}
   {% if site.analytics.provider && site.analytics.google.tracking_id%}
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script>
   {% endif%}
-  {% if page.amp-carousel %}
+  {% if page.amp-carousel or layout.amp-carousel %}
   <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
   {% endif %}
-  {% if page.amp-sidebar %}
+  {% if page.amp-sidebar or layout.amp-sidebar %}
   <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
   {% endif %}
-  {% if page.amp-accordion %}
+  {% if page.amp-accordion or layout.amp-accordion %}
   <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async=""></script>
   {% endif %}
-  {% if page.amp-instagram %}
+  {% if page.amp-instagram or layout.amp-instagram %}
   <script custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js" async=""></script>
   {% endif %}
-  {% if page.amp-social-share %}
+  {% if page.amp-social-share or layout.amp-social-share %}
   <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async=""></script>
   {% endif %}
-  {% if page.amp-date-countdown %}
+  {% if page.amp-date-countdown or layout.amp-date-countdown %}
   <script custom-element="amp-date-countdown" src="https://cdn.ampproject.org/v0/amp-date-countdown-0.1.js" async=""></script>
   {% endif %}
-  {% if page.amp-mustache %}
+  {% if page.amp-mustache or layout.amp-mustache %}
   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
   {% endif %}
-  {% if page.amp-script %}
+  {% if page.amp-script or layout.amp-script %}
   <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+  {% endif %}
+  {% if page.amp-iframe or layout.amp-iframe %}
+  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
   {% endif %}
   {% if page.script-hash %}
   <meta name="amp-script-src" content="{{page.script-hash}}"/>

@@ -1,9 +1,5 @@
 ---
 layout: home
-amp-accordion: true
-amp-instagram: true
-amp-social-share: true
-amp-mustache: true
 title: FiNANZCAFÉ
 content-title: FiNUM.Klinik Makler mit Herz und Verstand
 content-subtitle: Ihr zuverlässiger Partner in Sachen Risikobewertung
