@@ -29,12 +29,12 @@
       margin: 128px auto;
     }
 
-    .relative {
+    figure {
       position: relative;
       max-width: 860px;
       margin: auto;
 
-      p {
+      figcaption {
         position: absolute;
         margin: 0;
         left: 27%;
@@ -70,9 +70,9 @@
   .about {
     margin: 256px auto;
 
-    .relative {
+    figure {
       max-width: 584px;
-      p {
+      figcaption {
         bottom: auto;
         top: 20.2%;
         left: 21.8%;
