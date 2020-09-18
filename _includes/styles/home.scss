@@ -22,8 +22,8 @@
 
     }
 
-    amp-img {
-      margin: auto;
+    .fish {
+      margin: 128px auto;
     }
 
     .relative {
@@ -39,11 +39,52 @@
         right: 25%;
         font-weight: 500;
         line-height: 150%;
+        width: auto;
       }
     }
 
     .flex {
       display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 164px;
+
+    }
+
+    table {
+      min-width: 376px;
+      flex-grow: 1;
+      width: 0;
+    }
+
+    th {
+      text-align: left;
+      font-size: 24px;
+      letter-spacing: 0.02em;
+    }
+
+  }
+
+  .about {
+    margin: 256px auto;
+
+    .relative {
+      max-width: 584px;
+      p {
+        bottom: auto;
+        top: 20.2%;
+        left: 21.8%;
+        right: 25%;
+      }
+    }
+
+    @media only screen and (max-width: 1199px) {
+      &.flex {
+      display: none
+      };
+    }
+    @media only screen and (min-width: 1200px) {
+      display: none;
     }
   }
 }

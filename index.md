@@ -7,6 +7,19 @@ amp-mustache: true
 title: FiNANZCAFÉ
 content-title: FiNUM.Klinik Makler mit Herz und Verstand
 content-subtitle: Ihr zuverlässiger Partner in Sachen Risikobewertung
+list:
+    - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
+      text: Wir stellen <br>uns vor
+    - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
+      text: Ihr Mehrwert
+    - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
+      text: Vorgehensweise
+    - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
+      text: Nächste <br>Schritte
+    - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
+      text: Unser Service
+    - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
+      text: Unsere Werte
 ---
 
 | Standorte |
