@@ -26,8 +26,8 @@ analytics:
   provider: true # false (default), "google", "google-universal", "custom"
 #  google:
 #    tracking_id: UA-asdf
-  facebookpixel:
-    tracking_id: 716482995548219
+#  facebookpixel:
+#    tracking_id: 000000000000
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
