@@ -10,6 +10,7 @@ list:
       text: Ihr Mehrwert
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
       text: Vorgehensweise
+      href: /vorgehensweise
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
       text: Nächste <br>Schritte
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png

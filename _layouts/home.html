@@ -33,12 +33,14 @@ styles:
         {% for item in page.list  %}
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 1 %}
+        <a href="{{ site.baseurl }}{{ item.href }}">
         <figure style=" font-size: min(36px, 4.7vw)">
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
           <figcaption>
             {{ item.text }}</figcaption>
         </figure>
+        </a>
         {% endif %}
         {% endfor %}
       </div>
@@ -47,12 +49,14 @@ styles:
         {% for item in page.list %}
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 0 %}
+        <a href="{{ site.baseurl }}{{ item.href }}">
         <figure style=" font-size: min(36px, 4.7vw)">
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
           <figcaption>
             {{ item.text }}</figcaption>
         </figure>
+        </a>
         {% endif %}
         {% endfor %}
       </div>
