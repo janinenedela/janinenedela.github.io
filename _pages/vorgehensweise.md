@@ -1,6 +1,6 @@
 ---
 title: Vorgehensweise
-permalink: /vorgehensweise/
+permalink: /vorgehensweise
 header: false
 footer: false
 styles:
