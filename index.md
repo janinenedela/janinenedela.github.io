@@ -17,6 +17,7 @@ list:
       text: Unser Service
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
       text: Unsere Werte
+      href: /unsere-werte
 ---
 
 | Standorte |
