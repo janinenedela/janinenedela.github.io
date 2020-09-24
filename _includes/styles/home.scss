@@ -31,25 +31,9 @@
 
 
   .post-content {
-    position: relative;
-    z-index: 1;
-
-    h1 {
-      font-weight: bold;
-      font-size: 72px;
-      line-height: 128%;
-    }
-
     h2 {
       font-weight: 500;
       font-size: 48px;
-    }
-
-    .subtitle {
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 54px;
-      color: $color-gray_5;
     }
 
     h3, p {

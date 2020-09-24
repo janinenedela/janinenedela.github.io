@@ -9,11 +9,14 @@ styles:
 <main id="content" role="main" class="home">
   <section class="post-content">
     {% if page.content-title %}
-    <h1>{{page.content-title}}</h1>
+    <header class="post-header">
+      <h1 class="post-title">{{page.content-title}}</h1>
+      {% if page.content-subtitle %}
+      <span class="post-subtitle">{{page.content-subtitle}}</span>
+      {% endif %}
+    </header>
     {% endif %}
-    {% if page.content-subtitle %}
-    <h2 class="subtitle">{{page.content-subtitle}}</h2>
-    {% endif %}
+
 
     <figure class="fish">
       <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
