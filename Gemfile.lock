@@ -40,6 +40,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll_image_encode (0.0.4)
+      mimemagic (>= 0.2.0)
     kramdown (2.3.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -49,6 +51,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mimemagic (0.3.5)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -82,6 +85,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-paginate
   jekyll-sitemap
+  jekyll_image_encode
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data

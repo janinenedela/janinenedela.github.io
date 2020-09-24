@@ -1,0 +1,42 @@
+.vorgehensweise {
+  text-align: center;
+
+  .post-content {
+
+    :after {
+      display: block;
+      margin-top: 29px;
+    }
+
+    p:not(:first-child):not(:last-child):after {
+      content: "";
+      margin-left: auto;
+      margin-right: auto;
+      width: 2px;
+      height: 128px;
+      background: $color-lightblue;
+      border-radius: 1px;
+    }
+
+    :nth-child(2):after {
+      content: url("{% base64 assets/FiNUM-KlinkMakler/icon-attention.svg %}")
+    }
+    :nth-child(4):after {
+      content: url("{% base64 assets/FiNUM-KlinkMakler/Icon_Search_2px.svg %}")
+    }
+    :nth-child(6):after {
+      content: url("{% base64 assets/FiNUM-KlinkMakler/icon-shield.svg %}")
+    }
+    :nth-child(8):after {
+      content: url("{% base64 assets/FiNUM-KlinkMakler/Icon_Star_2px.svg %}")
+    }
+    :nth-child(10):after {
+      content: url("{% base64 assets/FiNUM-KlinkMakler/Icon_Graph_2px.svg %}")
+    }
+  }
+
+  .cta-button {
+    margin-top: 144px;
+    margin-bottom: 272px;
+  }
+}

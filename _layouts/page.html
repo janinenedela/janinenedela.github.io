@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
-<article class="post m3 justify">
-
+<article class="page">
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
-  <div class="post-content">
+
+
+  <section class="post-content">
     {{ content }}
-  </div>
+  </section>
+
+  {% include cta-button.html %}
 
 </article>

@@ -110,3 +110,4 @@ plugins:
  - jekyll-seo-tag
  - jekyll-paginate
  - jekyll-sitemap
+ - jekyll_image_encode

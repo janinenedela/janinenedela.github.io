@@ -54,6 +54,10 @@
         {% include styles/{{style}} %}
     {% endfor %}
 
+    {% for style in page.styles %}
+        {% include styles/{{style}} %}
+    {% endfor %}
+
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
