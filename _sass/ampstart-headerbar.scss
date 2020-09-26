@@ -1,5 +1,4 @@
 .ampstart-headerbar {
-  z-index: 99;
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,9 +8,13 @@
   align-items: center;
   color: $color-white;
   z-index: 999;
-  background: rgba(0, 0, 0, 0.5);
+  background: $color-darkblue_60;
   backdrop-filter: blur(32px);
 
+  &[aria-hidden="true"] {
+    background: none;
+    backdrop-filter: none;
+  }
 
   a {
     color: $color-white;
@@ -63,7 +66,7 @@
 }
 
 .ampstart-sidebar {
-  margin-top: 64px;
+  z-index: 998;
   width: 100%;
   padding-right: 10vw;
   padding-left: 10vw;
@@ -159,4 +162,10 @@
       width: inherit;
     }
   }
+}
+
+body:last-child div[aria-hidden="true"] {
+  background: $color-darkblue_60;
+  backdrop-filter: blur(32px);
+  z-index: -1;
 }
