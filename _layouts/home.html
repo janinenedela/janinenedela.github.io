@@ -7,15 +7,17 @@ styles:
 ---
 
 <main id="content" role="main" class="home">
-  {% if page.content-title %}
-  <header class="post-header container">
-    <h1 class="post-title">{{page.content-title}}</h1>
-    {% if page.content-subtitle %}
-    <span class="post-subtitle">{{page.content-subtitle}}</span>
+ <div class="background-gradient">
+   <section class="container">
+
+    {% if page.content-title %}
+    <header class="post-header">
+      <h1 class="post-title">{{page.content-title}}</h1>
+      {% if page.content-subtitle %}
+      <span class="post-subtitle">{{page.content-subtitle}}</span>
+      {% endif %}
+    </header>
     {% endif %}
-  </header>
-  {% endif %}
-  <section class="post-content">
     <figure class="fish">
       <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
                layout="intrinsic" alt="Fish"></amp-img>
@@ -26,7 +28,10 @@ styles:
     <div class="flex">
     {{ content }}
     </div>
+   </section>
+  </div>
 
+  <section class="container">
     {% include cta-button.html %}
 
     <div class="about flex">
@@ -73,7 +78,7 @@ styles:
           <figcaption>
             {{ item.text }}</figcaption>
         </figure>
-        </a>>
+        </a>
         {% endfor %}
     </div>
 
@@ -90,7 +95,7 @@ styles:
   <figure style=" font-size: min(36px, 4.7vw); margin-top: 8em;">
     <amp-img src="assets/FiNUM-KlinkMakler/FiNUM_Werte_Wegweisend.jpg" width="1600" height="1067"
              layout="responsive" alt="Werte_Wegweisend"></amp-img>
-    <figcaption >
+    <figcaption class="center">
       <h2>Wohin Sie auch gehen</h2>
       <p>FiNUM.Klinik Makler begleitet Sie auf allen Wegen</p>
     </figcaption>

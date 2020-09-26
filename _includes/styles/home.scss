@@ -1,7 +1,7 @@
 .home {
-  padding: 16px;
-  background: linear-gradient(161.37deg, rgba(20, 69, 105, 0.6) 5.29%, rgba(18, 18, 18, 0.982084) 69.16%, #121212 93.23%);
-  margin-bottom: -7px;
+  .background-gradient{
+    background: linear-gradient(161.37deg, rgba(20, 69, 105, 0.6) 5.29%, rgba(18, 18, 18, 0.982084) 69.16%, #121212 93.23%);
+  }
 
   .fish {
     max-width: 860px;
@@ -24,14 +24,21 @@
       bottom: 6.1%;
       right: 0;
       left: 0;
-      text-align: center;
       font-weight: 500;
       line-height: 150%;
+    }
+
+    .center {
+      text-align: center;
     }
   }
 
 
-  .post-content {
+  .container {
+    z-index: 1;
+    position: relative;
+    padding: 16px;
+
     h2 {
       font-weight: 500;
       font-size: 48px;
@@ -55,7 +62,8 @@
     }
 
     table {
-      min-width: 376px;
+      min-width: 320px;
+      max-width: 50%;
       flex-grow: 1;
       width: 0;
     }
