@@ -1,0 +1,10 @@
+{% for item in page.list  %}
+  <figure>
+    <amp-img src="{{ item.img | relative_url }}" width="auto" height="400"
+             layout="fixed-height" alt="{{ item.text }}"></amp-img>
+    <figcaption>
+      <h3>{{ item.text }}</h3>
+      <p>{{ item.hover }}</p>
+    </figcaption>
+  </figure>
+{% endfor %}
