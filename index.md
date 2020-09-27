@@ -15,6 +15,7 @@ list:
       text: Nächste <br>Schritte
     - img: assets/FiNUM-KlinkMakler/tablett-viereck.png
       text: Unser Service
+      href: /unser-service      
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
       text: Unsere Werte
       href: /unsere-werte

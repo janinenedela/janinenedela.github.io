@@ -1,0 +1,39 @@
+<form method="post" action-xhr={{ site.static_email }} custom-validation-reporting="show-all-on-submit" target="_blank">
+  <fieldset>
+    {% for item in page.list %}
+    <label>
+      {% if item.type == 'textarea' %}
+      <textarea rows="5" name="{{ item.label }}"
+                id="{{item.label}}"
+                {% if item.required%} required {% endif %}
+                placeholder="{{ item.placeholder }}"
+      ></textarea>
+      {% else %}
+      <input type="{{ item.type }}"
+             name="{{ item.label }}"
+             id="{{ item.label }}"
+             {% if item.required%} required {% endif %}
+             placeholder="{{ item.placeholder }}"
+      >
+      {% endif %}
+
+      <span visible-when-invalid="valueMissing"
+            validation-for="{{ item.label }}"></span>
+      <span visible-when-invalid="patternMismatch"
+            validation-for="{{ item.label }}"></span>
+      <span visible-when-invalid="typeMismatch"
+            validation-for="{{ item.label }}"></span>
+    </label>
+    <br>
+    {% endfor %}
+
+    <button type="submit">Anfrage senden</button>
+  </fieldset>
+  <div submit-success>
+    Thank you. We received our Message.
+  </div>
+  <div submit-error>
+    Thank you for your Message.
+  </div>
+</form>
+
