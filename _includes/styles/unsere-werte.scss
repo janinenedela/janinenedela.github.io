@@ -21,7 +21,12 @@
         display: none;
         font-size: 36px;
         line-height: 54px;
-        margin: 2em;
+        margin: auto auto auto 3em;
+        text-align: left;
+        height: fit-content;
+        position: absolute;
+        top: 0;
+        bottom: 0;
       }
     }
 
