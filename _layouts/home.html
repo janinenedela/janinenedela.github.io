@@ -18,7 +18,7 @@ styles:
       {% endif %}
     </header>
     {% endif %}
-    <figure class="fish">
+    <figure class="fish" id="about">
       <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
                layout="intrinsic" alt="Fish"></amp-img>
       <figcaption style=" font-size: min(36px, 4.7vw)">Kreative Kommunikation
@@ -34,7 +34,7 @@ styles:
   <section class="container">
     {% include cta-button.html %}
 
-    <div class="about flex">
+    <div class="about flex" id="divisions">
       <div>
         {% for item in page.list  %}
         {% assign index_modulo = forloop.index | modulo:2 %}
