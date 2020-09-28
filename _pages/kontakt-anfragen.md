@@ -1,11 +1,11 @@
 ---
-title: Unser Service
-permalink: /unser-service
+title: Kontakt Anfragen
+permalink: /kontakt-anfragen
 header: false
 footer: false
 layout: contact
 styles:
-  - unser-service.scss
+  - kontakt-anfragen.scss
 list:
     - label: company
       placeholder: Unternehmen
