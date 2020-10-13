@@ -1,3 +1,13 @@
-<a role="button" class="cta-button" href="{{ site.baseurl }}/kontakt-anfragen">
-  <button>Beratung anfragen</button>
+{% assign cta_default = 'Beratung anfragen' %}
+{% assign cta_href_default = "/kontakt-anfragen" | prepend: site.baseurl %}
+
+{% unless cta %}
+  {% assign cta = cta_default %}
+{% endunless %}
+{% unless cta_href %}
+  {% assign cta_href = cta_href_default %}
+{% endunless %}
+
+<a role="button" class="cta-button" href={{ cta_href }}>
+  <button>{{ cta }}</button>
 </a>

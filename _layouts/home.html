@@ -65,6 +65,7 @@ styles:
         </a>
         {% endif %}
         {% endfor %}
+        {% include cta-button.html %}
       </div>
 
     </div>
@@ -80,7 +81,21 @@ styles:
         </figure>
         </a>
         {% endfor %}
+        {% include cta-button.html %}
     </div>
+
+    <div class="leistungsbringer">
+      <h2>Für Niedergelassene <br>Leistungsbringer</h2>
+      <hr>
+      <p>Wir beraten nicht nur Krankenhäuse sondern auch unterschiedliche<br>
+      weitere Medizinische Einrichtungen und Organisationen.<br>
+      Mehr Informationen dazu finden Sie hier:</p>
+
+      {% assign cta_href = '/leistungsbringer' %}
+      {% assign cta = 'Niedergelassene Leistungsbringer' %}
+      {% include cta-button.html %}
+    </div>
+
 
     <h2>Wo Sie uns finden:</h2>
     <amp-iframe
@@ -101,11 +116,12 @@ styles:
     </figcaption>
   </figure>
 
-  <amp-img src="assets/FiNUM-KlinkMakler/farbbombe1.png" width="1579.3" height="1054.22"
-           style="position: absolute;right: -518.65px;top: calc(50% - 1054.22px/2 - 324.59px);transform: rotate(75.01deg);"
-            alt="farbbombe6"></amp-img>
-  <amp-img src="assets/FiNUM-KlinkMakler/farbbombe6.png" width="1053" height="1580"
-           style="position: absolute;left: -463.69px;top: 1671.77px;transform: rotate(-93.17deg);"
-            alt="farbbombe6"></amp-img>
+  <amp-img src="assets/FiNUM-KlinkMakler/farbbombe-1.png" width="763" height="1818"
+           style="position: absolute;left: -64px;opacity: 0.7;top: calc(50% - 1054.22px/2 - 324.59px);"
+            alt="farbbombe-1"></amp-img>
+  <amp-img src="assets/FiNUM-KlinkMakler/farbbombe-2.png" width="762" height="2019"
+           style="position: absolute; right: -64px; top: 2086px;
+opacity: 0.8;"
+            alt="farbbombe-2"></amp-img>
 
 </main>

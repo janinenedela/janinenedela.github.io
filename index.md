@@ -11,8 +11,6 @@ list:
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
       text: Vorgehensweise
       href: /vorgehensweise
-    - img: assets/FiNUM-KlinkMakler/babyfüße-viereck.png
-      text: Nächste <br>Schritte
     - img: assets/FiNUM-KlinkMakler/tablett-viereck.png
       text: Unser Service
       href: /unser-service      
