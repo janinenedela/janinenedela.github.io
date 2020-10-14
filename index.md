@@ -17,6 +17,16 @@ list:
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
       text: Unsere Werte
       href: /unsere-werte
+splashes:
+    - src: "assets/FiNUM-KlinkMakler/farbbombe-1.png"
+      width: 763
+      height: 1818
+      style: "position: absolute;left: -64px;opacity: 0.7;top: calc(50% - 1054.22px/2 - 324.59px);"
+    - src: "assets/FiNUM-KlinkMakler/farbbombe-2.png"
+      width: 762
+      height: 2019
+      style: "position: absolute; right: -64px; top: 2086px; opacity: 0.8;"
+      
 ---
 
 | Standorte |

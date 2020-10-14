@@ -3,6 +3,11 @@ title: Vorgehensweise
 permalink: /vorgehensweise
 header: false
 footer: false
+splashes:
+    - src: "assets/FiNUM-KlinkMakler/farbbombe-5.png"
+      width: 557
+      height: 2036
+      style: "position: absolute; right: -64px; top: 1400px; opacity: 0.6;"
 styles:
   - vorgehensweise.scss
 ---

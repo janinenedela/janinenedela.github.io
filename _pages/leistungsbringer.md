@@ -4,6 +4,11 @@ permalink: /leistungsbringer
 header: false
 footer: false
 layout: leistungsbringe
+splashes:
+    - src: "assets/FiNUM-KlinkMakler/farbbombe-7.png"
+      width: 986
+      height: 1452
+      style: "position: absolute; right: -64px; top: 600px; opacity: 0.75;"
 styles:
   - leistungsbringer.scss
 ---
