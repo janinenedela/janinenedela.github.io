@@ -14,7 +14,7 @@ list:
     - img: assets/FiNUM-KlinkMakler/tablett-viereck.png
       text: Unser Service
       href: /unser-service      
-    - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
+    - img: assets/FiNUM-KlinkMakler/img-flower.png
       text: Unsere Werte
       href: /unsere-werte
 splashes:
