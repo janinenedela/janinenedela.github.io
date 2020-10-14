@@ -1,21 +1,14 @@
 ---
-title: Niedergelassene Leistungsbringer
+title: "Niedergelassene <br>Leistungsbringer"
 permalink: /leistungsbringer
 header: false
 footer: false
+layout: leistungsbringe
+styles:
+  - leistungsbringer.scss
 ---
 
-## FiNUM.Klinik Makler
----
-
-Sie sind kein Krankenhaus? <br>
-Eine rationale Risikobewertung sowie deren Absicherung ist nicht nur <br>
-für Krankenhäuser relevant. Deshalb beraten wir gerne alle Akteure <br>
-im Gesundheitswesen um einen optimalen und gleichzeitig <br>
-preiswerten Versicherungsschutz zu gewährleisten.
-
-
-## Wir beraten neben Krankenhäusern
+## Wir beraten neben <br>Krankenhäusern
 ---
 
 - Medizinische Versorgungszentren (MVZ´s)
