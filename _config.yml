@@ -1,10 +1,10 @@
 lang: "de_DE"
 title: FiNUM.Klinik Makler
 short_name: FiNUM.Klinik Makler
-email: booking@das-finanz-cafe.com
-tel: +49 (0) 172 389 0571
+email: klinik-makler@finum.ag
+tel: 089 4141 7897-3
 author: André Kleinhans
-address: Lindwurmstraße 41, 80337 München
+address: Katharinenweg 18 91413 Neustadt an der Aisch
 description: > # this means to ignore newlines until "show_excerpts:"
   Wann startest du, deine eigenen Träume wahr werden zu lassen?
   Lass' dich mitreißen von Hunderten anderen motivierten Menschen in der
@@ -19,7 +19,7 @@ logo: assets/FiNUM-KlinkMakler/Logo.svg
 defaultHeaderImage: assets/FiNUM-KlinkMakler/AdobeStock_224173795.jpg
 
 # Contact
-static_email: "https://formspree.io/f/xxgott50xx@gmail.com"
+static_email: "https://formspree.io/f/klinik-makler@finum.ag"
 
 # Analytics
 analytics:

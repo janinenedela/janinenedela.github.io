@@ -6,6 +6,8 @@
 {% endunless %}
 {% unless cta_href %}
   {% assign cta_href = cta_href_default %}
+{% else %}
+  {% assign cta_href = cta_href | prepend: site.baseurl %}
 {% endunless %}
 
 <a role="button" class="cta-button" href={{ cta_href }}>
