@@ -20,6 +20,7 @@ body {
   letter-spacing: 0.02em;
   background: #121212;
   color: $color-white;
+  line-height: 1.556em;
 }
 
 a, a:active, a:visited {
@@ -30,6 +31,13 @@ address {
   font-style: normal;
 }
 
+hr {
+  width: 104px;
+}
+p, hr{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 
 .splash {
   z-index: -1;
@@ -147,6 +155,9 @@ button, select {
 .cta-button {
   display: block;
   text-align: center;
+  margin: auto;
+  width: fit-content;
+  width: -moz-fit-content;
 }
 
 .container, .post-content, .post-header {

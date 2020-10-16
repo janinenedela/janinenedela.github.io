@@ -8,6 +8,7 @@ list:
       text: Wir stellen <br>uns vor
     - img: assets/FiNUM-KlinkMakler/waage-viereck.png
       text: Ihr Mehrwert
+      href: /ihr-mehrwert
     - img: assets/FiNUM-KlinkMakler/stetoskop-viereck.png
       text: Vorgehensweise
       href: /vorgehensweise

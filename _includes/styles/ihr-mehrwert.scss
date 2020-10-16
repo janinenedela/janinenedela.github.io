@@ -1,0 +1,49 @@
+.ihr-mehrwert {
+  .post-content{
+    amp-img:first-child {
+      float: right;
+      margin-bottom: 244px;
+      margin-left: 123px;
+      width: 444px;
+      height: 100%;
+
+      @media only screen and (max-width: 1076px) {
+        display: none;
+      }
+    }
+
+    h2 {
+      text-align: center;
+      clear: both;
+      margin-top: 72px;
+    }
+
+    :nth-child(3){
+      clear: none;
+      text-align: left;
+    }
+
+    :nth-child(4) {
+      margin-left: 0;
+    }
+  }
+
+
+  table{
+    margin: auto;
+
+    tr :first-child {
+      color: $color-lightblue;
+      font-size: 24px;
+      text-align: right;
+      letter-spacing: 0.02em;
+
+      padding-right: 64px;
+    }
+
+    tr{
+      height: 66px;
+      vertical-align: top;
+    }
+  }
+}
