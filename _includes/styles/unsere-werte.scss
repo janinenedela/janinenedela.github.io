@@ -18,7 +18,9 @@
       top: 0;
 
       div {
-        display: none;
+        display: flex;
+        transition: opacity 1s;
+        opacity: 0;
         font-size: 36px;
         line-height: 54px;
         margin: auto auto auto 3em;
@@ -38,7 +40,7 @@
       backdrop-filter: blur(32px);
 
       div {
-        display: flex;
+        opacity: 1;
       }
     }
   }
