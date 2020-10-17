@@ -20,7 +20,7 @@ body {
   letter-spacing: 0.02em;
   background: #121212;
   color: $color-white;
-  line-height: 1.556em;
+  line-height: 1.556;
 }
 
 a, a:active, a:visited {
@@ -186,6 +186,5 @@ button, select {
   .post-subtitle {
     font-weight: 500;
     font-size: 36px;
-    line-height: 54px;
     color: $color-gray_5;
   }
