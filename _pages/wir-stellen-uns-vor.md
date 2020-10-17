@@ -2,8 +2,7 @@
 title: Wir stellen uns vor
 permalink: /wir-stellen-uns-vor
 layout: wir-stellen-uns-vor
-header: false
-footer: false
+headerImage: assets/FiNUM-KlinkMakler/img-hospital-2.jpg
 splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-3.png"
       width: 804

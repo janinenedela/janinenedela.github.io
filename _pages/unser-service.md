@@ -1,8 +1,7 @@
 ---
 title: Unser Service
 permalink: /unser-service
-header: false
-footer: false
+headerImage: assets/FiNUM-KlinkMakler/img-hospital-2.jpg
 splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-6.png"
       width: 966

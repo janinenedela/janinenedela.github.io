@@ -1,8 +1,7 @@
 ---
 title: Kontakt Anfragen
 permalink: /kontakt-anfragen
-header: false
-footer: false
+headerImage: assets/FiNUM-KlinkMakler/img-hospital-4.jpg
 layout: contact
 styles:
   - kontakt-anfragen.scss

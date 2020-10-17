@@ -2,8 +2,7 @@
 title: Ihr Mehrwert
 permalink: /ihr-mehrwert
 layout: ihr-mehrwert
-header: false
-footer: false
+headerImage: assets/FiNUM-KlinkMakler/img-hospital-3.jpg
 styles:
   - ihr-mehrwert.scss
 ---

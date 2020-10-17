@@ -1,8 +1,7 @@
 ---
 title: Vorgehensweise
 permalink: /vorgehensweise
-header: false
-footer: false
+headerImage: assets/FiNUM-KlinkMakler/img-hospital-4.jpg
 splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-5.png"
       width: 557

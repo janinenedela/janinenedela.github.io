@@ -1,8 +1,6 @@
 ---
 title: Unsere Werte
 permalink: /unsere-werte
-header: false
-footer: false
 styles:
   - unsere-werte.scss
 list:

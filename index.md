@@ -3,6 +3,7 @@ layout: home
 title: FiNANZCAFÉ
 content-title: FiNUM.Klinik Makler mit Herz und Verstand
 content-subtitle: Ihr zuverlässiger Partner in Sachen Risikobewertung
+headerImage: assets/FiNUM-KlinkMakler/img-hospital-11.jpg
 list:
     - img: assets/FiNUM-KlinkMakler/mikro-viereck.png
       text: Wir stellen <br>uns vor
