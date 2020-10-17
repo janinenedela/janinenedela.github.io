@@ -6,7 +6,7 @@ splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-5.png"
       width: 557
       height: 2036
-      style: "position: absolute; right: -64px; top: 1400px; opacity: 0.6;"
+      style: "position: absolute; right: -64px; bottom: 580px; opacity: 0.6;"
     - src: "assets/FiNUM-KlinkMakler/farbbombe-4.png"
       width: 557
       height: 2036
@@ -33,21 +33,20 @@ wissenschaftlichen Analysebogens
 Bedarfsermittlung anhand <br>
 der Risikobewertung
 
-## Ihre neue Absicherung
-
-Nachdem Sie sich für ein Konzept <br>
-entschieden haben erfolgt der Wechsel. <br>
-Regelmäßige Checkups finden im <br>
-Anschluss statt.
-
-## Vorstellung
-
-Vorstellung Expertenmodelle; <br>
-Sie entscheiden
-
 ## Konzeptionierung
 
 Konzeptionierung zweier unabhängigen <br>
 Experten auf Basis des <br>
 ermittelten Absicherungsbedarfs.
 
+## Vorstellung
+
+Vorstellung Expertenmodelle; <br>
+Sie entscheiden
+
+## Ihre neue Absicherung
+
+Nachdem Sie sich für ein Konzept <br>
+entschieden haben erfolgt der Wechsel. <br>
+Regelmäßige Checkups finden im Anschluss <br>
+statt.
