@@ -6,6 +6,7 @@ content-subtitle: Ihr zuverlässiger Partner in Sachen Risikobewertung
 list:
     - img: assets/FiNUM-KlinkMakler/mikro-viereck.png
       text: Wir stellen <br>uns vor
+      href: /wir-stellen-uns-vor
     - img: assets/FiNUM-KlinkMakler/waage-viereck.png
       text: Ihr Mehrwert
       href: /ihr-mehrwert
