@@ -12,7 +12,7 @@ styles:
   - leistungsbringer.scss
 ---
 
-## Wir beraten neben <br>Krankenhäusern
+## Wir beraten neben <br>Krankenhäusern...
 ---
 
 - Medizinische Versorgungszentren (MVZ´s)
