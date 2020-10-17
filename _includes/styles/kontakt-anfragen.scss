@@ -9,11 +9,17 @@
     padding: 0;
     border: 0;
 
+    label {
+      font-size: 24px;
+    }
 
-    input, textarea{
+    label, input, textarea {
+      font-size: 24px;
       max-width: 100%;
       width: 584px;
+    }
 
+    input, textarea{
       margin: 32px 0;
       padding: 0 0 16px 0;
       background: none;
@@ -24,6 +30,11 @@
       color: $color-white;
       font-size: 36px;
       line-height: 54px;
+    }
+
+    [type=checkbox]{
+      width: auto;
+      margin-right: 32px;
     }
 
     button{

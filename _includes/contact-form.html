@@ -15,6 +15,7 @@
              {% if item.required%} required {% endif %}
              placeholder="{{ item.placeholder }}"
       >
+      {% if item.type == 'checkbox' %} {{item.placeholder}} {% endif %}
       {% endif %}
 
       <span visible-when-invalid="valueMissing"
