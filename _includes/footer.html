@@ -14,13 +14,14 @@
       <div>
         <h3>Rechtliches</h3>
         <nav>
+          <ul>
           {% for my_page in site.pages %}
           {% if my_page.title and my_page.footer %}
-          <a class="text-decoration-none ampstart-label"
-                             href="{{ my_page.url | prepend: site.baseurl }}"
-                             itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a>
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}"
+                             itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
           {% endif %}
           {% endfor %}
+          </ul>
         </nav>
         <small>
           © {{ site.title }}, {{ site.time | date: '%Y' }}

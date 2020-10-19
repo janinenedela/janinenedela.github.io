@@ -38,7 +38,7 @@ splashes:
 
 | Unser Team |
 |-|
-| Zu unseren Experten zählen wir Gewerbe- Sachspezialisten, Gesundheitsökonomen, Vertriebsmitarbeiter, interne Servicekräfte, sowie externe Partner. |
+| Zu unseren Experten zählen wir Gewerbe- Sachspezialisten, Gesundheitsökonomen,  Außendienstmitarbeiter, interne Servicekräfte, sowie externe Partner. |
 
 | Beratung |
 |-|

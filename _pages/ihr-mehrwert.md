@@ -19,7 +19,7 @@ Neben dem Gewerbesachversicherungs-Experten für Krankenhäuser
 Group Experten für weitere Spezialthemen vor. Zur besten Betreuung 
 unserer Klienten hat sich ein langjährig entwickeltes Expertenmodell 
 bewährt. Dieses Expertenmodell hat sich über die Jahre bewährt, um 
-unseren Mandanten eine bestmögliche Betreuung zu ermöglichen
+unseren Mandanten eine bestmögliche Betreuung zu ermöglichen.
 
 
 

@@ -1,5 +1,6 @@
 .ampstart-footer {
   background: rgb(19, 48, 70);
+  line-height: 1.78;
 
   h3, .ampstart-social-follow svg {
     color: $color-white;
@@ -32,6 +33,7 @@
   ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 
     a {
       margin: 0;

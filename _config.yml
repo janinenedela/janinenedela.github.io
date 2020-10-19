@@ -3,8 +3,8 @@ title: FiNUM.Klinik Makler
 short_name: FiNUM.Klinik Makler
 email: klinik-makler@finum.ag
 tel: 089 4141 7897-3
-author: André Kleinhans
-address: Katharinenweg 18 91413 Neustadt an der Aisch
+author: FiNUM.Klinik Makler
+address: Katharinenweg 18 <br>91413 Neustadt an der Aisch
 description: > # this means to ignore newlines until "show_excerpts:"
   Wann startest du, deine eigenen Träume wahr werden zu lassen?
   Lass' dich mitreißen von Hunderten anderen motivierten Menschen in der
@@ -40,10 +40,10 @@ minima:
 #    github:  jekyll
 #    rss: rss
     # dribbble: jekyll
-     facebook: FiNUMFiNANZCAFE
+     facebook: finum.finanzhaus
     # flickr:   jekyll
-     instagram: finanzcafe
-     linkedin: finanzcafé
+     instagram: finum.finanzhaus_ag
+     linkedin: finum.finanzhaus-ag
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g

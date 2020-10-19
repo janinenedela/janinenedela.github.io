@@ -55,10 +55,9 @@
     }
 
     table {
-      min-width: 320px;
-      max-width: 50%;
-      flex-grow: 1;
-      width: 0;
+      max-width: 100%;
+      flex: 1 0 auto;
+      width: 370px;
       margin: 8px;
     }
 
