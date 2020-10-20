@@ -1,6 +1,7 @@
 ---
 title: Unsere Werte
 permalink: /unsere-werte
+nocta: True
 styles:
   - unsere-werte.scss
 list:

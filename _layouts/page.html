@@ -12,7 +12,9 @@ layout: default
     {{ content }}
   </section>
 
+  {% unless page.nocta %}
   {% include cta-button.html %}
+  {% endunless %}
   {% include splashes.html %}
 
 </article>
