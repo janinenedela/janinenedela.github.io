@@ -7,7 +7,7 @@ styles:
   - kontakt-anfragen.scss
 list:
     - label: company
-      placeholder: Einrichtung/ Praxis/ Klinikum
+      placeholder: Klinikum/ Praxis
       type: text
       required: true
     - label: name
@@ -19,15 +19,15 @@ list:
       type: email
       required: true
     - label: tel
-      placeholder: Telefonnummer (optional)
+      placeholder: Telefonnummer
       type: tel
-      required: false
+      required: true
     - label: message
       placeholder: Ihre Nachricht
       type: textarea
       required: true
     - label: message
-      placeholder: Ich wünsche einen unverbindlichen Risikocheck vorab.
+      placeholder: Ich bin an einem unverbindlichen Risikocheck interessiert.
       type: checkbox
       required: false
 ---

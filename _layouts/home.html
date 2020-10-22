@@ -17,10 +17,10 @@ styles:
       {% endif %}
     </header>
     {% endif %}
-    <figure class="fish" id="about">
+    <figure class="fish">
       <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
                layout="intrinsic" alt="Fish"></amp-img>
-      <figcaption style=" font-size: min(36px, 4.7vw)">Kreative Kommunikation
+      <figcaption id="about" style=" font-size: min(36px, 4.7vw)">Kreative Kommunikation
         für Ihre Gesundheit</figcaption>
     </figure>
 
@@ -83,15 +83,15 @@ styles:
         {% include cta-button.html %}
     </div>
 
-    <div class="leistungsbringer">
-      <h2>Für niedergelassene <br>Leistungsbringer</h2>
+    <div class="leistungserbringer">
+      <h2>Für niedergelassene <br>Leistungserbringer</h2>
       <hr>
-      <p>Wir beraten nicht nur Krankenhäuse sondern auch unterschiedliche<br>
-      weitere Medizinische Einrichtungen und Organisationen.<br>
+      <p>Wir beraten nicht nur Krankenhäuser sondern auch unterschiedliche<br>
+      weitere medizinische Einrichtungen und Organisationen.<br>
       Mehr Informationen dazu finden Sie hier:</p>
 
-      {% assign cta_href = '/leistungsbringer' %}
-      {% assign cta = 'Niedergelassene Leistungsbringer' %}
+      {% assign cta_href = '/leistungserbringer' %}
+      {% assign cta = 'Niedergelassene Leistungserbringer' %}
       {% include cta-button.html %}
     </div>
 

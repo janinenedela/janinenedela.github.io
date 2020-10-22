@@ -1,6 +1,6 @@
 ---
-title: "Niedergelassene <br>Leistungsbringer"
-permalink: /leistungsbringer
+title: "Niedergelassene <br>Leistungserbringer"
+permalink: /leistungserbringer
 headerImage: assets/FiNUM-KlinkMakler/img-hospital-5.jpg
 layout: leistungsbringe
 splashes:
@@ -9,7 +9,7 @@ splashes:
       height: 1452
       style: "position: absolute; right: -64px; top: 600px; opacity: 0.75;"
 styles:
-  - leistungsbringer.scss
+  - leistungserbringer.scss
 ---
 
 ## Wir beraten neben <br>Krankenhäusern...
@@ -20,7 +20,7 @@ styles:
 - Apotheken
 - Pflegeeinrichtungen
 - Sanitätshäuser
-- Selbstständig tätige Ärzte, Mediziner
+- Selbstständig tätige Ärzte
 - Pharmazeuten
 - Pflegekräfte
 

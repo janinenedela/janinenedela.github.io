@@ -35,7 +35,7 @@ In allen Absicherungsthemen sind wir für Sie da – menschlich <br>
 und verständlich. <br>
 FiNUM. ist wegweisend in Beratungsqualität und <br>
 Kundenbetreuung, das macht uns zum führenden <br>
-Beratungshaus für anspruchsvolle Privat- und Firmenkunden.
+Beratungshaus für anspruchsvolle Firmenkunden.
 
 
 

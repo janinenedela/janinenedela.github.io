@@ -49,7 +49,7 @@ für Ihre Klinik zu gewährleisten.
 
 | Daily Business |
 |-|
-| Um das mögliche Potential der Risikoabsicherung <br>komplett auszuschöpfen, helfen wir Ihnen dabei Risiken <br>zu identifizieren und abzusichern, welche nicht alltäglich <br>sind und nur ab und an vorkommen. Somit gewährleisten <br>wir Ihnen einen ganzheitlichen Versicherungsschutz ihrer unternehmerischen Risiken. |
+| Um das mögliche Potential der Risikoabsicherung <br>komplett auszuschöpfen, helfen wir Ihnen dabei Risiken <br>zu identifizieren und abzusichern, welche nicht alltäglich <br>sind und nur ab und an vorkommen. Somit gewährleisten <br>wir Ihnen einen ganzheitlichen Versicherungsschutz ihrer <br>unternehmerischen Risiken. |
 
 | 100 % |
 |-|

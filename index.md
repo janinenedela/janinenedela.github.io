@@ -1,7 +1,7 @@
 ---
 layout: home
 title: FiNUM.Klinik Makler
-content-title: FiNUM.Klinik Makler mit Herz und Verstand
+content-title: FiNUM.Klinik Makler <br>mit Herz und Verstand
 content-subtitle: Ihr zuverlässiger Partner in Sachen Risikobewertung
 headerImage: assets/FiNUM-KlinkMakler/img-hospital-11.jpg
 list:
@@ -38,7 +38,7 @@ splashes:
 
 | Unser Team |
 |-|
-| Zu unseren Experten zählen wir Gewerbe- Sachspezialisten, Gesundheitsökonomen,  Außendienstmitarbeiter, interne Servicekräfte, sowie externe Partner. |
+| Zu unseren Experten zählen wir Gewerbe- Sachspezialisten, Gesundheitsökonomen,  Vertriebspartner, interne Servicekräfte, sowie externe Partner. |
 
 | Beratung |
 |-|
