@@ -18,6 +18,26 @@
 <!-- End Google Analytics example -->
 {% endif %}
 
+{% if site.analytics.gtag.tracking_id%}
+<!-- Google Tag tracking -->
+<amp-analytics data-block-on-consent type="gtag" data-credentials="include">
+  <script type="application/json">
+    {
+      "vars" : {
+        "gtag_id": "site.analytics.gtag.tracking_id",
+        "config" : {
+          "site.analytics.gtag.tracking_id": { "groups": "default" }
+        }
+      }
+    }
+  </script>
+</amp-analytics>
+
+</script>
+</amp-analytics>
+<!-- End Google Analytics example -->
+{% endif %}
+
 {% if site.analytics.facebookpixel.tracking_id%}
 <!-- Facebook Pixel Analytics tracking -->
 <amp-analytics data-block-on-consent type="facebookpixel" id="facebook-pixel">
