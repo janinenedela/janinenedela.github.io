@@ -34,7 +34,7 @@ splashes:
 
 | Standorte |
 |-|
-| Die FiNUM.Finanzhaus AG ist deutschlandweit vertreten. Der Hauptsitz der FiNUM.Klinik Makler ist in Neustadt an der Aisch. |
+| Die FiNUM.Finanzhaus AG ist deutschlandweit vertreten. Der Hauptsitz der FiNUM.Klinik Makler ist in <br>Neustadt an der Aisch. |
 
 | Unser Team |
 |-|

@@ -34,7 +34,7 @@ leidenschaftlich. Ihre Wünsche und Ziele sind dabei immer im Fokus.
 In allen Absicherungsthemen sind wir für Sie da – menschlich <br>
 und verständlich.
 
-FiNUM. ist wegweisend in Beratungsqualität und <br>
+FiNUM.Klinik Makler ist wegweisend in Beratungsqualität und <br>
 Kundenbetreuung, das macht uns zum führenden <br>
 Beratungshaus für anspruchsvolle Firmenkunden.
 
