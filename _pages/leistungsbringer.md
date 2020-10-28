@@ -2,7 +2,7 @@
 title: "Niedergelassene <br>Leistungserbringer"
 permalink: /leistungserbringer
 headerImage: assets/FiNUM-KlinkMakler/img-hospital-5.jpg
-layout: leistungsbringe
+layout: leistungserbringer
 splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-7.png"
       width: 986
