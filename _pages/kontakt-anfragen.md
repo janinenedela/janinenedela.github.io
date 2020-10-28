@@ -26,7 +26,7 @@ list:
       placeholder: Ihre Nachricht
       type: textarea
       required: true
-    - label: message
+    - label: riskcheck
       placeholder: Ich bin an einem unverbindlichen Risikocheck interessiert.
       type: checkbox
       required: false
