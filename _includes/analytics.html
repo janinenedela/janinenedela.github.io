@@ -24,9 +24,9 @@
   <script type="application/json">
     {
       "vars" : {
-        "gtag_id": "site.analytics.gtag.tracking_id",
+        "gtag_id": "{{site.analytics.gtag.tracking_id}}",
         "config" : {
-          "site.analytics.gtag.tracking_id": { "groups": "default" }
+          "{{site.analytics.gtag.tracking_id}}": { "groups": "default" }
         }
       }
     }
@@ -35,7 +35,7 @@
 
 </script>
 </amp-analytics>
-<!-- End Google Analytics example -->
+<!-- End Google Tag -->
 {% endif %}
 
 {% if site.analytics.facebookpixel.tracking_id%}
