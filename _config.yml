@@ -20,7 +20,7 @@ static_email: "https://formspree.io/f/klinik-makler@finum.ag"
 analytics:
   provider: true # false (default), "google", "google-universal", "custom"
   gtag:
-    tracking_id: G-HEH9Y4067J
+    tracking_id: G-0KDFVDXXQJ
 #  google:
 #    tracking_id: UA-asdf
 #  facebookpixel:
