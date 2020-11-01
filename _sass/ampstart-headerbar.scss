@@ -164,8 +164,8 @@
   }
 }
 
-body:last-child div[aria-hidden="true"] {
+body div[aria-hidden="true"] {
   background: $color-darkblue_60;
   backdrop-filter: blur(32px);
-  z-index: -1;
+  z-index: 1;
 }
