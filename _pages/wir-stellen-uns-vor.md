@@ -7,7 +7,7 @@ splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-3.png"
       width: 804
       height: 697
-      style: "position: absolute;left: -64px;opacity: 0.6;bottom: 570px;"
+      style: "position: absolute;left: -64px;opacity: 0.6;margin-top: calc(max(-690px, -86vw));"
 styles:
   - wir-stellen-uns-vor.scss
 ---

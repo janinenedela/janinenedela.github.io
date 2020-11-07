@@ -24,7 +24,7 @@ splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-1.png"
       width: 763
       height: 1818
-      style: "position: absolute;left: -64px;opacity: 0.7;top: calc(50% - 1054.22px/2 - 324.59px);"
+      style: "position: absolute;left: -64px;opacity: 0.7;top: 3603px;"
     - src: "assets/FiNUM-KlinkMakler/farbbombe-2.png"
       width: 762
       height: 2019
