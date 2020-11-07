@@ -28,6 +28,12 @@
         "config" : {
           "{{site.analytics.gtag.tracking_id}}": { "groups": "default" }
         }
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
       }
     }
   </script>

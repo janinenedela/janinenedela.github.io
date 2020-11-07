@@ -21,8 +21,8 @@ analytics:
   provider: true # false (default), "google", "google-universal", "custom"
   gtag:
     tracking_id: G-SE44G3YQXE
-#  google:
-#    tracking_id: UA-asdf
+  google:
+    tracking_id: G-SE44G3YQXE
 #  facebookpixel:
 #    tracking_id: 000000000000
 
