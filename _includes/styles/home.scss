@@ -39,11 +39,6 @@
     position: relative;
     padding: 16px;
 
-    h2 {
-      font-weight: 500;
-      font-size: 48px;
-    }
-
     .fish {
       margin: 128px auto;
     }
@@ -75,6 +70,10 @@
       p{
         margin: 32px auto;
       }
+    }
+
+    figcaption {
+      font-size: calc(min(36px, 6vw));
     }
   }
 

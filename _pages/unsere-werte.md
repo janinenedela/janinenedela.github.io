@@ -28,14 +28,14 @@ list:
       hover: Als Pioniere einer <br>ganzheitlichen <br>Dienstleistung setzen wir <br>neue Qualitätsstandards.
 ---
 
-Wir beraten Sie in allen in allen Belangen objektiv und <br>
+Wir beraten Sie in allen in allen Belangen objektiv und 
 leidenschaftlich. Ihre Wünsche und Ziele sind dabei immer im Fokus.
 
-In allen Absicherungsthemen sind wir für Sie da – menschlich <br>
+In allen Absicherungsthemen sind wir für Sie da – menschlich 
 und verständlich.
 
-FiNUM.Klinik Makler ist wegweisend in Beratungsqualität und <br>
-Kundenbetreuung, das macht uns zum führenden <br>
+FiNUM.Klinik Makler ist wegweisend in Beratungsqualität und 
+Kundenbetreuung, das macht uns zum führenden 
 Beratungshaus für anspruchsvolle Firmenkunden.
 
 

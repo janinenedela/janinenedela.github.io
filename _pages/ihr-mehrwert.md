@@ -7,7 +7,7 @@ styles:
   - ihr-mehrwert.scss
 ---
 
-## Ein bewehrtes Expertenmodell als Alleinstellungsmerkmal
+### Ein bewehrtes Expertenmodell als Alleinstellungsmerkmal
 ---
 
 Durch unser breites Produktportfolio können wir Ihnen als Klinik, 
@@ -26,7 +26,7 @@ bewährt.
 
 
 
-## Was wir Ihnen bieten
+### Was wir Ihnen bieten
 ---
 
 | Risikoanalyse | Unverbindlicher und unabhängiger Risikocheck |

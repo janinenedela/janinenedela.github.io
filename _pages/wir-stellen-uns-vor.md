@@ -12,7 +12,7 @@ styles:
   - wir-stellen-uns-vor.scss
 ---
 
-## FiNUM.Klinik Makler
+### FiNUM.Klinik Makler
 ---
 
 FiNUM.Klinik Makler ist eine Marke der FiNUM.Finanzhaus AG, welche wiederum eine 100% Tochter der JDC Group AG ist.
@@ -23,7 +23,7 @@ Kunden vorhalten können.
 
 
 
-## Bereit für die Zukunft
+### Bereit für die Zukunft
 ---
 
 Der globale Finanzdienstleistungsmarkt wird sich die nächsten Jahre aufgrund neuer gesetzlicher Rahmenbedingungen strukturell verändern. Hier von ist auch die Absicherung von Risiken im Klinikbetrieb betroffen. Gründe hierfür sind unter anderem die zunehmende Digitalisierung, medizinisch-technische Innovationen und erhöhte regulatorische Anforderungen.
@@ -34,7 +34,7 @@ Als Teil der JDC Group mit über 16.000 angeschlossenen Beratern, einem Produkts
 
 
 
-## Unser Augenmerk
+### Unser Augenmerk
 ---
 
 Aufmerksame Kunden erwarten heute eine individuelle, objektive und transparente Beratung. Dies setzen wir in der Praxis mit einer wissenschaftlich fundierten Risikoanalyse sowie einem Produktpartner unabhängigen Beratungsansatz durch.

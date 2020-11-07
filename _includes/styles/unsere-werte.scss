@@ -7,6 +7,13 @@
     margin-top: 0;
   }
 
+  .post-content{
+    p{
+      max-width: 570px;
+      margin: 32px auto;
+    }
+  }
+
   figure {
     margin: 128px 0;
     position: relative;
@@ -23,7 +30,9 @@
       transition: background-color 1s, backdrop-filter 1s;
 
       div {
-        display: flex;
+        @media only screen and (min-width: 666px) {
+            display: flex;
+        }
         transition: opacity 1s;
         opacity: 0;
         font-size: 36px;
@@ -64,5 +73,26 @@
     width: 400px;
     text-align: center;
   }
+
+  .mobile {
+    display: none;
+    text-align: left;
+  }
+
+  @media only screen and (max-width: 665px) {
+    figcaption div {
+      display: none;
+    }
+
+    figure {
+      margin-bottom: 0;
+    }
+
+    .mobile{
+      display: block;
+    }
+  }
+
+
 
 }

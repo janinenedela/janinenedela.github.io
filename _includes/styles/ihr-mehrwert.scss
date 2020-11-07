@@ -13,7 +13,7 @@
       }
     }
 
-    h2 {
+    h3 {
       text-align: center;
       clear: both;
       margin-top: 72px;
@@ -40,6 +40,12 @@
       letter-spacing: 0.02em;
 
       padding-right: 64px;
+    }
+
+    td{
+      @media only screen and (max-width: 533px) {
+        float: left;
+      }
     }
 
     tr{

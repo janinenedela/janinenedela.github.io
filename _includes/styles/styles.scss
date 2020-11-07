@@ -28,6 +28,26 @@ h1,h2,h3,h4,h5, button, .ampstart-headerbar{
   font-family: $font-family--heading;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: calc(min(72px, 8vw));
+  line-height: 128%;
+}
+
+h2 {
+  font-size: calc(min(48px, 8vw));
+  font-weight: 500;
+}
+
+h3, .post-subtitle {
+  font-weight: 500;
+  font-size: calc(min(36px, 6vw));
+}
+
+.post-subtitle {
+  color: $color-gray_5;
+}
+
 h3 {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -172,6 +192,7 @@ button, select {
 .container, .post-content, .post-header {
   max-width: $container-max-width;
   margin: auto;
+  padding: 0 16px;
 }
 
 .page {
@@ -184,16 +205,13 @@ button, select {
 .post-content {
   position: relative;
   z-index: 1;
-  padding: 16px;
-}
-  .post-title {
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 128%;
+
+  .post-header{
+    padding: 0;
   }
 
-  .post-subtitle {
-    font-weight: 500;
-    font-size: 36px;
-    color: $color-gray_5;
+  h2 {
+    text-align: left;
+    margin-top: 64px;
   }
+}

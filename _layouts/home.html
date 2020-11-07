@@ -11,7 +11,7 @@ styles:
    <section class="container">
 
     {% if page.content-title %}
-    <header class="post-header">
+    <header>
       <h1 class="post-title">{{page.content-title}}</h1>
       {% if page.content-subtitle %}
       <span class="post-subtitle">{{page.content-subtitle}}</span>
@@ -21,7 +21,7 @@ styles:
     <figure class="fish">
       <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
                layout="intrinsic" alt="Fish"></amp-img>
-      <figcaption id="about" style=" font-size: min(36px, 4.7vw)">Kreative Kommunikation
+      <figcaption id="about" style=" ">Kreative Kommunikation
         für Ihre Gesundheit</figcaption>
     </figure>
 
@@ -34,13 +34,14 @@ styles:
   <section class="container">
     {% include cta-button.html %}
 
-    <div class="about flex" id="divisions">
+    <div id="divisions">
+    <div class="about flex">
       <div>
         {% for item in page.list  %}
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 1 %}
         <a href="{{ site.baseurl }}{{ item.href }}">
-        <figure style=" font-size: min(36px, 4.7vw)">
+        <figure >
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
           <figcaption>
@@ -56,7 +57,7 @@ styles:
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 0 %}
         <a href="{{ site.baseurl }}{{ item.href }}">
-        <figure style=" font-size: min(36px, 4.7vw)">
+        <figure >
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
           <figcaption>
@@ -73,7 +74,7 @@ styles:
     <div class="about">
         {% for item in page.list  %}
         <a href="{{ site.baseurl }}{{ item.href }}">
-        <figure style=" font-size: min(36px, 4.7vw)">
+        <figure >
           <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
                    layout="intrinsic" alt="{{ item.text }}"></amp-img>
           <figcaption>
@@ -82,6 +83,8 @@ styles:
         </a>
         {% endfor %}
         {% include cta-button.html %}
+    </div>
+
     </div>
 
     <div class="leistungserbringer">
