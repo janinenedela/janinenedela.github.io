@@ -19,10 +19,10 @@ static_email: "https://formspree.io/f/mbjpyjne"
 # Analytics
 analytics:
   provider: true # false (default), "google", "google-universal", "custom"
-#  gtag:
+  gtag:
+    tracking_id: GTM-5BC7R55
+#  google:
 #    tracking_id: G-SE44G3YQXE
-  google:
-    tracking_id: G-SE44G3YQXE
 #  facebookpixel:
 #    tracking_id: 000000000000
 
