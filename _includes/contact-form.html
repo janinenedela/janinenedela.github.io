@@ -3,7 +3,7 @@
     {% for item in page.list %}
     <label>
       {% if item.type == 'textarea' %}
-      <textarea rows="5" name="{{ item.label }}"
+      <textarea rows="3" name="{{ item.label }}"
                 id="{{item.label}}"
                 {% if item.required%} required {% endif %}
                 placeholder="{{ item.placeholder }}"
