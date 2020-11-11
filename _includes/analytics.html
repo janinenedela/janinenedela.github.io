@@ -20,27 +20,9 @@
 
 {% if site.analytics.gtag.tracking_id%}
 <!-- Google Tag tracking -->
-<amp-analytics data-block-on-consent type="gtag" data-credentials="include">
-  <script type="application/json">
-    {
-      "vars" : {
-        "gtag_id": "{{site.analytics.gtag.tracking_id}}",
-        "config" : {
-          "{{site.analytics.gtag.tracking_id}}": { "groups": "default" }
-        }
-      },
-      "triggers": {
-        "trackPageview": {
-          "on": "visible",
-          "request": "pageview"
-        }
-      }
-    }
-  </script>
-</amp-analytics>
-
-</script>
-</amp-analytics>
+<amp-analytics data-block-on-consent type="gtag"
+               config="https://www.googletagmanager.com/amp.json?id={{site.analytics.gtag.tracking_id}}"
+               data-credentials="include"></amp-analytics>
 <!-- End Google Tag -->
 {% endif %}
 
