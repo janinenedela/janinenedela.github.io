@@ -46,7 +46,7 @@
 <!-- End Sidebar -->
 <!-- End Navbar -->
 
-
+{% if site.analytics.provider && site.analytics.google.tracking_id%}
 <amp-consent id="myUserConsent"
              layout="nodisplay"
 >
@@ -67,3 +67,4 @@
     </div>
   </div>
 </amp-consent>
+{% endif %}
