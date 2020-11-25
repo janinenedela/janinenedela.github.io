@@ -10,6 +10,8 @@ $color-darkblue_40: rgba(20, 69, 105, 0.4);
 $color-darkblue_60: rgba(20, 69, 105, 0.6);
 $color-darkblue_80: rgba(20, 69, 105, 0.8);
 $color-gray_5: #C8C9C7;
+$color-body-background: #121212;
+$color-body-background-blend-color: #777;
 
 @import 'ampstart-headerbar';
 @import 'ampstart-footer';
@@ -19,7 +21,7 @@ body, input, textarea {
   font-size: 1.125rem;
   font-family: $font-family--primary;
   letter-spacing: 0.02em;
-  background: #121212;
+  background: $color-body-background;
   color: $color-white;
   line-height: 1.556;
 }
