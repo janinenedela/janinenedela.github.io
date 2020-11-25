@@ -16,6 +16,9 @@ $color-body-background-blend-color: #777;
 @import 'ampstart-headerbar';
 @import 'ampstart-footer';
 
+html{
+  scroll-behavior: smooth;
+}
 
 body, input, textarea {
   font-size: 1.125rem;
