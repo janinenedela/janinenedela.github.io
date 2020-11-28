@@ -4,6 +4,7 @@ $font-family--heading: 'Poppins', serif;
 $container-max-width: 1208px;
 
 $color-white: #FFF;
+$color-black: #000;
 $color-lightblue: #009FE3;
 $color-darkblue: #144569;
 $color-darkblue_40: rgba(20, 69, 105, 0.4);
@@ -168,7 +169,7 @@ button, select {
   -webkit-appearance: button;
   background-color: $color-lightblue;
   padding: 16px 24px;
-  color: $color-white;
+  color: $color-black;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -177,6 +178,7 @@ button, select {
 
   &:hover, &:focus {
     background-color: $color-darkblue;
+    color: $color-white;
     text-decoration: none;
     cursor: pointer;
   }
