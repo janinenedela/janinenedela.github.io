@@ -1,6 +1,7 @@
 {% for item in page.splashes  %}
 <amp-img src="{{ item.src | relative_url }}" width="{{ item.width }}" height="{{ item.height }}"
          style="width: calc(min({{item.width}}px, 100vw)); {{ item.style }}" class="splash" layout="responsive"
+         amp-fx="parallax" data-parallax-factor="0.75"
          alt=" {{ item.src }}">
   <div placeholder style="background: transparent"></div>
 </amp-img>
