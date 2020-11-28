@@ -1,0 +1,16 @@
+.consentPopup {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto;
+  line-height: 1.4;
+  color: $color-black;
+
+  @media only screen and (max-width: 710px) {
+    grid-template-columns: auto;
+  }
+
+  button{
+    place-self: end;
+  }
+
+}
