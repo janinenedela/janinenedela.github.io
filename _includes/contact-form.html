@@ -1,7 +1,8 @@
 <form method="post" action-xhr={{ site.static_email }} custom-validation-reporting="show-all-on-submit" target="_blank">
   <fieldset>
     {% for item in page.list %}
-    <label>
+    <label for="{{item.label}}">
+      <p style=" height: 0; margin: 0; overflow: hidden;">{{item.label}}</p>
       {% if item.type == 'textarea' %}
       <textarea rows="3" name="{{ item.label }}"
                 id="{{item.label}}"
