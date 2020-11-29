@@ -23,28 +23,33 @@ unsere Experten maßgeschneiderte Konzepte für ihre <br>
 Absicherung der Risiken Ihres Krankenhauses.
 
 
-### Risikoerfassung
+{:.h3}
+## Risikoerfassung
 
 Risikoanalyse anhand eines <br>
 wissenschaftlichen Analysebogens
 
-### Bedarfsanalyse
+{:.h3}
+## Bedarfsanalyse
 
 Bedarfsermittlung anhand <br>
 der Risikobewertung
 
-### Konzeptionierung
+{:.h3}
+## Konzeptionierung
 
 Konzeptionierung zweier unabhängigen <br>
 Experten auf Basis des <br>
 ermittelten Absicherungsbedarfs.
 
-### Vorstellung
+{:.h3}
+## Vorstellung
 
 Vorstellung Expertenmodelle; <br>
 Sie entscheiden
 
-### Ihre neue Absicherung
+{:.h3}
+## Ihre neue Absicherung
 
 Nachdem Sie sich für ein Konzept <br>
 entschieden haben erfolgt der Wechsel. <br>
