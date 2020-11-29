@@ -1,0 +1,15 @@
+<a href="{{ site.baseurl }}{{ item.href }}">
+  <figure>
+    {% assign src = item.img | split: '.' %}
+    <amp-img src="{{ src[0] | append: '.webp' | relative_url }}" width="584" height="584"
+             layout="intrinsic" alt="{{ item.text }}" media="(max-width: 940px)">
+      <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
+               layout="intrinsic" alt="{{ item.text }}" media="(max-width: 940px)" fallback></amp-img>
+    </amp-img>
+    <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
+             layout="intrinsic" alt="{{ item.text }}" media="(min-width: 941px)"></amp-img>
+    <figcaption>
+      {{ item.text }}
+    </figcaption>
+  </figure>
+</a>

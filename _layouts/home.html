@@ -18,8 +18,13 @@ styles:
     </header>
     {% endif %}
     <figure class="fish">
+      <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.webp' | relative_url }}" width="860" height="800"
+               layout="intrinsic" alt="." id="about" media="(max-width: 940px)">
+        <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
+                 layout="intrinsic" alt="." id="about" media="(max-width: 940px)" fallback></amp-img>
+      </amp-img>
       <amp-img src="{{ 'assets/FiNUM-KlinkMakler/Fish_viereck.png' | relative_url }}" width="860" height="800"
-               layout="intrinsic" alt="." id="about"></amp-img>
+               layout="intrinsic" alt="." id="about" media="(min-width: 941px)"></amp-img>
       <figcaption>Kreative Kommunikation für Ihre Gesundheit</figcaption>
     </figure>
 
@@ -38,14 +43,7 @@ styles:
         {% for item in page.list  %}
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 1 %}
-        <a href="{{ site.baseurl }}{{ item.href }}">
-        <figure >
-          <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
-                   layout="intrinsic" alt="{{ item.text }}"></amp-img>
-          <figcaption>
-            {{ item.text }}</figcaption>
-        </figure>
-        </a>
+          {%- include home-divisions-item.html -%}
         {% endif %}
         {% endfor %}
       </div>
@@ -54,14 +52,7 @@ styles:
         {% for item in page.list %}
         {% assign index_modulo = forloop.index | modulo:2 %}
         {% if index_modulo == 0 %}
-        <a href="{{ site.baseurl }}{{ item.href }}">
-        <figure >
-          <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
-                   layout="intrinsic" alt="{{ item.text }}"></amp-img>
-          <figcaption>
-            {{ item.text }}</figcaption>
-        </figure>
-        </a>
+          {%- include home-divisions-item.html -%}
         {% endif %}
         {% endfor %}
         {% include cta-button.html %}
@@ -71,14 +62,7 @@ styles:
 
     <div class="about">
         {% for item in page.list  %}
-        <a href="{{ site.baseurl }}{{ item.href }}">
-        <figure >
-          <amp-img src="{{ item.img | relative_url }}" width="584" height="584"
-                   layout="intrinsic" alt="{{ item.text }}"></amp-img>
-          <figcaption>
-            {{ item.text }}</figcaption>
-        </figure>
-        </a>
+          {%- include home-divisions-item.html -%}
         {% endfor %}
         {% include cta-button.html %}
     </div>
