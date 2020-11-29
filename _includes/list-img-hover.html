@@ -1,7 +1,13 @@
 {% for item in page.list  %}
   <figure>
+    {% assign src = item.img | split: '.' %}
+    <amp-img src="{{ src[0] | append: '.webp' | relative_url }}" width="auto" height="400"
+             layout="fixed-height" alt="{{ item.text }}" media="(max-width: 940px)">
+      <amp-img src="{{ item.img | relative_url }}" width="auto" height="400"
+               layout="fixed-height" alt="{{ item.text }}" media="(max-width: 940px)" fallback></amp-img>
+    </amp-img>
     <amp-img src="{{ item.img | relative_url }}" width="auto" height="400"
-             layout="fixed-height" alt="{{ item.text }}"></amp-img>
+             layout="fixed-height" alt="{{ item.text }}" media="(min-width: 941px)"></amp-img>
     <figcaption>
       <h2>{{ item.text }}</h2>
       <div>
