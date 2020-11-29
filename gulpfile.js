@@ -5,6 +5,13 @@ const through2 = require('through2');
 const AmpOptimizer = require('@ampproject/toolbox-optimizer');
 const ampOptimizer = AmpOptimizer.create();
 
+
+function clean(done) {
+  var shellCommand = 'rm -rf _docs';
+  shell.exec(shellCommand);
+  done();
+}
+
 function build(done) {
   var shellCommand = 'bundle exec jekyll build -d src';
   shell.exec(shellCommand);
@@ -45,4 +52,4 @@ function ampOptimize(cb) {
     .pipe(dest('_docs/'));
 }
 
-exports.default = series(build, cp, robots, ampOptimize);
+exports.default = series(clean, build, cp, robots, ampOptimize);

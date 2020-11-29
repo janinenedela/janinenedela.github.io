@@ -8,3 +8,4 @@ Gemfile.lock
 *.gem
 node_modules
 .idea
+src
