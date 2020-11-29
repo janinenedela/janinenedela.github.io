@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html amp lang="de"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+  
+  <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  
+  
+  
+  <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script>
+  <meta name="amp-consent-blocking" content="amp-analytics,amp-ad,amp-iframe"/>
+  
+  
+  
+  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
+  
+  
+  
+  
+  
+  
+  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  
+  
+  
+  
+  
+
+
+  <style amp-custom>
+    
+    .ampstart-headerbar{position:fixed;top:0;width:100%;height:123px;display:flex;justify-content:space-between;align-items:center;color:#fff;z-index:999;background:rgba(20,69,105,0.6);backdrop-filter:blur(32px)}.ampstart-headerbar[aria-hidden="true"]{background:none;backdrop-filter:none}.ampstart-headerbar a{color:#fff;text-decoration:none;margin:32px}.ampstart-headerbar .ampstart-headerbar-logo{width:200px}.ampstart-headerbar ul{width:356px;display:flex;justify-content:space-between;list-style:none;padding:0;text-align:center}.ampstart-headerbar ul a{margin:0}@media only screen and (min-width: 940px){.ampstart-navbar-trigger{display:none}}@media only screen and (max-width: 940px){.ampstart-headerbar{height:64px}.ampstart-headerbar ul,.ampstart-headerbar a[role="button"]{display:none}.ampstart-headerbar .ampstart-headerbar-logo{width:99px}.ampstart-headerbar a,.ampstart-headerbar div[role="button"]{margin:20px}}.ampstart-sidebar{z-index:998;width:100%;padding-right:10vw;padding-left:10vw;background:none;backdrop-filter:blur(32px)}.ampstart-sidebar .ampstart-faq-item{margin:32px;font-weight:bold;font-size:36px;line-height:54px}.ampstart-sidebar ul{list-style:none;text-align:center;padding:0;margin-bottom:100px;position:absolute;bottom:0;right:0;left:0}.ampstart-sidebar a{text-decoration:none}.ampstart-navbar-trigger{width:24px;height:24px;position:relative;margin:50px auto;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;transition:.5s ease-in-out;cursor:pointer}.ampstart-navbar-trigger span{display:block;position:absolute;height:2px;width:100%;background:#fff;border-radius:2px;opacity:1;left:0;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;-o-transition:.25s ease-in-out;transition:.25s ease-in-out}.ampstart-navbar-trigger span:nth-child(1){top:8px}.ampstart-navbar-trigger span:nth-child(2){top:16px;left:8px;width:16px}.ampstart-navbar-trigger[tabindex="-1"] span{left:0;top:11px}.ampstart-navbar-trigger[tabindex="-1"] span:nth-child(1){-webkit-transform:rotate(135deg);-moz-transform:rotate(135deg);-o-transform:rotate(135deg);transform:rotate(135deg)}.ampstart-navbar-trigger[tabindex="-1"] span:nth-child(2){-webkit-transform:rotate(-135deg);-moz-transform:rotate(-135deg);-o-transform:rotate(-135deg);transform:rotate(-135deg);width:inherit}body div[aria-hidden="true"]{background:rgba(20,69,105,0.6);backdrop-filter:blur(32px);z-index:1}.ampstart-footer{background:#133046;line-height:1.78}.ampstart-footer .h3,.ampstart-footer .ampstart-social-follow svg{color:#fff}.ampstart-footer .container{display:flex;justify-content:space-between;flex-wrap:wrap;padding:128px 52px}.ampstart-footer .container>div{width:272px;margin:0 auto 64px;text-align:left}.ampstart-footer .container>div:last-child{margin-bottom:0}.ampstart-footer .container>div,.ampstart-footer .container>div a{color:#C8C9C7}@media only screen and (max-width: 940px){.ampstart-footer .container{padding-top:64px}}.ampstart-footer ul{list-style:none;padding:0;margin:0}.ampstart-footer ul a{margin:0}.consentPopup{display:grid;place-items:center;grid-template-columns:auto auto;line-height:1.4;color:#000}@media only screen and (max-width: 710px){.consentPopup{grid-template-columns:auto}}.consentPopup button{place-self:end}html{scroll-behavior:smooth}body,input,textarea{font-size:calc(min(1.125rem, 5vw));font-family:"Overpass",serif;letter-spacing:0.02em;background:#121212;color:#fff;line-height:1.556}h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5,button,.ampstart-headerbar{font-family:"Poppins",serif}h1,.h1{font-weight:bold;font-size:calc(min(72px, 8vw));line-height:128%}h2,.h2{font-size:calc(min(48px, 8vw));font-weight:500}h3,.h3,.post-subtitle{font-weight:500;font-size:calc(min(36px, 6vw))}.post-subtitle{color:#C8C9C7}h3,.h3{margin-top:1.5em;margin-bottom:1.5em}a,a:active,a:visited{color:inherit}address{font-style:normal}hr{width:104px}p,hr{margin-top:2rem;margin-bottom:2rem}.splash{z-index:-1}.svg-icon{width:16px;height:16px;display:inline-block;fill:currentColor;vertical-align:text-bottom}.ampstart-social-follow{z-index:999;list-style:none;padding-left:0;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap}.ampstart-social-follow li{padding:12px}.ampstart-social-follow :first-child{padding-left:0}.ampstart-image-fullpage-hero{position:relative}.ampstart-image-fullpage-hero figure{margin:0}.ampstart-image-fullpage-hero amp-img img{-o-object-fit:cover;object-fit:cover}.ampstart-image-fullpage-hero .ampstart-social-follow{position:fixed;top:143px;right:20px;display:block;margin:0}.ampstart-image-fullpage-hero .ampstart-social-follow li{padding:12px;width:16px;font-size:0}@media only screen and (max-width: 940px){.ampstart-image-fullpage-hero .ampstart-social-follow{display:none}}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}button,input,optgroup,select,textarea{font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button;background-color:#009FE3;padding:16px 24px;color:#000;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;text-decoration:none;border:0}[type=reset]:hover,[type=reset]:focus,[type=submit]:hover,[type=submit]:focus,button:hover,button:focus,html [type=button]:hover,html [type=button]:focus{background-color:#144569;color:#fff;text-decoration:none;cursor:pointer}[type=reset]:active,[type=submit]:active,button:active,html [type=button]:active{opacity:.5}.cta-button{display:block;text-align:center;margin:auto;width:fit-content;width:-moz-fit-content}.container,.post-content,.post-header{max-width:1208px;margin:auto;padding:0 16px}.page .cta-button{margin-top:144px;margin-bottom:272px}.post-content{position:relative;z-index:1}.post-content .post-header{padding:0}.post-content h2{text-align:left;margin-top:1.777777em}.kontakt-anfragen fieldset{min-width:unset;margin:0;padding:0;border:0}.kontakt-anfragen fieldset label{font-size:24px}.kontakt-anfragen fieldset label,.kontakt-anfragen fieldset input,.kontakt-anfragen fieldset textarea{font-size:24px;max-width:100%;width:584px}.kontakt-anfragen fieldset input,.kontakt-anfragen fieldset textarea{margin:24px 0;padding:0;background:none;border-top:0;border-left:0;border-right:0;border-bottom-width:3px;color:#fff;font-size:24px;line-height:54px}.kontakt-anfragen fieldset [type=checkbox]{width:auto;margin-right:32px}.kontakt-anfragen fieldset button{margin-top:32px;margin-bottom:272px}
+
+  </style>
+
+  <title>
+    
+    Kontakt Anfragen
+  </title>
+  <meta name="description" content="Absicherungskonzepte im Gesundheitswesen.
+">
+
+  <link rel="alternate" type="application/rss+xml" title="FiNUM.Klinik Makler" href="https://www.klinik-makler.com/feed.xml">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/https://www.klinik-makler.com/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/https://www.klinik-makler.com/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/https://www.klinik-makler.com/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/https://www.klinik-makler.com/assets/favicon/manifest.json">
+  <link rel="mask-icon" href="/https://www.klinik-makler.com/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#144569">
+
+
+  <script type="application/ld+json">
+  
+    /*
+
+*/
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "mainEntityOfPage": "https://www.klinik-makler.com/kontakt-anfragen",
+  "headline": "Kontakt Anfragen",
+  "datePublished": "2020-11-29T16:30:09+01:00",
+  "dateModified": "2020-11-29T16:30:09+01:00",
+  "description": "Absicherungskonzepte im Gesundheitswesen.
+",
+  "author": {
+    "@type": "Person",
+    "name": "FiNUM.Klinik Makler"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FiNUM.Klinik Makler",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.klinik-makler.comassets/FiNUM-KlinkMakler/Logo.svg",
+      "width": "60",
+      "height": "60"
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.klinik-makler.comassets/FiNUM-KlinkMakler/Logo.svg",
+    "height": "60",
+    "width": "60"
+  }
+}
+
+  
+  </script>
+
+  
+  
+  
+  
+
+
+  <meta name="Strict-Transport-Security" content="max-age=<expire-time>; includeSubDomains">
+  <meta name="X-Content-Type-Options" content="nosniff">
+  <meta name="X-XSS-Protection" content="1; mode=block">
+
+
+  <link media="screen" rel="preconnect" href="https://fonts.gstatic.com">
+  <link media="screen" href="https://fonts.googleapis.com/css2?family=Overpass&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Kontakt Anfragen | FiNUM.Klinik Makler</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Kontakt Anfragen" />
+<meta name="author" content="FiNUM.Klinik Makler" />
+<meta property="og:locale" content="de" />
+<meta name="description" content="Absicherungskonzepte im Gesundheitswesen." />
+<meta property="og:description" content="Absicherungskonzepte im Gesundheitswesen." />
+<meta property="og:site_name" content="FiNUM.Klinik Makler" />
+<script type="application/ld+json">
+{"description":"Absicherungskonzepte im Gesundheitswesen.","url":"/https://www.klinik-makler.com/kontakt-anfragen","@type":"WebPage","headline":"Kontakt Anfragen","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/https://www.klinik-makler.com/assets/FiNUM-KlinkMakler/Logo.svg"},"name":"FiNUM.Klinik Makler"},"author":{"@type":"Person","name":"FiNUM.Klinik Makler"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body class="kontakt-anfragen">
+<!-- Start Navbar -->
+<header class="ampstart-headerbar">
+  
+  <a class="ampstart-headerbar-logo" href="https://www.klinik-makler.com/#" itemprop="url">
+  <amp-img src="/https://www.klinik-makler.com/assets/FiNUM-KlinkMakler/Logo.svg" width="197" height="48" layout="responsive" alt="FiNUM.Klinik Makler"></amp-img>
+  </a>
+  
+
+  <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0"
+       class="ampstart-navbar-trigger">
+    <span></span>
+    <span></span>
+  </div>
+
+
+  <ul>
+  
+  <li><a href="https://www.klinik-makler.com/#about" class="masthead__menu-item">Über uns</a></li>
+  
+  <li><a href="https://www.klinik-makler.com/#divisions" class="masthead__menu-item">Sparten</a></li>
+  
+  <li><a href="https://www.klinik-makler.com/unser-service" class="masthead__menu-item">Service</a></li>
+  
+  </ul>
+
+
+  
+
+
+
+
+
+<a role="button" class="cta-button" href=https://www.klinik-makler.com/kontakt-anfragen>
+  <button>Termin vereinbaren</button>
+</a>
+
+
+</header>
+
+<!-- Start Sidebar -->
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar" layout="nodisplay" side="right">
+  <nav class="ampstart-sidebar-nav ampstart-nav">
+    <ul class="ampstart-sidebar-faq">
+      <li class="ampstart-faq-item"><a href="https://www.klinik-makler.com/#" itemprop="url" ><span itemprop="name">Home</span></a></li>
+      
+      <li class="ampstart-faq-item"><a href="https://www.klinik-makler.com/#about" itemprop="url"><span itemprop="name">Über uns</span></a></li>
+      
+      <li class="ampstart-faq-item"><a href="https://www.klinik-makler.com/#divisions" itemprop="url"><span itemprop="name">Sparten</span></a></li>
+      
+      <li class="ampstart-faq-item"><a href="https://www.klinik-makler.com/unser-service" itemprop="url"><span itemprop="name">Service</span></a></li>
+      
+      <li>
+        
+
+
+
+
+
+<a role="button" class="cta-button" href=https://www.klinik-makler.comhttps://www.klinik-makler.com/kontakt-anfragen>
+  <button>Termin vereinbaren</button>
+</a>
+
+      </li>
+    </ul>
+  </nav>
+</amp-sidebar>
+<!-- End Sidebar -->
+<!-- End Navbar -->
+
+
+<amp-consent id="myUserConsent"
+             layout="nodisplay"
+>
+  <script type="application/json">
+    {
+      "consentInstanceId": "consent-id",
+      "consentRequired": true,
+      "promptUI": "consentDialog",
+      "postPromptUI": "post-consent-ui"
+    }
+  </script>
+  <div class="popupOverlay"
+       id="consentDialog">
+    <div class="consentPopup">
+      <span>Mit der Nutzung dieser Website erklären Sie sich damit einverstanden, dass wir Cookies verwenden.
+        <a href="https://www.klinik-makler.com/datenschutz">Mehr Informationen</a></span>
+      <button on="tap:myUserConsent.accept">Verstanden</button>
+    </div>
+  </div>
+</amp-consent>
+
+<!-- Start Fullpage Hero -->
+    <div class="ampstart-image-fullpage-hero">
+      <figure>
+        
+        <amp-img height="300" alt="Kontakt Anfragen" layout="fixed-height"
+                 src="/https://www.klinik-makler.com/assets/FiNUM-KlinkMakler/img-hospital-4.webp" media="(max-width: 940px)">
+          <amp-img height="300" alt="Kontakt Anfragen" layout="fixed-height"
+                   src="/https://www.klinik-makler.com/assets/FiNUM-KlinkMakler/img-hospital-4.jpg" media="(max-width: 940px)" fallback></amp-img>
+        </amp-img>
+        <amp-img height="600" alt="Kontakt Anfragen" layout="fixed-height"
+                 src="/https://www.klinik-makler.com/assets/FiNUM-KlinkMakler/img-hospital-4.jpg" media="(min-width: 941px)"></amp-img>
+      </figure><ul class="ampstart-social-follow"><li><a target="_blank" rel="noopener" rel="me" href="https://www.facebook.com/finum.finanzhaus" title="finum.finanzhaus"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#facebook"></use></svg></a></li><li><a target="_blank" rel="noopener" rel="me" href="https://www.instagram.com/finum.finanzhaus_ag" title="finum.finanzhaus_ag"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#instagram"></use></svg></a></li><li><a target="_blank" rel="noopener" rel="me" href="https://www.linkedin.com/showcase/finum.finanzhaus-ag" title="finum.finanzhaus-ag"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#linkedin"></use></svg></a></li><li><a target="_blank" rel="noopener" rel="me" href="https://www.xing.com/company/finum" title="company/finum"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#xing"></use></svg></a></li></ul>
+</div>
+    <!-- End Fullpage Hero -->
+
+    <article class="page">
+  <header class="post-header">
+    <h1 class="post-title">Kontakt Anfragen</h1>
+  </header>
+
+  <section class="post-content">
+    <h2 class="h3" id="schildern-sie-uns-ihr-anliegen-wir-melden-uns">Schildern Sie uns Ihr anliegen. <br />Wir melden uns.</h2>
+
+
+    <form method="post" action-xhr=https://formspree.io/f/mbjpyjne custom-validation-reporting="show-all-on-submit" target="_blank">
+  <fieldset>
+    
+    <label for="company">
+      <p style=" height: 0; margin: 0; overflow: hidden;">company</p>
+      
+      <input type="text"
+             name="company"
+             id="company"
+              required 
+             placeholder="Krankenhaus/ Praxis"
+      >
+      
+      
+
+      <span visible-when-invalid="valueMissing"
+            validation-for="company"></span>
+      <span visible-when-invalid="patternMismatch"
+            validation-for="company"></span>
+      <span visible-when-invalid="typeMismatch"
+            validation-for="company"></span>
+    </label>
+    <br>
+    
+    <label for="name">
+      <p style=" height: 0; margin: 0; overflow: hidden;">name</p>
+      
+      <input type="text"
+             name="name"
+             id="name"
+              required 
+             placeholder="Ansprechpartner (Name)"
+      >
+      
+      
+
+      <span visible-when-invalid="valueMissing"
+            validation-for="name"></span>
+      <span visible-when-invalid="patternMismatch"
+            validation-for="name"></span>
+      <span visible-when-invalid="typeMismatch"
+            validation-for="name"></span>
+    </label>
+    <br>
+    
+    <label for="email">
+      <p style=" height: 0; margin: 0; overflow: hidden;">email</p>
+      
+      <input type="email"
+             name="email"
+             id="email"
+              required 
+             placeholder="E-Mail-Adresse"
+      >
+      
+      
+
+      <span visible-when-invalid="valueMissing"
+            validation-for="email"></span>
+      <span visible-when-invalid="patternMismatch"
+            validation-for="email"></span>
+      <span visible-when-invalid="typeMismatch"
+            validation-for="email"></span>
+    </label>
+    <br>
+    
+    <label for="tel">
+      <p style=" height: 0; margin: 0; overflow: hidden;">tel</p>
+      
+      <input type="tel"
+             name="tel"
+             id="tel"
+              required 
+             placeholder="Telefonnummer"
+      >
+      
+      
+
+      <span visible-when-invalid="valueMissing"
+            validation-for="tel"></span>
+      <span visible-when-invalid="patternMismatch"
+            validation-for="tel"></span>
+      <span visible-when-invalid="typeMismatch"
+            validation-for="tel"></span>
+    </label>
+    <br>
+    
+    <label for="message">
+      <p style=" height: 0; margin: 0; overflow: hidden;">message</p>
+      
+      <textarea rows="3" name="message"
+                id="message"
+                 required 
+                placeholder="Ihre Nachricht"
+      ></textarea>
+      
+
+      <span visible-when-invalid="valueMissing"
+            validation-for="message"></span>
+      <span visible-when-invalid="patternMismatch"
+            validation-for="message"></span>
+      <span visible-when-invalid="typeMismatch"
+            validation-for="message"></span>
+    </label>
+    <br>
+    
+    <label for="riskcheck">
+      <p style=" height: 0; margin: 0; overflow: hidden;">riskcheck</p>
+      
+      <input type="checkbox"
+             name="riskcheck"
+             id="riskcheck"
+             
+             placeholder="Ich bin an einem unverbindlichen Risikocheck interessiert."
+      >
+       Ich bin an einem unverbindlichen Risikocheck interessiert. 
+      
+
+      <span visible-when-invalid="valueMissing"
+            validation-for="riskcheck"></span>
+      <span visible-when-invalid="patternMismatch"
+            validation-for="riskcheck"></span>
+      <span visible-when-invalid="typeMismatch"
+            validation-for="riskcheck"></span>
+    </label>
+    <br>
+    
+
+    <input type="hidden" name="_gotcha">
+
+    <div submit-success>
+      Thank you. We received our Message.
+    </div>
+    <div submit-error>
+      Thank you for your Message.
+    </div>
+
+    <button type="submit">Anfrage senden</button>
+  </fieldset>
+
+</form>
+
+
+  </section>
+</article>
+<!-- Start Footer -->
+<footer>
+  <section id="contact" class="ampstart-footer">
+    <div class="container">
+      <div>
+        <p class="h3">FiNUM</p>
+        <ul>
+          
+          <li><a href="https://www.finumfinanzhaus.de/" target="_blank" rel="noopener" class="masthead__menu-item">FiNUM.Finanzhaus AG</a></li>
+          
+          <li><a href="https://www.finum-pension.consulting/" target="_blank" rel="noopener" class="masthead__menu-item">FiNUM.Pension Consulting</a></li>
+          
+          <li><a href="https://www.finumfinanzhaus.de/finum-human-capital/" target="_blank" rel="noopener" class="masthead__menu-item">FiNUM.Human Capital</a></li>
+          
+          <li><a href="https://jdcgroup.de/en/home/" target="_blank" rel="noopener" class="masthead__menu-item">JDC Group AG</a></li>
+          
+        </ul>
+      </div>
+
+      <div>
+        <p class="h3" >Rechtliches</p>
+        <nav>
+          <ul>
+          
+          
+          
+          
+            <li><a href="https://www.klinik-makler.com/datenschutz"
+                             itemprop="url"><span itemprop="name">Datenschutzerklärung</span></a></li>
+          
+          
+          
+          
+          
+            <li><a href="https://www.klinik-makler.com/impressum"
+                             itemprop="url"><span itemprop="name">Impressum</span></a></li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            <li><a href="https://www.klinik-makler.com/rechtliche-hinweise"
+                             itemprop="url"><span itemprop="name">Rechtliche Hinweise</span></a></li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          </ul>
+        </nav>
+        <small>
+          © FiNUM.Klinik Makler, 2020
+        </small>
+      </div>
+
+      <div>
+        <p class="h3" >Kontakt</p>
+        <address>
+          
+          FiNUM.Klinik Makler
+          <br>
+          
+
+          
+          Katharinenweg 18 <br>91413 Neustadt an der Aisch
+          <br>
+          
+
+          <br>
+
+          
+          089 4141 7897-3
+          <br>
+          
+          
+          <a href="mailto:klinik-makler@finum.ag">klinik-makler@finum.ag</a>
+          
+        </address><ul class="ampstart-social-follow"><li><a target="_blank" rel="noopener" rel="me" href="https://www.facebook.com/finum.finanzhaus" title="finum.finanzhaus"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#facebook"></use></svg></a></li><li><a target="_blank" rel="noopener" rel="me" href="https://www.instagram.com/finum.finanzhaus_ag" title="finum.finanzhaus_ag"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#instagram"></use></svg></a></li><li><a target="_blank" rel="noopener" rel="me" href="https://www.linkedin.com/showcase/finum.finanzhaus-ag" title="finum.finanzhaus-ag"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#linkedin"></use></svg></a></li><li><a target="_blank" rel="noopener" rel="me" href="https://www.xing.com/company/finum" title="company/finum"><svg class="svg-icon grey"><use xlink:href="/https://www.klinik-makler.com/assets/minima-social-icons.svg#xing"></use></svg></a></li></ul>
+</div>
+    </div>
+  </section>
+</footer>
+<!-- End Footer -->
+
+
+<!---->
+
+
+
+  </body>
+
+</html>
