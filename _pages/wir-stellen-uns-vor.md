@@ -23,6 +23,9 @@ Kunden vorhalten können.
 
 
 
+<amp-img src="{{'assets/FiNUM-KlinkMakler/img-plattform.png' | relative_url }}" width="520" height="518"
+             alt="platform" layout="intrinsic" media="(max-width: 1075px)"></amp-img>
+
 
 {:.h3}
 ## Bereit für die Zukunft

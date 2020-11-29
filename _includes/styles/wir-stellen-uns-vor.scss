@@ -7,15 +7,16 @@
 
   .post-content {
     amp-img {
+      display: block;
+      margin: auto;
+      width: 444px;
+
+      @media only screen and (min-width: $max-width) {
       float: right;
       margin-top: 360px;
       margin-bottom: 360px;
       margin-left: 123px;
-      width: 444px;
       height: 100%;
-
-      @media only screen and (max-width: $max-width) {
-        display: none;
       }
     }
 
@@ -24,7 +25,7 @@
     }
 
     @media only screen and (min-width: $max-width) {
-      :nth-child(n + 10) {
+      :nth-child(n + 11) {
         margin-left: 50%;
       }
 
