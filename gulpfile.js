@@ -52,4 +52,10 @@ function ampOptimize(cb) {
     .pipe(dest('_docs/'));
 }
 
-exports.default = series(clean, build, cp, robots, ampOptimize);
+function chmod(done) {
+  var shellCommand = 'chmod -R 777 _docs';
+  shell.exec(shellCommand);
+  done();
+}
+
+exports.default = series(clean, build, cp, robots, ampOptimize, chmod);
