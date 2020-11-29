@@ -15,6 +15,7 @@
   {% endif%}
   {% if site.consent%}
   <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script>
+  <meta name="amp-consent-blocking" content="amp-analytics,amp-ad,amp-iframe"/>
   {% endif%}
   {% if page.amp-carousel or layout.amp-carousel %}
   <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
@@ -66,7 +67,6 @@
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
-  <link async href='https://fonts.googleapis.com/css2?family=Overpass&family=Poppins:wght@400;700&display=swap' rel='stylesheet' type='text/css'>
 
   <title>
     {% if site.name %}{{ site.name | escape }} {% if site.title_separator %}{{ site.title_separator | escape }} {% else %}|{% endif %} {% endif %}
@@ -115,6 +115,11 @@
   <meta name="Strict-Transport-Security" content="max-age=<expire-time>; includeSubDomains">
   <meta name="X-Content-Type-Options" content="nosniff">
   <meta name="X-XSS-Protection" content="1; mode=block">
+
+
+  <link media="screen" rel="preconnect" href="https://fonts.gstatic.com">
+  <link media="screen" href="https://fonts.googleapis.com/css2?family=Overpass&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
 
 
   {% seo %}
