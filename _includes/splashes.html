@@ -4,12 +4,18 @@
 <amp-img src="{{ src[0] | append: '.webp' | relative_url }}" width="{{ item.width }}" height="{{ item.height }}"
          style="width: calc(min({{item.width}}px, 100vw)); {{ item.style }}" class="splash" layout="responsive"
          amp-fx="parallax" data-parallax-factor="0.75"
-         alt=" {{ item.src }}">
+         alt=" {{ item.src }}" media="(max-width: 940px)">
   <amp-img src="{{ item.src | relative_url }}" width="{{ item.width }}" height="{{ item.height }}"
+           style="width: calc(min({{item.width}}px, 100vw)); {{ item.style }}" class="splash" layout="responsive"
+           amp-fx="parallax" data-parallax-factor="0.75"
+           alt=" {{ item.src }}" media="(max-width: 940px)" fallback></amp-img>
+
+  <div placeholder style="background: transparent"></div>
+</amp-img>
+<amp-img src="{{ item.src | relative_url }}" width="{{ item.width }}" height="{{ item.height }}"
          style="width: calc(min({{item.width}}px, 100vw)); {{ item.style }}" class="splash" layout="responsive"
          amp-fx="parallax" data-parallax-factor="0.75"
-         alt=" {{ item.src }}" fallback>
-  </amp-img>
+         alt=" {{ item.src }}" media="(min-width: 941px)">
   <div placeholder style="background: transparent"></div>
 </amp-img>
 {% endfor %}
