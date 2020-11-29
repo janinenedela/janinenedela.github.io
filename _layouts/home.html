@@ -1,7 +1,6 @@
 ---
 layout: default
 amp-iframe: true
-amp-script: true
 styles:
   - home.scss
 ---
@@ -98,18 +97,14 @@ styles:
       {% include cta-button.html %}
     </div>
 
-
-    <amp-script data-block-on-consent layout="container"
-                script="map">
+    <amp-layout data-block-on-consent>
     <h2 >Wo Sie uns finden:</h2>
     <amp-iframe data-block-on-consent
                 style="filter: invert(95%)"
       sandbox="allow-scripts allow-same-origin"
       src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJw5AM6MsLokcRI831keWLCPo&key=AIzaSyCB-9JVxhx-Mc34qHzeE-s4TxqIUkc_Mj8"
       width="390" height="260" layout="responsive"></amp-iframe>
-    </amp-script>
-
-    <script id="map" type="text/plain" target="amp-script"></script>
+    </amp-layout>
 
 
 
