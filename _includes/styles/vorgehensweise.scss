@@ -3,8 +3,10 @@
 
   .post-content {
 
-    h2{
+    h2,p{
       text-align: center;
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
 
     :after {
@@ -29,9 +31,10 @@
 
     :nth-child(2n):after {
       content: '';
-      width: 32px;
-      height: 32px;
+      width: 2rem;
+      height: 2rem;
       margin: auto;
+      margin-top: 1em;
       background-blend-mode: color;
     }
     :nth-child(2):after {

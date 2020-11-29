@@ -23,7 +23,7 @@ html{
 }
 
 body, input, textarea {
-  font-size: 1.125rem;
+  font-size: calc(min(1.125rem, 5vw));
   font-family: $font-family--primary;
   letter-spacing: 0.02em;
   background: $color-body-background;
@@ -74,8 +74,8 @@ hr {
   width: 104px;
 }
 p, hr{
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .splash {
