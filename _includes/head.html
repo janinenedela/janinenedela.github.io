@@ -13,7 +13,7 @@
   {% if site.analytics.provider && site.analytics.google.tracking_id%}
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   {% endif%}
-  {% if site.analytics.provider%}
+  {% if site.consent%}
   <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script>
   {% endif%}
   {% if page.amp-carousel or layout.amp-carousel %}
