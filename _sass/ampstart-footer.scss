@@ -2,7 +2,7 @@
   background: rgb(19, 48, 70);
   line-height: 1.78;
 
-  h3, .ampstart-social-follow svg {
+  .h3, .ampstart-social-follow svg {
     color: $color-white;
   }
 
@@ -15,6 +15,7 @@
     & > div {
       width: 272px;
       margin: 0 auto 64px;
+      text-align: left;
 
       &:last-child {
         margin-bottom: 0;
