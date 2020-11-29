@@ -1,0 +1,11 @@
+{
+  "name": "FiNUM-KlinikMakler",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@ampproject/toolbox-optimizer": "^2.7.0-alpha.4",
+    "gulp": "^4.0.2",
+    "shelljs": "^0.8.4",
+    "through2": "^4.0.2"
+  }
+}

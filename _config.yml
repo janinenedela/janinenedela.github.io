@@ -108,7 +108,11 @@ include:
 
 exclude:
   - script
+  - src
   - screenshot.png
+  - node_modules
+  - "*.js"
+  - "*.json"
   - "*.txt"
   - "*.markdown"
   - "*.gemspec"
