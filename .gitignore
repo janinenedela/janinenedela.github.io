@@ -6,3 +6,5 @@ vendor
 .bundle
 Gemfile.lock
 *.gem
+node_modules
+.idea
