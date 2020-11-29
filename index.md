@@ -42,4 +42,4 @@ splashes:
 
 | Beratung |
 |-|
-| Wir beraten auf Basis einer neutralen, unabhängigen Risikoanalyse, um Ihren tatsächlichen Bedarf zu ermitteln und die passenden Partner für Ihre Klinik zu finden. |
+| Wir beraten auf Basis einer neutralen, unabhängigen Risikoanalyse, um Ihren tatsächlichen Bedarf zu ermitteln und die passenden Partner für Ihr Krankenhaus zu finden. |

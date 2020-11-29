@@ -15,7 +15,7 @@ amp-fx-collection: true
 Unsere langjährige Erfahrung in der Absicherung von <br>
 Krankenhäusern hat uns gezeigt, das es sinnvoll ist vier Bereiche <br>
 sukzessive abzubilden um einen optimalen Versicherungsschutz <br>
-für Ihre Klinik zu gewährleisten.
+für Ihr Krankenhaus zu gewährleisten.
 
 
 {:amp-fx="fly-in-left"}

@@ -7,7 +7,7 @@ styles:
   - kontakt-anfragen.scss
 list:
     - label: company
-      placeholder: Klinikum/ Praxis
+      placeholder: Krankenhaus/ Praxis
       type: text
       required: true
     - label: name

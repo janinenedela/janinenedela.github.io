@@ -28,7 +28,7 @@ Kunden vorhalten können.
 ## Bereit für die Zukunft
 ---
 
-Der globale Finanzdienstleistungsmarkt wird sich die nächsten Jahre aufgrund neuer gesetzlicher Rahmenbedingungen strukturell verändern. Hier von ist auch die Absicherung von Risiken im Klinikbetrieb betroffen. Gründe hierfür sind unter anderem die zunehmende Digitalisierung, medizinisch-technische Innovationen und erhöhte regulatorische Anforderungen.
+Der globale Finanzdienstleistungsmarkt wird sich die nächsten Jahre aufgrund neuer gesetzlicher Rahmenbedingungen strukturell verändern. Hier von ist auch die Absicherung von Risiken im Krankenhausbetrieb betroffen. Gründe hierfür sind unter anderem die zunehmende Digitalisierung, medizinisch-technische Innovationen und erhöhte regulatorische Anforderungen.
 
 Als Teil der JDC Group mit über 16.000 angeschlossenen Beratern, einem Produktspektrum von über 12.000 Produkten von mehr als 1.000 Gesellschaften aus den Bereichen Versicherungen, Finanzierungen, Beteiligungen sowie Investments sind wir dafür bestens aufgestellt.
 
