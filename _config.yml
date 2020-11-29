@@ -106,6 +106,15 @@ include:
   - .htaccess
   - _pages
 
+exclude:
+  - script
+  - CNAME
+  - screenshot.png
+  - "*.txt"
+  - "*.markdown"
+  - "*.gemspec"
+  - "*.sh"
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
