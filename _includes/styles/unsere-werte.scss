@@ -15,7 +15,9 @@
   }
 
   figure {
-    margin: 128px 0;
+    width: 100vw;
+    max-width: calc(100% + 32px);
+    margin: 128px -16px;
     position: relative;
 
     amp-img img {
