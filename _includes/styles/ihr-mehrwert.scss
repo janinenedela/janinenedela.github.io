@@ -49,8 +49,14 @@
     }
 
     tr{
-      height: 66px;
+      height: 3.65em;
       vertical-align: top;
-    }
+
+        @media only screen and (max-width: 533px) {
+          margin-top: 2em;
+          height: auto;
+          display: inline-block;
+        }
+      }
   }
 }
