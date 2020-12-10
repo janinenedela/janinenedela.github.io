@@ -111,6 +111,7 @@ exclude:
   - src
   - screenshot.png
   - node_modules
+  - CNAME
   - "*.js"
   - "*.json"
   - "*.txt"
