@@ -112,8 +112,8 @@ exclude:
   - screenshot.png
   - node_modules
   - CNAME
-  - "*.js"
-  - "*.json"
+  - package.json
+  - package-lock.json
   - "*.txt"
   - "*.markdown"
   - "*.gemspec"
