@@ -1,7 +1,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+
+  <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+
+  {% assign src = page.headerImage | default: site.defaultHeaderImage | split: '.' %}
+  <link rel="preload" href="{{ src[0] | append: '.webp' | relative_url }}" as="image" media="only screen and (max-width: 940px)">
+  <link rel="preload" href="{{ page.headerImage | default: site.defaultHeaderImage | relative_url }}" as="image" media="only screen and (min-width: 941px)">
+  <link rel="preload" href="{{ site.logo | relative_url }}" as="image">
+
 
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   {% if page.amp-youtube or layout.amp-youtube %}
@@ -68,6 +77,10 @@
     {{ include_to_scssify | scssify }}
   </style>
 
+  <link media="screen" href="https://fonts.googleapis.com/css2?family=Overpass&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
   <title>
     {% if site.name %}{{ site.name | escape }} {% if site.title_separator %}{{ site.title_separator | escape }} {% else %}|{% endif %} {% endif %}
     {% if page.title %}{{ page.title | strip_html | escape }}{% else %}{{ site.title | escape }}{% endif %}
@@ -115,12 +128,5 @@
   <meta name="Strict-Transport-Security" content="max-age=<expire-time>; includeSubDomains">
   <meta name="X-Content-Type-Options" content="nosniff">
   <meta name="X-XSS-Protection" content="1; mode=block">
-
-
-  <link media="screen" rel="preconnect" href="https://fonts.gstatic.com">
-  <link media="screen" href="https://fonts.googleapis.com/css2?family=Overpass&family=Poppins:wght@400;700&display=swap"
-        rel="stylesheet">
-
-
   {% seo %}
 </head>

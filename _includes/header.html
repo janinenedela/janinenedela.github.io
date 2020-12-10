@@ -3,7 +3,7 @@
 <header class="ampstart-headerbar">
   {% if site.logo %}
   <a class="ampstart-headerbar-logo" href="{{ site.baseurl }}/#" itemprop="url">
-  <amp-img src="{{ site.logo | relative_url }}" width="197" height="48" layout="responsive" alt="{{ site.title }}"></amp-img>
+  <amp-img data-amp-auto-lightbox-disable src="{{ site.logo | relative_url }}" width="197" height="48" layout="responsive" alt="{{ site.title }}"></amp-img>
   </a>
   {% else %}
   <a class="ampstart-headerbar-title" href="{{ site.baseurl }}/#" itemprop="url">

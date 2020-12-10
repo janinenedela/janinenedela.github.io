@@ -11,7 +11,7 @@
     <div class="ampstart-image-fullpage-hero">
       <figure>
         {% assign src = page.headerImage | default: site.defaultHeaderImage | split: '.' %}
-        <amp-img height="300" alt="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" layout="fixed-height"
+        <amp-img data-amp-auto-lightbox-disable height="300" alt="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" layout="fixed-height"
                  src="{{ src[0] | append: '.webp' | relative_url }}" media="(max-width: 940px)">
           <amp-img height="300" alt="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" layout="fixed-height"
                    src="{{ page.headerImage | default: site.defaultHeaderImage | relative_url }}" media="(max-width: 940px)" fallback></amp-img>
