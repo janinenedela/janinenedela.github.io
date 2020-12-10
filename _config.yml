@@ -93,7 +93,7 @@ defaults:
 # Collections
 collections:
   events:
-    output: true
+    output: false
 
 # Sass/SCSS
 sass:
