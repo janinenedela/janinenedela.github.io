@@ -7,7 +7,7 @@ splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-7.png"
       width: 986
       height: 1452
-      style: "position: absolute; right: -64px; top: 600px; opacity: 0.75;"
+      style: "position: absolute; right: 0px; top: 600px; opacity: 0.75;"
 styles:
   - leistungserbringer.scss
 ---

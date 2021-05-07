@@ -6,7 +6,7 @@ splashes:
     - src: "assets/FiNUM-KlinkMakler/farbbombe-5.png"
       width: 557
       height: 2036
-      style: "position: absolute; right: -64px; bottom: 580px; opacity: 0.6;"
+      style: "position: absolute; right: 0px; bottom: 580px; opacity: 0.6;"
     - src: "assets/FiNUM-KlinkMakler/farbbombe-4.png"
       width: 557
       height: 2036
