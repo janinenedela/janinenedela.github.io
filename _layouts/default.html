@@ -1,3 +1,8 @@
+---
+styles:
+- default.scss
+---
+
 <!DOCTYPE html>
 <html amp lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
@@ -6,24 +11,6 @@
   <body class="{{ page.title | strip_html | escape | downcase | replace: ' ', '-' }}">
 
     {%- include header.html -%}
-
-    <!-- Start Fullpage Hero -->
-    <div class="ampstart-image-fullpage-hero">
-      <figure>
-        {% assign src = page.headerImage | default: site.defaultHeaderImage | split: '.' %}
-        <amp-img data-amp-auto-lightbox-disable height="300" alt="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" layout="fixed-height"
-                 src="{{ src[0] | append: '.webp' | relative_url }}" media="(max-width: 940px)">
-          <amp-img height="300" alt="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" layout="fixed-height"
-                   src="{{ page.headerImage | default: site.defaultHeaderImage | relative_url }}" media="(max-width: 940px)" fallback></amp-img>
-        </amp-img>
-        <amp-img height="600" alt="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" layout="fixed-height"
-                 src="{{ page.headerImage | default: site.defaultHeaderImage | relative_url }}" media="(min-width: 941px)"></amp-img>
-      </figure>
-
-      {%- include social.html -%}
-
-    </div>
-    <!-- End Fullpage Hero -->
 
     {{ content }}
 

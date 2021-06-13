@@ -1,16 +1,20 @@
 lang: "de"
-title: FiNUM.Klinik Makler
-short_name: FiNUM.Klinik Makler
-email: klinik-makler@finum.ag
+title: WechselGott
+short_name: WechselGott
+email: kundenservice@wechselgott.com
 tel: 089 4141 7897-3
-author: FiNUM.Klinik Makler
-address: Katharinenweg 18 <br>91413 Neustadt an der Aisch
+whatsapp: +49 176 57800298
+whatsapp_link: https://api.whatsapp.com/send/?phone=4917657800298&text&app_absent=0
+author: WechselGott GmbH
+address: >
+  Spinnereistraße 7 <br>
+  04179 Leipzig
 description: > # this means to ignore newlines until "show_excerpts:"
   Absicherungskonzepte im Gesundheitswesen.
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
-logo: assets/FiNUM-KlinkMakler/Logo.svg
+logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
 defaultHeaderImage: assets/FiNUM-KlinkMakler/img-hospital-11.jpg
 
 # Contact
@@ -73,6 +77,7 @@ defaults:
       path: ""
     values:
       amp-sidebar: true
+      nocta: true
 
   # _posts
   - scope:

@@ -18,11 +18,13 @@
   </div>
 
 
+  <nav>
   <ul>
   {% for link in site.data.navigation.header %}
   <li><a href="{{ site.baseurl }}{{ link.url }}" class="masthead__menu-item">{{ link.title }}</a></li>
   {% endfor %}
   </ul>
+  </nav>
 
 
   {% include cta-button.html %}

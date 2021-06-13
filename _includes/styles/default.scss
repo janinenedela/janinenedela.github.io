@@ -1,0 +1,30 @@
+.ampstart-image-fullpage-hero {
+  position: relative;
+
+  figure {
+    margin: 0;
+  }
+
+  amp-img img {
+    -o-object-fit: cover;
+    object-fit: cover
+  }
+
+  .ampstart-social-follow {
+    position: fixed;
+    top: 143px;
+    right: 20px;
+    display: block;
+    margin: 0;
+
+    li {
+      padding: 12px;
+      width: 16px;
+      font-size: 0;
+    }
+
+    @media only screen and (max-width: $mobile-width) {
+      display: none;
+    }
+  }
+}

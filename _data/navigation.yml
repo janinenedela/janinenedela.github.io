@@ -1,17 +1,29 @@
 header:
   - title: "Über uns"
-    url: /#about
-  - title: "Sparten"
-    url: /#divisions
-  - title: "Service"
-    url: /unser-service
+    url: /ueber-uns
+  - title: "Sicherheit"
+    url: /sicherheit
+  - title: "Kosten"
+    url: /kosten
 
 footer:
-  - title: "FiNUM.Finanzhaus AG"
-    url: https://www.finumfinanzhaus.de/
-  - title: "FiNUM.Pension Consulting"
-    url: https://www.finum-pension.consulting/
-  - title: "FiNUM.Human Capital"
-    url: https://www.finumfinanzhaus.de/finum-human-capital/
-  - title: "JDC Group AG"
-    url: https://jdcgroup.de/en/home/
+  - title: "Über uns"
+    url: /ueber-uns
+  - title: "Presse"
+    url: /presse
+  - title: "Blog"
+    url: /blog
+  - title: "Registrierung"
+    url: app.wechselgott.com
+  - title: "Sicherheit"
+    url: /sicherheit
+
+legal:
+  - title: "AGB"
+    url: /agb
+  - title: "Datenschutz"
+    url: /datenschutz
+  - title: "Impressum"
+    url: /impressum
+  - title: "Erstinformation"
+    url: /erstinformation

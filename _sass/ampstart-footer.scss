@@ -1,28 +1,20 @@
 .ampstart-footer {
-  background: rgb(19, 48, 70);
-  line-height: 1.78;
-
-  .h3, .ampstart-social-follow svg {
-    color: $color-white;
-  }
+  background: $color-footer-background;
+  color: $color-white;
+  padding: 64px 16px 128px;
+    margin-top: calc(min(256px, 20vw));
 
   .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 128px 52px;
 
     & > div {
-      width: 272px;
-      margin: 0 auto 64px;
+      width: 352px;
       text-align: left;
 
       &:last-child {
         margin-bottom: 0;
-      }
-
-      &, a {
-        color: $color-gray_5;
       }
     }
 

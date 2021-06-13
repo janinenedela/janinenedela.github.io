@@ -3,54 +3,57 @@
   <section id="contact" class="ampstart-footer">
     <div class="container">
       <div>
-        <p class="h3">FiNUM</p>
-        <ul>
-          {% for link in site.data.navigation.footer %}
-          <li><a href="{{ link.url }}" target="_blank" rel="noopener" class="masthead__menu-item">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <h3>Information</h3>
+        <nav>
+          <ul>
+            {% for link in site.data.navigation.footer %}
+            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item">{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
       </div>
 
       <div>
-        <p class="h3" >Rechtliches</p>
+        <h3>Rechtliches</h3>
         <nav>
           <ul>
-          {% for my_page in site.pages %}
-          {% if my_page.title and my_page.footer %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}"
-                             itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
-          {% endif %}
-          {% endfor %}
+            {% for link in site.data.navigation.legal %}
+            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item">{{ link.title }}</a></li>
+            {% endfor %}
           </ul>
         </nav>
         <small>
-          © {{ site.title }}, {{ site.time | date: '%Y' }}
+          © {{ site.author }}, {{ site.time | date: '%Y' }}
         </small>
       </div>
 
       <div>
-        <p class="h3" >Kontakt</p>
-        <address>
-          {% if site.author %}
-          {{ site.author }}
-          <br>
-          {% endif %}
+        <h3>Kontakt</h3>
+          <address>
+            {% if site.author %}
+            {{ site.author }}
+            <br>
+            {% endif %}
 
-          {% if site.address %}
-          {{ site.address }}
-          <br>
-          {% endif %}
+            {% if site.address %}
+            {{ site.address }}
+            <br>
+            {% endif %}
+          </address>
 
           <br>
 
           {% if site.tel %}
-          {{ site.tel }}
+          Telefon: <a href="tel:{{ site.tel }}" target="_blank">{{ site.tel }}</a>
+          <br>
+          {% endif %}
+          {% if site.whatsapp %}
+          Whatsapp: <a href="{{ site.whatsapp_link }}" target="_blank">{{ site.whatsapp }}</a>
           <br>
           {% endif %}
           {% if site.email %}
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          E-Mail: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a>
           {% endif %}
-        </address>
       {%- include social.html -%}
       </div>
     </div>
