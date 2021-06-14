@@ -1,0 +1,9 @@
+.post-content, .post-meta, .post-header > h1 {
+  max-width: $container-max-width-small;
+}
+
+.post-meta{
+  opacity: 0;
+  height: 128px;
+  margin: 0;
+}

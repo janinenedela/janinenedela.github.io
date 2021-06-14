@@ -2,6 +2,7 @@ $mobile-width: 940px;
 $font-family--primary: 'Mulish', sans-serif;
 $font-family--heading: 'Montserrat', sans-serif;
 $container-max-width: 1120px;
+$container-max-width-small: 736px;
 $height-header: 102px;
 
 $color-white: #FFF;
@@ -82,6 +83,13 @@ p {
 //  font-size: calc(min(18px, 4vw));
 //}
 
+figure {
+  margin: 0;
+}
+img{
+  border-radius: 16px;
+}
+
 .post-subtitle {
   color: $color-gray_5;
 }
@@ -112,12 +120,12 @@ hr {
   vertical-align: text-bottom;
 }
 
-.page{
+.page, .post{
   padding: 0 16px;
   margin-top: calc(#{$height-header} + min(128px, 10vw));
 }
 
-.container, .post-content, .post-header {
+.container, .post-content, .post-header, .blog-header {
   max-width: $container-max-width;
   margin: auto;
 }

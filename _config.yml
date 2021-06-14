@@ -95,6 +95,12 @@ defaults:
       header: true
       footer: false
 
+# Outputting
+permalink: /:title/
+paginate: 25 # amount of posts to show
+paginate_path: "/blog/page:num/"
+timezone: DE # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 # Collections
 collections:
   events:

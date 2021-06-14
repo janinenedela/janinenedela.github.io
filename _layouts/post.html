@@ -1,10 +1,22 @@
 ---
 layout: default
+styles:
+- default.scss
+- post.scss
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    {% if page.coverImage %}
+    {% assign alt = page.coverImage | split: '.' %}
+    <figure>
+      <amp-img height="630px" width="1120px" alt="{{ alt[0] }}" layout="responsive"
+               src='{{ page.coverImage | prepend: "/assets/post/" | relative_url }}'></amp-img>
+    </figure>
+    {% endif %}
+
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -17,6 +29,16 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+
+    <br>
+    <br>
+    <h3>Finanzen optimieren, ohne Aufwand und Papierkram</h3>
+    <p>Nie wieder an lästige Fristen denken oder diese gar verpassen, kein Papierkrieg mehr und vor allem: nie wieder zu
+      viel bezahlen! Wer nun ganz entspannt sparen will, der sollte unbedingt bei app.wechselgott.com vorbei schauen und
+      langfristig profitieren!</p>
+    {% assign cta = 'Jetzt anmelden' %}
+    {% include cta-button.html %}
+
   </div>
 
   {%- if site.disqus.shortname -%}
