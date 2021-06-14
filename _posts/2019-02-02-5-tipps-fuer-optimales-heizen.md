@@ -7,9 +7,6 @@ categories:
 coverImage: "Optimals-Heizen-Blog.gif"
 ---
 
-
-## 5 Tipps für optimales heizen
-
 Bis zu 70 Prozent des Energieverbrauchs entfallen auf die Heizung. Richtig zu heizen ist der beste Weg die eigenen Heizkosten und die CO2-Emissionen zu senken. Wir verraten dir die 5 besten Tipps um deine Heizkosten und Geld einzusparen.
 
 ## Richtig lüften

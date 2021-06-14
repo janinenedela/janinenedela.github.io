@@ -5,6 +5,7 @@ categories:
   - "sparen"
   - "tipp"
 coverImage: "AdobeStock_268056521-scaled.jpeg"
+excerpt: Private Krankenversicherer erhöhen Ihre Prämien. Im Durchschnitt zahlen PKV-Versicherte 17,6 % mehr seit Januar 2021. Die Tendenz ist weiter steigend. Erfahren Sie wie Sie sich Geld zurückholen können!
 ---
 
 

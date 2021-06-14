@@ -5,6 +5,7 @@ categories:
   - "sparen"
   - "tipp"
 coverImage: "AdobeStock_309669379-scaled.jpeg"
+excerpt: Ab Mitte 2021 soll Einwegplastik verschwinden. Sollten Sie mehr über das Plastikverbot erfahren oder sich unseren Lösungsbeitrag zum Klima- und Umweltschutz zu Gemüte führen wollen, dann schauen Sie gerne hier vorbei
 ---
 
 

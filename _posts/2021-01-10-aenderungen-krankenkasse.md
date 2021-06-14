@@ -5,6 +5,10 @@ categories:
   - "sparen"
   - "tipp"
 coverImage: "AdobeStock_176490580-scaled.jpeg"
+excerpt: >
+    Seit letzten Oktober steht fest: die Zusatzbeiträge werden im Januar 2021 erhöht. Das liegt zum einen an den
+    pandemiebedingten Mehrausgaben und zum anderen an den geringeren Einnahmen durch Kurzarbeit und Arbeitslosigkeit die
+    für 2021 erwartet werden. Informieren Sie sich hier
 ---
 
 

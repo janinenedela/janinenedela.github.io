@@ -5,6 +5,7 @@ categories:
   - "sparen"
   - "tipp"
 coverImage: "AdobeStock_140679044-1-scaled.jpeg"
+excerpt: Es gibt viele Fehler die Sie beim Sparen machen können. Es gibt aber mindestens genauso viele Fehler, die Sie vermeiden können. Wir haben uns für Sie mit den häufigsten Fehlern, die Sparern unterlaufen, auseinandergesetzt und nach Lösungswegen gesucht
 ---
 
 

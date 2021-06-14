@@ -8,8 +8,6 @@ coverImage: "Strompreiszusammensetzung-o.gif"
 ---
 
 
-## Strompreis Zusammensetzung
-
 Dein Strompreis setzt sich aus verschiedenen Bestandteilen zusammen. Auf dieser Seite möchten wir dir einen detaillierten Einblick über die Zusammensetzung des Strompreises geben. Bitte beachte, dass je nach Wohnort und Stromanbieter die Zusammensetzung abweichen kann. Bei den folgenden Werten handelt es sich lediglich um Durchschnittsangaben.
 
 ## Die einzelnen Strompreiskomponenten

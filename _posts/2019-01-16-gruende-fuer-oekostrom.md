@@ -9,11 +9,8 @@ coverImage: "Gruende-fuer-Oekostrom.gif"
 ---
 
 
-## Grüner Strom
-
 Warum Ökostrom? Warum sauberer Strom aus erneuerbaren Energien? Das kostet doch zu viel! Oder doch nicht? Strom ist nicht gleich Strom. Wo liegt aber der Unterschied?
 
-  
 
 ## Die unterschiedlichen Stromarten
 
