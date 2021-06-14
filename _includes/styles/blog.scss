@@ -1,0 +1,49 @@
+.blog{
+  .frame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+
+  article{
+    width: 352px;
+    background: $color-white;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    margin-bottom: 3.55555em;
+
+    img{
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .article-item{
+      padding: 1.55555em;
+    }
+
+    p{
+      margin-bottom: 0;
+    }
+    h4{
+      margin-top: 0;
+    }
+  }
+}
+
+
+
+.post-meta{
+  opacity: 0;
+  height: 0;
+  margin: 0;
+}
+
+.pagination{
+  display: flex;
+  justify-content: space-between;
+}

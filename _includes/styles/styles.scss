@@ -9,7 +9,7 @@ $color-white: #FFF;
 $color-black: #4C4C4C;
 $color-secondary: #1DBAB1;
 $color-primary: #3FD298;
-$color-body-background: #FFF;
+$color-body-background: #FAFAFA;
 
 
 $color-lightblue: #009FE3;
@@ -125,9 +125,10 @@ hr {
   margin-top: calc(#{$height-header} + min(128px, 10vw));
 }
 
-.container, .post-content, .post-header, .blog-header {
+.container, .post-content, .post-header {
   max-width: $container-max-width;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
