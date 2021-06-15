@@ -11,7 +11,7 @@ styles:
     <h1 class="page-title">{{ page.title }}</h1>
     {{ content }}
 
-    <a role="button" href="" class="cta-button">
+    <a role="button" href="{{ '/jobs' | prepend: site.baseurl }}" class="cta-button">
       <button>Offene Stellen</button>
     </a>
   </header>
@@ -41,7 +41,15 @@ styles:
   </div>
 
 
-
+  <div class="center" style="max-width: 544px; margin: auto;">
+    <h3>Werde Teil des Teams</h3>
+    <p>Lust gemeinsam den einfachsten Vertragswechsel Deutschlands mitzuentwickeln?
+      <br>
+      Dann bist du genau richtig bei uns.</p>
+    <a role="button" href="{{ '/jobs' | prepend: site.baseurl }}" class="cta-button">
+      <button>Offene Stellen</button>
+    </a>
+  </div>
 
 
   {% unless page.nocta %}
