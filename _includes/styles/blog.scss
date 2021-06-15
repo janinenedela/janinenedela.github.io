@@ -1,9 +1,9 @@
-.blog{
   .frame{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    margin-top: 3.55555em;
+    margin-bottom: 14.7222em;
     a {
       text-decoration: none;
     }
@@ -23,7 +23,7 @@
     }
 
     .article-item{
-      padding: 1.55555em;
+      padding: 1.33333em;
     }
 
     p{
@@ -33,7 +33,6 @@
       margin-top: 0;
     }
   }
-}
 
 
 
