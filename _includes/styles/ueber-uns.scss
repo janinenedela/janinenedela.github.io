@@ -1,0 +1,36 @@
+.page-header {
+  max-width: 736px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.frame {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3.55555em;
+  margin-bottom: 14.7222em;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+
+article {
+  width: 352px;
+  margin-bottom: 3.55555em;
+
+  .article-item {
+    padding: 1.33333em;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+}

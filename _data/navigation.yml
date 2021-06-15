@@ -1,6 +1,6 @@
 header:
   - title: "Über uns"
-    url: /ueber-uns
+    url: /experten-2
   - title: "Sicherheit"
     url: /sicherheit
   - title: "Kosten"
@@ -8,7 +8,7 @@ header:
 
 footer:
   - title: "Über uns"
-    url: /ueber-uns
+    url: /experten-2
   - title: "Presse"
     url: /presse
   - title: "Blog"
