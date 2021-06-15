@@ -10,35 +10,21 @@ styles:
 <main class="page container" role="main">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
-
-    <p>Transparenz und ehrliche Kommunikation sind uns wichtig. Die wichtigsten Infomaterialien kannst Du direkt unserem
-      zusammengestellten Pressekit entnehmen.</p>
-
-    <a role="button" href="" class="cta-button" style="margin-left: 0;">
-      <button>Pressekit laden</button>
-    </a>
-
-    <p>Gerne organisieren wir für Dich ein Interview mit unserem Gründer Werner Kräutlein oder stellen Dir weitere
-      Informationen für Deinen Artikel zur Verfügung. Wende Dich dazu einfach an Nadine, unsere Account Managerin.</p>
+    {{ content }}
   </header>
 
   <figure>
     <amp-img height="448px" width="448px" alt="Nadine Schnell" layout="intrinsic"
-             src='{{ "/assets/WechselGott/presse_Nadine-Schnell.png" | relative_url }}'></amp-img>
+             src='{{ "assets/WechselGott/jobs-Patrick-Ittner.png" | relative_url }}'></amp-img>
     <figcaption>
-      <h3 class="color-secondary">Nadine Schnell</h3>
-      <a href="mailto:nadine.schnell@wechselgott.com">nadine.schnell@wechselgott.com</a>
-      <br>
-      <a href="tel:034133978492">0341 3397 8492</a>
+      <h3 class="color-secondary">Patrick Ittner</h3>
+      <a href="mailto:patrick.ittner@wechselgott.com">patrick.ittner@wechselgott.com</a>
     </figcaption>
   </figure>
 
 
-  <h2 class="center">Pressemitteilungen</h2>
-  <p class="center">Hier findest Du die neusten Berichte aus Medien über WechselGott</p>
-
   <div class="frame">
-  {% for post in site.data.presse %}
+  {% for post in site.data.jobs %}
   {% if post.url%}
   <a href="{{ post.url }}" itemprop="url">
   {% endif %}
@@ -67,11 +53,6 @@ styles:
 
 
 
-
-
-  <section class="post-content">
-    {{ content }}
-  </section>
 
   {% unless page.nocta %}
   {% include cta-button.html %}
