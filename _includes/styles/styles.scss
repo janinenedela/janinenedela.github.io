@@ -43,6 +43,15 @@ body, input, textarea {
   }
 }
 
+small, .small {
+  font-size: calc(min(18px, 4vw));
+}
+
+button, .button, .ampstart-headerbar {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 h1,h2,h3,h4,h5,
 .h1,.h2,.h3,.h4,.h5,
 button, .ampstart-headerbar{
@@ -79,9 +88,6 @@ p {
   margin-bottom: calc(min(2rem, 5vw));
 }
 
-//small, .small{
-//  font-size: calc(min(18px, 4vw));
-//}
 
 figure {
   margin: 0;
