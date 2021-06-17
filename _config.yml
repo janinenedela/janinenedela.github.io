@@ -10,15 +10,15 @@ address: >
   Spinnereistraße 7 <br>
   04179 Leipzig
 description: > # this means to ignore newlines until "show_excerpts:"
-  Absicherungskonzepte im Gesundheitswesen.
+
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
 logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
-defaultHeaderImage: assets/FiNUM-KlinkMakler/img-hospital-11.jpg
+defaultHeaderImage:
 
 # Contact
-static_email: "https://formspree.io/f/mbjpyjne"
+static_email:
 
 # Consent
 consent: true
@@ -36,7 +36,7 @@ analytics:
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: "%d.%m.%Y"
 
   # generate social links in footer
   social_links:
@@ -44,11 +44,11 @@ minima:
 #    github:  jekyll
 #    rss: rss
     # dribbble: jekyll
-     facebook: finum.finanzhaus
+     facebook: wechselgott
     # flickr:   jekyll
-     instagram: finum.finanzhaus_ag
-     linkedin: finum.finanzhaus-ag
-     xing: company/finum
+     instagram: wechselgott_app
+     linkedin: wechselgott
+#     xing: company/finum
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -129,10 +129,11 @@ exclude:
   - "*.markdown"
   - "*.gemspec"
   - "*.sh"
+  - "/*.js"
 
 plugins:
  - jekyll-feed
- - jekyll-seo-tag
  - jekyll-paginate
  - jekyll-sitemap
  - jekyll_image_encode
+ - jekyll-seo-tag
