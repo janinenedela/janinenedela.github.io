@@ -1,0 +1,27 @@
+<div class="frame">
+  {% for post in data %}
+  {% if post.url %}
+  <a href="{{ post.url }}" itemprop="url">
+    {% endif %}
+    <article itemprop="blogPost" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+      {% if post.coverImage %}
+      {% assign alt = post.coverImage | split: '.' %}
+      <figure>
+        <amp-img height="630px" width="630px" alt="{{ alt[0] }}" layout="responsive"
+                 src='{{ post.coverImage | prepend: "/assets/WechselGott/" | relative_url }}'></amp-img>
+      </figure>
+      {% endif %}
+      <div class="article-item">
+        <header class="post-header">
+          <h4 class="post-title" itemprop="headline">{{ post.title }}</h4>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+          <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        </section>
+      </div>
+    </article>
+    {% if post.url %}
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>

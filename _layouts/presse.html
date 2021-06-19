@@ -37,33 +37,8 @@ styles:
   <h2 class="center">Pressemitteilungen</h2>
   <p class="center">Hier findest Du die neusten Berichte aus Medien über WechselGott</p>
 
-  <div class="frame">
-  {% for post in site.data.presse %}
-  {% if post.url%}
-  <a href="{{ post.url }}" itemprop="url">
-  {% endif %}
-    <article itemprop="blogPost" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-      {% if post.coverImage %}
-      {% assign alt = post.coverImage | split: '.' %}
-      <figure>
-        <amp-img height="630px" width="1120px" alt="{{ alt[0] }}" layout="responsive"
-                 src='{{ post.coverImage | prepend: "/assets/post/" | relative_url }}'></amp-img>
-      </figure>
-      {% endif %}
-      <div class="article-item">
-        <header class="post-header">
-          <h4 class="post-title" itemprop="headline">{{ post.title }}</h4>
-        </header>
-        <section class="post-excerpt" itemprop="description">
-          <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-        </section>
-      </div>
-    </article>
-  {% if post.url%}
-  </a>
-  {% endif %}
-  {% endfor %}
-  </div>
+  {% assign data = site.data.presse %}
+  {% include data-loop.html %}
 
 
 

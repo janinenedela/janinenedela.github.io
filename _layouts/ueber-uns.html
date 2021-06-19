@@ -16,29 +16,8 @@ styles:
     </a>
   </header>
 
-  <div class="frame">
-  {% for post in site.data.ueber-uns %}
-  <a href="{{ post.url }}" itemprop="url">
-    <article itemprop="blogPost" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-      {% if post.coverImage %}
-      {% assign alt = post.coverImage | split: '.' %}
-      <figure>
-        <amp-img height="630px" width="630px" alt="{{ alt[0] }}" layout="responsive"
-                 src='{{ post.coverImage | prepend: "/assets/WechselGott/" | relative_url }}'></amp-img>
-      </figure>
-      {% endif %}
-      <div class="article-item">
-        <header class="post-header">
-          <h4 class="post-title" itemprop="headline">{{ post.title }}</h4>
-        </header>
-        <section class="post-excerpt" itemprop="description">
-          <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-        </section>
-      </div>
-    </article>
-  </a>
-  {% endfor %}
-  </div>
+  {% assign data = site.data.ueber-uns %}
+  {% include data-loop.html %}
 
 
   <div class="center" style="max-width: 544px; margin: auto;">

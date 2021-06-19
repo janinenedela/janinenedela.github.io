@@ -31,9 +31,9 @@
   }
 
   ul {
-    width: 356px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 64px;
     list-style: none;
     padding: 0;
     text-align: center;
