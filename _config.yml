@@ -25,7 +25,7 @@ consent: true
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "custom"
+  provider: true # false (default), "google", "google-universal", "custom"
 #  gtag:
 #    tracking_id: GTM-5BC7R55
 #  google:

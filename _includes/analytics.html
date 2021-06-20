@@ -45,3 +45,22 @@
 </amp-analytics>
 <!-- End Facebook Pixel Analytics example -->
 {% endif %}
+
+<amp-analytics>
+  {% assign domain = site.url | split: '//' %}
+  <script type="application/json">
+    {
+      "cookies": {
+        "enabled": true,
+        "cookieName1": {
+          "value": "QUERY_PARAM(example)",
+          "sameSite": "Lax",
+          "cookieDomain": ".{{domain[1]}}"
+        },
+        "cookieName2": {
+          "value": "LINKER_PARAM(exampleParamName, exampleIdName)"
+        }
+      }
+    }
+  </script>
+</amp-analytics>

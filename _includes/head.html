@@ -19,7 +19,7 @@
   {% if page.amp-form or layout.amp-form %}
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   {% endif%}
-  {% if site.analytics.provider && site.analytics.google.tracking_id%}
+  {% if site.analytics.provider %}
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   {% endif%}
   {% if site.consent%}
