@@ -52,13 +52,54 @@
     {
       "cookies": {
         "enabled": true,
-        "cookieName1": {
-          "value": "QUERY_PARAM(example)",
+        "cookieMaxAge": "Session",
+        "campaignName": {
+          "value": "QUERY_PARAM(campaignName)",
           "sameSite": "Lax",
+          "secure": true,
           "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
         },
-        "cookieName2": {
-          "value": "LINKER_PARAM(exampleParamName, exampleIdName)"
+        "campaignId": {
+          "value": "QUERY_PARAM(campaignId)",
+          "sameSite": "Lax",
+          "secure": true,
+          "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
+        },
+        "utm_source": {
+          "value": "QUERY_PARAM(utm_source)",
+          "sameSite": "Lax",
+          "secure": true,
+          "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
+        },
+        "utm_content": {
+          "value": "QUERY_PARAM(utm_content)",
+          "sameSite": "Lax",
+          "secure": true,
+          "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
+        },
+        "utm_campaign": {
+          "value": "QUERY_PARAM(utm_campaign)",
+          "sameSite": "Lax",
+          "secure": true,
+          "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
+        },
+        "apn": {
+          "value": "QUERY_PARAM(apn)",
+          "sameSite": "Lax",
+          "secure": true,
+          "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
+        },
+        "ibi": {
+          "value": "QUERY_PARAM(ibi)",
+          "sameSite": "Lax",
+          "secure": true,
+          "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
+        },
+        "isi": {
+          "value": "QUERY_PARAM(isi)",
+          "sameSite": "Lax",
+          "secure": true,
+          "cookieDomain": ".{{domain[1]}}.{{domain[0]}}"
         }
       }
     }
