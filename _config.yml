@@ -26,6 +26,8 @@ consent: true
 # Analytics
 analytics:
   provider: true # false (default), "google", "google-universal", "custom"
+  googleadwords:
+    tracking_id: AW-756554075
 #  gtag:
 #    tracking_id: GTM-5BC7R55
 #  google:

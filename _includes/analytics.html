@@ -46,6 +46,26 @@
 <!-- End Facebook Pixel Analytics example -->
 {% endif %}
 
+{% if site.analytics.googleadwords.tracking_id %}
+<!-- googleadwords Analytics tracking -->
+<amp-analytics data-block-on-consent type="gtag" data-credentials="include">
+  <script type="application/json">
+    {
+      "vars": {
+        "gtag_id": "{{site.analytics.googleadwords.tracking_id}}",
+        "config": {
+          "{{site.analytics.googleadwords.tracking_id}}": {
+            "groups": "default"
+          }
+        }
+      }
+    }
+  </script>
+</amp-analytics>
+<!-- End googleadwords Analytics tracking-->
+{% endif %}
+
+
 <amp-analytics>
   {% assign domain = site.url | split: '.' | reverse %}
   <script type="application/json">
