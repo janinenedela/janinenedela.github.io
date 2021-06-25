@@ -131,8 +131,14 @@
       "linkers": {
         "linker1": {
           "ids": {
-            "ex": "QUERY_PARAM(ex)"
+            "ex": "QUERY_PARAM(ex)",
+            "cid": "CLIENT_ID(_ga)",
+            "uid": "QUERY_PARAM(uid)"
           },
+          "destinationDomains": [
+            "app.wechselgott.com",
+            ".{{domain[1]}}.{{domain[0]}}"
+          ],
           "proxyOnly": false,
           "enabled": true
         }
