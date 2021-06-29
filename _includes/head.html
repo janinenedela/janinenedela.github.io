@@ -1,6 +1,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta
+    name="amp-link-variable-allowed-origin"
+    content="{{ site.amp-link-variable-allowed-origin }}"
+  />
 
   <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
 
@@ -24,7 +28,7 @@
   {% endif%}
   {% if site.consent%}
   <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script>
-  <meta name="amp-consent-blocking" content="amp-analytics,amp-ad,amp-iframe"/>
+  <meta name="amp-consent-blocking" content="amp-ad,amp-iframe"/>
   {% endif%}
   {% if page.amp-carousel or layout.amp-carousel %}
   <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>

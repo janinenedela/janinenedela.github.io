@@ -1,4 +1,5 @@
-<a href="{{ site.baseurl }}{{ item.href }}">
+<a href="{{ site.baseurl }}{{ item.href }}"
+   {% include data-amp-addparams %}>
   <figure>
     {% assign src = item.img | split: '.' %}
     <amp-img src="{{ src[0] | append: '.webp' | relative_url }}" width="584" height="584"

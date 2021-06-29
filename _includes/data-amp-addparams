@@ -1,0 +1,2 @@
+data-amp-replace="QUERY_PARAM"
+data-amp-addparams="{% for param in site.data-amp-addparams %}{{param}}=QUERY_PARAM({{param}})&{% endfor %}"

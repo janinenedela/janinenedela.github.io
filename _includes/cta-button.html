@@ -10,6 +10,7 @@
   {% assign cta_href = cta_href | prepend: site.baseurl %}
 {% endunless %}
 
-<a role="button" class="cta-button" href={{ cta_href }}>
+<a role="button" class="cta-button" href={{ cta_href }}
+   {% include data-amp-addparams %}>
   <button>{{ cta }}</button>
 </a>

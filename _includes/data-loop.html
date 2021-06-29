@@ -1,7 +1,8 @@
 <div class="frame">
   {% for post in data %}
   {% if post.url %}
-  <a href="{{ post.url }}" itemprop="url">
+  <a href="{{ post.url }}" itemprop="url"
+     {% include data-amp-addparams %}>
     {% endif %}
     <article itemprop="blogPost" role="article" itemscope itemtype="http://schema.org/BlogPosting">
       {% if post.coverImage %}

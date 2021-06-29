@@ -7,7 +7,8 @@
         <nav>
           <ul>
             {% for link in site.data.navigation.footer %}
-            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item">{{ link.title }}</a></li>
+            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item"
+                   {% include data-amp-addparams %}>{{ link.title }}</a></li>
             {% endfor %}
           </ul>
         </nav>
@@ -18,7 +19,8 @@
         <nav>
           <ul>
             {% for link in site.data.navigation.legal %}
-            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item">{{ link.title }}</a></li>
+            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item"
+                   {% include data-amp-addparams %}>{{ link.title }}</a></li>
             {% endfor %}
           </ul>
         </nav>

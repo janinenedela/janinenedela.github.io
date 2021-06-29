@@ -2,11 +2,11 @@
 <!-- Start Navbar -->
 <header class="ampstart-headerbar">
   {% if site.logo %}
-  <a class="ampstart-headerbar-logo" href="{{ site.baseurl }}/#" itemprop="url">
+  <a class="ampstart-headerbar-logo" href="{{ site.baseurl }}/#" itemprop="url" {% include data-amp-addparams %}>
   <amp-img data-amp-auto-lightbox-disable src="{{ site.logo | relative_url }}" width="197" height="48" layout="responsive" alt="{{ site.title }}"></amp-img>
   </a>
   {% else %}
-  <a class="ampstart-headerbar-title" href="{{ site.baseurl }}/#" itemprop="url">
+  <a class="ampstart-headerbar-title" href="{{ site.baseurl }}/#" itemprop="url" {% include data-amp-addparams %}>
   {{ site.title }}
   </a>
   {% endif %}
@@ -21,7 +21,7 @@
   <nav>
   <ul>
   {% for link in site.data.navigation.header %}
-  <li><a href="{{ site.baseurl }}{{ link.url }}" class="masthead__menu-item">{{ link.title }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ link.url }}" class="masthead__menu-item" {% include data-amp-addparams %}>{{ link.title }}</a></li>
   {% endfor %}
   </ul>
   </nav>
@@ -35,9 +35,10 @@
 <amp-sidebar id="header-sidebar" class="ampstart-sidebar" layout="nodisplay" side="right">
   <nav class="ampstart-sidebar-nav ampstart-nav">
     <ul class="ampstart-sidebar-faq">
-      <li class="ampstart-faq-item"><a href="{{ site.baseurl }}/#" itemprop="url" ><span itemprop="name">Home</span></a></li>
+      <li class="ampstart-faq-item"><a href="{{ site.baseurl }}/#" itemprop="url" {% include data-amp-addparams %}><span itemprop="name">Home</span></a></li>
       {% for link in site.data.navigation.header %}
-      <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>
+      <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ link.url }}" itemprop="url" {% include
+                                       data-amp-addparams %}><span itemprop="name">{{ link.title }}</span></a></li>
       {% endfor %}
       <li>
         {% include cta-button.html %}

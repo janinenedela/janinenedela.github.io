@@ -17,6 +17,17 @@ show_excerpts: true # set to true to show excerpts on the homepage
 logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
 defaultHeaderImage:
 
+amp-link-variable-allowed-origin: "https://app.wechselgott.com"
+data-amp-addparams:
+  - campaignName
+  - campaignId
+  - utm_source
+  - utm_content
+  - utm_campaign
+  - apn
+  - ibi
+  - isi
+
 # Contact
 static_email:
 
