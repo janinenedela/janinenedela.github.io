@@ -41,8 +41,8 @@ analytics:
     tracking_id: AW-756554075
 #  gtag:
 #    tracking_id: GTM-5BC7R55
-#  google:
-#    tracking_id: G-SE44G3YQXE
+  googleanalytics:
+    tracking_id: UA-132798592-1
 #  facebookpixel:
 #    tracking_id: 000000000000
 
