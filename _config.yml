@@ -16,6 +16,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
 defaultHeaderImage:
+cta_href_default: "https://app.wechselgott.com"
 
 amp-link-variable-allowed-origin: "https://app.wechselgott.com"
 data-amp-addparams:
