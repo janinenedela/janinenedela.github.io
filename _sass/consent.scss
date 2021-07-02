@@ -68,13 +68,13 @@
       .stroke {
         display: block;
       }
-
-      summary::after {
-        -webkit-transform: rotate(225deg);
-        -ms-transform: rotate(225deg);
-        transform: rotate(225deg);
-      }
     }
+  }
+
+  details[open] summary::after {
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
   }
 
 
