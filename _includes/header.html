@@ -1,13 +1,13 @@
-
 <!-- Start Navbar -->
 <header class="ampstart-headerbar">
   {% if site.logo %}
   <a class="ampstart-headerbar-logo" href="{{ site.baseurl }}/#" itemprop="url" {% include data-amp-addparams %}>
-  <amp-img data-amp-auto-lightbox-disable src="{{ site.logo | relative_url }}" width="197" height="48" layout="responsive" alt="{{ site.title }}"></amp-img>
+    <amp-img data-amp-auto-lightbox-disable src="{{ site.logo | relative_url }}" width="197" height="48"
+             layout="responsive" alt="{{ site.title }}"></amp-img>
   </a>
   {% else %}
   <a class="ampstart-headerbar-title" href="{{ site.baseurl }}/#" itemprop="url" {% include data-amp-addparams %}>
-  {{ site.title }}
+    {{ site.title }}
   </a>
   {% endif %}
 
@@ -19,11 +19,12 @@
 
 
   <nav>
-  <ul>
-  {% for link in site.data.navigation.header %}
-  <li><a href="{{ site.baseurl }}{{ link.url }}" class="masthead__menu-item" {% include data-amp-addparams %}>{{ link.title }}</a></li>
-  {% endfor %}
-  </ul>
+    <ul>
+      {% for link in site.data.navigation.header %}
+      <li><a href="{{ site.baseurl }}{{ link.url }}" class="masthead__menu-item" {% include data-amp-addparams %}>{{
+        link.title }}</a></li>
+      {% endfor %}
+    </ul>
   </nav>
 
 
@@ -35,7 +36,8 @@
 <amp-sidebar id="header-sidebar" class="ampstart-sidebar" layout="nodisplay" side="right">
   <nav class="ampstart-sidebar-nav ampstart-nav">
     <ul class="ampstart-sidebar-faq">
-      <li class="ampstart-faq-item"><a href="{{ site.baseurl }}/#" itemprop="url" {% include data-amp-addparams %}><span itemprop="name">Home</span></a></li>
+      <li class="ampstart-faq-item"><a href="{{ site.baseurl }}/#" itemprop="url" {% include data-amp-addparams %}><span
+        itemprop="name">Home</span></a></li>
       {% for link in site.data.navigation.header %}
       <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ link.url }}" itemprop="url" {% include
                                        data-amp-addparams %}><span itemprop="name">{{ link.title }}</span></a></li>
@@ -49,28 +51,7 @@
 <!-- End Sidebar -->
 <!-- End Navbar -->
 
-{% if site.consent%}
-<amp-consent id="myUserConsent"
-             layout="nodisplay"
->
-  <script type="application/json">
-    {
-      "consentInstanceId": "consent-id",
-      "consentRequired": true,
-      "promptUI": "consentDialog",
-      "postPromptUI": "post-consent-ui"
-    }
-  </script>
-  <div class="popupOverlay"
-       id="consentDialog">
-    <div class="consentPopup">
-      <span>Mit der Nutzung dieser Website erklären Sie sich damit einverstanden, dass wir Cookies verwenden.
-        <a href="{{ '/datenschutz' | prepend: site.baseurl }}">Mehr Informationen</a></span>
-      <button on="tap:myUserConsent.accept">Verstanden</button>
-    </div>
-  </div>
-</amp-consent>
-{% endif %}
+{% include consent.html %}
 
 
 <!--<amp-script script="hello-world" width="300" height="100">-->

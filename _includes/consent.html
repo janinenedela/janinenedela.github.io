@@ -1,0 +1,113 @@
+{% if site.consent%}
+<amp-consent layout="nodisplay" id="siteConsent">
+  <script type="application/json">
+    {
+      "consentInstanceId": "consent1",
+      "consentRequired": true,
+      "promptUI": "consentPopup",
+      "postPromptUI": "repromptDialog",
+      "uiConfig": {
+        "overlay": false
+      },
+      "purposeConsentRequired": [
+        "statistic",
+        "marketing"
+      ]
+    }
+  </script>
+  <div id="consentPopup">
+    <div id="consentDialog">
+      <h4 class="color-primary">Cookie-Einstellungen</h4>
+      <p>Diese Website verwendet Cookies, die die Funktion der Website unterstützen und nachvollziehen, wie Du mit ihr
+        interagierst. Wir verwenden die Cookies nur, wenn Du dem zustimmst, indem Du auf “Alle Cookies akzeptieren”
+        klickst. Du kannst auch individuelle Cookie-Präferenzen unter “Details anzeigen” verwalten.</p>
+
+      <hr>
+
+      <details class="choices">
+        <summary class="heading">Details anzeigen</summary>
+        <label class="consentLabel" for="consent-essential">
+          <input
+            disabled
+            checked
+            id="consent-essential"
+            type="checkbox"
+            on="change:siteConsent.setPurpose(essential=event.checked)"
+          />
+          <div class="checkmark"></div>
+          <div>
+            <h5>Essenzielle Cookies</h5>
+            Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie
+            Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die
+            Webseite kann ohne diese Cookies nicht richtig funktionieren.
+          </div>
+        </label>
+        <label class="consentLabel" for="consent-preference">
+          <input
+            id="consent-preference"
+            type="checkbox"
+            on="change:siteConsent.setPurpose(preference=event.checked)"
+          />
+          <div class="checkmark"></div>
+          <div>
+            <h5>Präferenz-Cookies</h5>
+            Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art
+            beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z.B. Deine bevorzugte Sprache oder die
+            Region in der Du Dich befindest.
+          </div>
+        </label>
+        <label class="consentLabel" for="consent-statistic">
+          <input
+            id="consent-statistic"
+            type="checkbox"
+            on="change:siteConsent.setPurpose(statistic=event.checked)"
+          />
+          <div class="checkmark"></div>
+          <div>
+            <h5>Statistik-Cookies</h5>
+            Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten
+            interagieren, indem Informationen anonym gesammelt und gemeldet werden.
+          </div>
+        </label>
+        <label class="consentLabel" for="consent-marketing">
+          <input
+            id="consent-marketing"
+            type="checkbox"
+            on="change:siteConsent.setPurpose(marketing=event.checked)"
+          />
+          <div class="checkmark"></div>
+          <div>
+            <h5>Marketing-Cookies</h5>
+            Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu folgen. Die Absicht ist,
+            Anzeigen zu zeigen, die relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für
+            Publisher und werbetreibende Drittparteien sind.
+          </div>
+        </label>
+      </details>
+      <hr>
+
+      <button
+        class="choiceButton"
+        on="tap:siteConsent.accept"
+      >
+        Alle Cookies akzeptieren
+      </button>
+      <button
+        class="choiceButton grey"
+        on="tap:siteConsent.accept(purposeConsentDefault=false)"
+      >
+        Nur notwendige Cookies
+      </button>
+      <button
+        class="choiceButton stroke"
+        on="tap:siteConsent.accept(purposeConsentDefault=false)"
+      >
+        Auswahl erlauben
+      </button>
+    </div>
+  </div>
+  <div id="repromptDialog">
+    <button on="tap:siteConsent.prompt">Cookie</button>
+  </div>
+</amp-consent>
+{% endif %}

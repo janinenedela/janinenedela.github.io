@@ -25,6 +25,7 @@ $color-footer-background: #4C4C4C;
 @import 'ampstart-footer';
 @import 'amp-consent';
 @import 'button';
+@import 'consent';
 
 html{
   scroll-behavior: smooth;
@@ -55,7 +56,7 @@ button, .button, .ampstart-headerbar {
 
 h1,h2,h3,h4,h5,
 .h1,.h2,.h3,.h4,.h5,
-button, .ampstart-headerbar{
+button, .ampstart-headerbar, .heading{
   font-family: $font-family--heading;
   font-weight: 700;
   line-height: 123%;
@@ -85,10 +86,19 @@ h4, .h4, p{
   line-height: 1.25;
 }
 
+h5, .h5{
+  font-size: 16px;
+  line-height: 1.25;
+  margin: 0;
+}
+
 p {
   margin-bottom: calc(min(2rem, 5vw));
 }
 
+.color-primary {
+  color: $color-primary;
+}
 
 figure {
   margin: 0;
@@ -107,12 +117,6 @@ a, a:active, a:visited {
 
 address {
   font-style: normal;
-}
-
-hr {
-  width: 104px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .splash {
