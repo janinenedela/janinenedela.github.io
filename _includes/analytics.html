@@ -20,7 +20,7 @@
 
 {% if site.analytics.googleadwords.tracking_id %}
 <!-- googleadwords tracking -->
-<amp-analytics data-block-on-consent type="gtag" data-credentials="include">
+<amp-analytics data-block-on-consent-purposes="marketing" type="gtag" data-credentials="include">
   <script type="application/json">
     {
       "vars": {
@@ -39,7 +39,7 @@
 
 {% if site.analytics.googleanalytics.tracking_id %}
 <!-- googleanalytics tracking -->
-<amp-analytics data-block-on-consent type="gtag" data-credentials="include">
+<amp-analytics data-block-on-consent-purposes="statistic" type="gtag" data-credentials="include">
   <script type="application/json">
     {
       "vars": {
