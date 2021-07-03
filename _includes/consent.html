@@ -88,19 +88,19 @@
 
       <button
         class="choiceButton"
-        on="tap:siteConsent.accept"
+        on="tap:siteConsent.accept(purposeConsentDefault=true)"
       >
         Alle Cookies akzeptieren
       </button>
       <button
         class="choiceButton grey"
-        on="tap:siteConsent.accept(purposeConsentDefault=false)"
+        on="tap:siteConsent.accept"
       >
         Nur notwendige Cookies
       </button>
       <button
         class="choiceButton stroke"
-        on="tap:siteConsent.accept(purposeConsentDefault=false)"
+        on="tap:siteConsent.accept"
       >
         Auswahl erlauben
       </button>
