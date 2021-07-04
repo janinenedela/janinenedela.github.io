@@ -2,7 +2,7 @@
 layout: ueber-uns
 permalink: /experten-2
 title: Lerne das Team kennen
-
+meta: AboutPage
 splashes:
   - src: assets/WechselGott/Ellipse160.svg
     width: 2400 
