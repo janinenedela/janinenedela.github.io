@@ -10,9 +10,14 @@ address: >
   Spinnereistraße 7 <br>
   04179 Leipzig
 description: > # this means to ignore newlines until "show_excerpts:"
-
+  Der einzig wahre Vertragsmanager
 
 show_excerpts: true # set to true to show excerpts on the homepage
+
+
+
+color:
+  secondary: "#1dbab1"
 
 logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
 defaultHeaderImage:

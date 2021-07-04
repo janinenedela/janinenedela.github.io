@@ -1,14 +1,8 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
- preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1000" height="1000"><rect width="1000" height="1000" rx="200" ry="200" fill="#1dbab1"></rect><g transform="matrix(1,0,0,1,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="300.000000pt" height="300.000000pt"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000" preserveAspectRatio="xMidYMid meet">
 <metadata>
 Created by potrace 1.11, written by Peter Selinger 2001-2013
 </metadata>
-<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
 <path d="M17 2372 c-38 -41 -8 -102 49 -102 35 0 87 -30 108 -62 8 -13 38
 -124 65 -248 28 -124 98 -436 156 -695 58 -259 122 -542 141 -629 19 -87 42
 -169 50 -182 18 -27 63 -44 117 -44 44 0 59 13 177 155 97 117 224 223 432
@@ -26,9 +20,9 @@ fill="#000000" stroke="none">
 251 11 29 47 56 76 56 46 0 72 71 38 104 -13 14 -49 16 -243 16 -208 0 -229
 -2 -244 -18z m1624 -597 c85 -60 110 -177 60 -279 -28 -56 -174 -206 -201
 -206 -25 0 -161 136 -196 195 -25 43 -29 60 -28 120 0 81 18 121 68 160 49 37
-79 45 173 42 72 -2 86 -5 124 -32z"/>
+79 45 173 42 72 -2 86 -5 124 -32z"></path>
 <path d="M1425 2323 c-108 -19 -220 -73 -296 -141 -62 -55 -66 -92 -12 -120
 18 -10 34 -6 105 28 193 93 362 91 566 -7 69 -34 73 -34 97 -19 18 12 25 25
-25 50 0 27 -8 40 -42 68 -111 91 -227 138 -348 142 -41 1 -84 1 -95 -1z"/>
+25 50 0 27 -8 40 -42 68 -111 91 -227 138 -348 142 -41 1 -84 1 -95 -1z"></path>
 </g>
-</svg>
+</svg></svg></g></svg>

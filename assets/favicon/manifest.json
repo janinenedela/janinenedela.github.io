@@ -6,6 +6,7 @@ layout: none
 {
 "name": "{{ site.title | escape }}",
 "short_name": "{{ site.short_name | escape }}",
+"description": "{{ site.description | escape | strip_newlines }}",
 "icons": [
 {
 "src": "{{ 'assets/favicon/android-chrome-192x192.png' | relative_url }}",
@@ -18,8 +19,12 @@ layout: none
 "type": "image/png"
 }
 ],
-"theme_color": "#ffffff",
-"background_color": "#ffffff",
+"theme_color": "{{ site.color.secondary }}",
+"background_color": "{{ site.color.secondary }}",
 "display": "standalone",
+"scope": "/",
+"lang": "de",
+"dir": "ltr",
+"orientation": "portrait-primary",
 "start_url": "{{ site.url | absolute_url }}"
 }
