@@ -7,8 +7,8 @@ $height-header: 102px;
 
 $color-white: #FFF;
 $color-black: #4C4C4C;
-$color-secondary: #1DBAB1;
-$color-primary: #3FD298;
+$color-primary: {% if page.color.primary %} {{page.color.primary}} {% else %} {{site.color.primary}} {% endif %};
+$color-secondary: {% if page.color.secondary %} {{page.color.secondary}} {% else %} {{site.color.secondary}} {% endif %};
 $color-body-background: #FAFAFA;
 
 
