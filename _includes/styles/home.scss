@@ -1,6 +1,10 @@
 .home {
   position: relative;
 
+  button {
+    margin-bottom: 16px;
+  }
+
   .post-header {
     width: 640px;
     position: relative;
@@ -22,7 +26,6 @@
 
     h4 {
       margin-top: 0;
-
     }
 
     p, amp-img, ul {
@@ -31,6 +34,10 @@
 
     > div {
       width: 448px;
+    }
+
+    .shadow {
+      filter: drop-shadow(16px 24px 64px rgba(0, 0, 0, 0.08));
     }
 
   }
