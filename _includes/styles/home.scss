@@ -118,13 +118,9 @@
 
 
     .wrap{
-      display: flex;
       justify-content: space-between;
       width: 604px;
-      flex-wrap: wrap;
-
       margin: 64px auto auto;
-
     }
 
     .splash {
@@ -132,6 +128,23 @@
       bottom: -10px;
       left: 0;
       right: 0;
+    }
+  }
+
+  .steps {
+    .wrap {
+      justify-content: space-between;
+      div {
+        width: 448px;
+        position: relative;
+      }
+    }
+    .splash{
+      left: -120px;
+      position: absolute;
+    }
+    h4 {
+      margin-top: 32px;
     }
   }
 }
