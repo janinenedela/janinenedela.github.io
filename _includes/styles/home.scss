@@ -1,6 +1,11 @@
 .home {
   position: relative;
 
+  section>h2, section>h4 {
+    width: 736px;
+    text-align: center;
+  }
+
   button {
     margin-bottom: 16px;
   }
@@ -66,15 +71,7 @@
 
   .testimonials {
     text-align: center;
-
-
-    h2 {
-      width: 736px;
-    }
-
     .relative {
-      position: relative;
-
       amp-img{
         margin-top: -50px;
       }
@@ -113,6 +110,28 @@
       p {
         margin: 32px 0 0;
       }
+    }
+  }
+
+  .platform {
+    text-align: center;
+
+
+    .wrap{
+      display: flex;
+      justify-content: space-between;
+      width: 604px;
+      flex-wrap: wrap;
+
+      margin: 64px auto auto;
+
+    }
+
+    .splash {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
     }
   }
 }

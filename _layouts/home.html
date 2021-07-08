@@ -165,6 +165,48 @@ styles:
   </section>
 
 
+  <section class="platform relative">
+    <h2>Auf all Deinen Geräten und jeder Plattform</h2>
+    <amp-img src="{{ 'assets/WechselGott/MacbookPro-AlleKonten-noshadow1.png' | relative_url }}"
+             width="928" height="534" layout="intrinsic"
+             alt="MacbookPro-AlleKonten-noshadow1.png">
+      <div placeholder style="background: transparent"></div>
+    </amp-img>
+    <amp-img src="{{ 'assets/WechselGott/Subtract.svg' | relative_url }}"
+             width="1600" height="280"
+             class="splash" layout="responsive"
+             amp-fx="parallax" data-parallax-factor="0"
+             alt="Subtract.svg">
+      <div placeholder style="background: transparent"></div>
+    </amp-img>
+
+    <div class="wrap">
+      <a role="button" href="https://play.google.com/store/apps/details?id=com.wechselgott.app&gl=DE">
+        <amp-img src="{{ 'assets/WechselGott/Playstore-Badge.svg' | relative_url }}"
+                 width="162" height="48"
+                 layout="intrinsic"
+                 alt="Playstore-Badge.svg">
+        </amp-img>
+      </a>
+      <a role="button" href="https://apps.apple.com/us/app/id1477951039">
+        <amp-img src="{{ 'assets/WechselGott/Appstore-Badge.svg' | relative_url }}"
+                 width="144" height="48"
+                 layout="intrinsic"
+                 alt="Appstore-Badge.svg">
+        </amp-img>
+      </a>
+      <a role="button" href="{{ site.cta_href_default }}"
+         {% include data-amp-addparams %}>
+        <amp-img src="{{ 'assets/WechselGott/Webapp-Badge.svg' | relative_url }}"
+                 width="170" height="48"
+                 layout="intrinsic"
+                 alt="Webapp-Badge.svg">
+        </amp-img>
+      </a>
+    </div>
+  </section>
+
+
   <section class="how-it-works"></section>
   <section class="partner"></section>
   <section class="sicherheit"></section>
