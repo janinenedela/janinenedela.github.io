@@ -136,6 +136,7 @@
 
   .steps {
     .wrap {
+      margin-top: 64px;
       justify-content: space-between;
 
       div {
@@ -175,6 +176,8 @@
         &:nth-child(1) {
           display: block;
           position: inherit;
+          width: 928px;
+          margin: auto;
         }
 
         &:nth-child(2) {
@@ -183,7 +186,7 @@
         }
 
         &:nth-child(3) {
-          bottom: 0;
+          bottom: -70px;
           left: 129px;
         }
       }
@@ -192,6 +195,14 @@
     h4{
       margin-top: 93px;
       width: 538px;
+    }
+  }
+
+  .partner {
+    div {
+      display: inline;
+      width: 352px;
+      height: 96px;
     }
   }
 }
