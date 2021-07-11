@@ -1,7 +1,7 @@
 .home {
   position: relative;
 
-  section>h2, section>h4 {
+  section > h2, section > h4 {
     width: 736px;
     text-align: center;
   }
@@ -71,8 +71,9 @@
 
   .testimonials {
     text-align: center;
+
     .relative {
-      amp-img{
+      amp-img {
         margin-top: -50px;
       }
     }
@@ -90,10 +91,12 @@
       &:nth-child(2) {
         top: 64px;
       }
+
       &:nth-child(3) {
         top: 144px;
         right: 0;
       }
+
       &:nth-child(4) {
         top: 408px;
         left: 0;
@@ -117,7 +120,7 @@
     text-align: center;
 
 
-    .wrap{
+    .wrap {
       justify-content: space-between;
       width: 604px;
       margin: 64px auto auto;
@@ -134,17 +137,31 @@
   .steps {
     .wrap {
       justify-content: space-between;
+
       div {
         width: 448px;
         position: relative;
       }
     }
-    .splash{
+
+    .splash {
       left: -120px;
       position: absolute;
     }
+
     h4 {
       margin-top: 32px;
+    }
+  }
+
+  .video {
+    h2 {
+      width: 618px;
+    }
+
+    amp-video {
+      margin-top: 64px;
+      display: block;
     }
   }
 }

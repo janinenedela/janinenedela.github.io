@@ -1,6 +1,6 @@
 ---
 layout: default
-amp-iframe: true
+amp-video: true
 styles:
 - home.scss
 
@@ -285,6 +285,20 @@ styles:
   </section>
 
 
+  <section class="video">
+    <h2>So geht Vertragswechsel heute</h2>
+    <amp-video controls
+               width="928"
+               height="522"
+               layout="intrinsic"
+               poster="{{ 'assets/WechselGott/Logo-WechselGott-Typo-Right.svg' | relative_url }}">
+      <source src="{{ 'assets/WechselGott/Video.mp4' | absolute_url }}"
+              type="video/mp4"/>
+      <div fallback>
+        <p>This browser does not support the video element.</p>
+      </div>
+    </amp-video>
+  </section>
 
   <section class="partner"></section>
   <section class="sicherheit"></section>
