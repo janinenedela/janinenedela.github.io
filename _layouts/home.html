@@ -3,12 +3,13 @@ layout: default
 amp-video: true
 styles:
 - home.scss
+- blog.scss
 
 
 ---
 
 <main role="main" class="home page container">
-  <header class="post-header">
+  <header class="page-header">
     <h1>Garantiert Dein letzter Wechsel!</h1>
     <h3>Dauerhafter Vertragswechsel ohne Aufwand und Papierkram!</h3>
 
@@ -369,6 +370,21 @@ styles:
     </div>
 
   </section>
-  <section class="blog"></section>
+
+  <section class="blog">
+    <h2>Blog</h2>
+    <p>Mit WechselGott holst Du das Beste aus Deinen Verträgen heraus. Entdecke viele weitere Spartipps in unserem
+      Blog. </p>
+
+    {% assign posts = site.posts %}
+    {% assign limit = 3 %}
+    {% include blog-loop.html %}
+
+    <a role="button" class="cta-button" href="{{ 'assets/WechselGott/blog' | relative_url }}"
+       {% include data-amp-addparams %}>
+      <button>Alle Blogartikel</button>
+    </a>
+
+  </section>
 </main>
 {% include splashes.html %}

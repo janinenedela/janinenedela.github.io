@@ -14,7 +14,7 @@
     z-index: -1;
   }
 
-  .post-header {
+  .page-header {
     width: 640px;
     position: relative;
     margin-left: 0;
@@ -27,7 +27,7 @@
     }
   }
 
-  section {
+  > section {
     margin-top: 256px;
   }
 
@@ -241,6 +241,21 @@
 
     p, .cta-button {
       margin-bottom: 0;
+    }
+
+    div {
+      position: relative;
+    }
+  }
+
+  .blog {
+    p {
+      width: 736px;
+      text-align: center;
+    }
+
+    .frame {
+      margin-bottom: 80px;
     }
   }
 }

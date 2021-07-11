@@ -1,0 +1,51 @@
+<div class="frame">
+  {% unless limit %}
+  {% assign limit = site.paginate %}
+  {% endunless %}
+
+  {% for post in posts limit: limit %}
+  {% if post.author and site.data.authors[post.author] %}
+  {% assign author = site.data.authors[post.author] %}
+  {% else %}
+  {% assign author = site.author %}
+  {% endif %}
+  <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url" {% include data-amp-addparams %}>
+    <article itemprop="blogPost" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+      {% if post.coverImage %}
+      {% assign alt = post.coverImage | split: '.' %}
+      <figure>
+        <amp-img height="630px" width="1120px" alt="{{ alt[0] }}" layout="responsive"
+                 src='{{ post.coverImage | prepend: "/assets/post/" | relative_url }}'></amp-img>
+      </figure>
+      {% endif %}
+      <div class="article-item">
+        <header class="post-header">
+          <h4 class="post-title" itemprop="headline">{{ post.title }}</h4>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+          <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        </section>
+        <div class="post-meta">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+          <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ post.date | date: date_format }}
+          </time>
+          <meta itemprop="dateModified"
+                content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }} {% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"/>
+          <meta itemprop="mainEntityOfPage"
+                content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+          <meta itemprop="image" content="{{ author.avatar | prepend: site.baseurl | prepend: site.url }}"/>
+          <meta itemprop="author" content="{{ author.name }}"/>
+          <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+              <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop="url" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}"/>
+              </span>
+              <meta itemprop="name" content="{{ site.title }}"/>
+            </span>
+        </div>
+      </div>
+    </article>
+  </a>
+  {% endfor %}
+</div>
