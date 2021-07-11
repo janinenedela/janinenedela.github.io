@@ -329,7 +329,23 @@ styles:
 
   </section>
 
-  <section class="partner"></section>
+  <section class="partner">
+    <h2>Partner & bekannt aus</h2>
+    <div class="wrap">
+      {% for partner in site.data.partner %}
+      {% if partner.logo %}
+      <div>
+      <amp-img src="{{ partner.logo | prepend: 'assets/WechselGott/partner/' | relative_url }}"
+               width="216" height="26"
+               layout="intrinsic"
+               alt="{{partner.logo}}">
+      </amp-img>
+      </div>
+      {%endif%}
+      {%endfor%}
+    </div>
+
+  </section>
   <section class="sicherheit"></section>
   <section class="blog"></section>
 </main>

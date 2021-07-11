@@ -169,7 +169,8 @@
   .one-place {
 
     div {
-    position: relative;
+      position: relative;
+
       amp-img {
         position: absolute;
 
@@ -192,17 +193,24 @@
       }
     }
 
-    h4{
+    h4 {
       margin-top: 93px;
       width: 538px;
     }
   }
 
   .partner {
-    div {
-      display: inline;
-      width: 352px;
-      height: 96px;
+    .wrap {
+      margin-top: 64px;
+      justify-content: space-between;
+
+      div {
+        max-width: 352px;
+        height: 96px;
+        width: 30%;
+        min-width: 270px;
+        min-width: fit-content;
+      }
     }
   }
 }
