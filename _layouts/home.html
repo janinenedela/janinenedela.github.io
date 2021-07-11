@@ -12,11 +12,8 @@ styles:
     <h1>Garantiert Dein letzter Wechsel!</h1>
     <h3>Dauerhafter Vertragswechsel ohne Aufwand und Papierkram!</h3>
 
-    <a role="button" href="{{ site.cta_href_default }}"
-       {% include data-amp-addparams %}>
-      <button>Jetzt Anmelden</button>
-    </a>
-    <br>
+    {% assign cta = "Jetzt Anmelden" %}
+    {% include cta-button.html %}
     <small>* Für immer kostenlos</small>
 
 
@@ -212,74 +209,74 @@ styles:
     <h4>In wenigen Schritten anmelden und bares Geld sparen</h4>
 
     <div class="wrap">
-        <div>
-          <amp-img src="{{ 'assets/WechselGott/home_step1.svg' | relative_url }}"
-                   width="256" height="256" layout="intrinsic"
-                   alt="home_step1.svg">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
-          <amp-img src="{{ 'assets/WechselGott/1.svg' | relative_url }}"
-                   width="256" height="256"
-                   class="splash" layout="intrinsic"
-                   alt="1">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
+      <div>
+        <amp-img src="{{ 'assets/WechselGott/home_step1.svg' | relative_url }}"
+                 width="256" height="256" layout="intrinsic"
+                 alt="home_step1.svg">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
+        <amp-img src="{{ 'assets/WechselGott/1.svg' | relative_url }}"
+                 width="256" height="256"
+                 class="splash" layout="intrinsic"
+                 alt="1">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
 
-          <h4>Kostenlose Anmeldung</h4>
-          <p>Erstelle kostenlos und völlig unverbindlich deinen WechselGott-Account. Mit der Registrierung gehst du
-            keinerlei Verpflichtungen oder ähnliches ein, versprochen.</p>
-        </div>
-        <div>
-          <amp-img src="{{ 'assets/WechselGott/home_step2.svg' | relative_url }}"
-                   width="256" height="256" layout="intrinsic"
-                   alt="home_step2.svg">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
-          <amp-img src="{{ 'assets/WechselGott/2.svg' | relative_url }}"
-                   width="256" height="256"
-                   class="splash" layout="intrinsic"
-                   alt="2">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
+        <h4>Kostenlose Anmeldung</h4>
+        <p>Erstelle kostenlos und völlig unverbindlich deinen WechselGott-Account. Mit der Registrierung gehst du
+          keinerlei Verpflichtungen oder ähnliches ein, versprochen.</p>
+      </div>
+      <div>
+        <amp-img src="{{ 'assets/WechselGott/home_step2.svg' | relative_url }}"
+                 width="256" height="256" layout="intrinsic"
+                 alt="home_step2.svg">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
+        <amp-img src="{{ 'assets/WechselGott/2.svg' | relative_url }}"
+                 width="256" height="256"
+                 class="splash" layout="intrinsic"
+                 alt="2">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
 
-          <h4>Automatische Vertragserkennung</h4>
-          <p>Verknüpfe Deine Bankkonten sicher und einfach in der WechselGott-App. Deine Verträge und Versicherungen
-            werden im Anschluss automatisch erkannt und mit Tausenden Optionen am Markt verglichen. </p>
-        </div>
-        <div>
-          <amp-img src="{{ 'assets/WechselGott/home_step3.svg' | relative_url }}"
-                   width="256" height="256" layout="intrinsic"
-                   alt="home_step3.svg">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
-          <amp-img src="{{ 'assets/WechselGott/3.svg' | relative_url }}"
-                   width="256" height="256"
-                   class="splash" layout="intrinsic"
-                   alt="3">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
+        <h4>Automatische Vertragserkennung</h4>
+        <p>Verknüpfe Deine Bankkonten sicher und einfach in der WechselGott-App. Deine Verträge und Versicherungen
+          werden im Anschluss automatisch erkannt und mit Tausenden Optionen am Markt verglichen. </p>
+      </div>
+      <div>
+        <amp-img src="{{ 'assets/WechselGott/home_step3.svg' | relative_url }}"
+                 width="256" height="256" layout="intrinsic"
+                 alt="home_step3.svg">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
+        <amp-img src="{{ 'assets/WechselGott/3.svg' | relative_url }}"
+                 width="256" height="256"
+                 class="splash" layout="intrinsic"
+                 alt="3">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
 
-          <h4>Individuelle Tarifempfehlung</h4>
-          <p>WechselGott ermittelt den für Dich und Deinen Bedarf optimalen Vertrag in Sachen Ersparnis. Du kannst nun
-            direkt den Wechsel anstoßen. </p>
-        </div>
-        <div>
-          <amp-img src="{{ 'assets/WechselGott/home_step4.svg' | relative_url }}"
-                   width="256" height="256" layout="intrinsic"
-                   alt="home_step4.svg">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
-          <amp-img src="{{ 'assets/WechselGott/4.svg' | relative_url }}"
-                   width="256" height="256"
-                   class="splash" layout="intrinsic"
-                   alt="4">
-            <div placeholder style="background: transparent"></div>
-          </amp-img>
+        <h4>Individuelle Tarifempfehlung</h4>
+        <p>WechselGott ermittelt den für Dich und Deinen Bedarf optimalen Vertrag in Sachen Ersparnis. Du kannst nun
+          direkt den Wechsel anstoßen. </p>
+      </div>
+      <div>
+        <amp-img src="{{ 'assets/WechselGott/home_step4.svg' | relative_url }}"
+                 width="256" height="256" layout="intrinsic"
+                 alt="home_step4.svg">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
+        <amp-img src="{{ 'assets/WechselGott/4.svg' | relative_url }}"
+                 width="256" height="256"
+                 class="splash" layout="intrinsic"
+                 alt="4">
+          <div placeholder style="background: transparent"></div>
+        </amp-img>
 
-          <h4>Vertragswechsel, wie von selbst</h4>
-          <p>WechselGott kündigt Deinen Altvertrag und übernimmt die komplette Abstimmung mit Deinem neuen
-            Vertragspartner. Du rührst dabei keinen Finger!</p>
-        </div>
+        <h4>Vertragswechsel, wie von selbst</h4>
+        <p>WechselGott kündigt Deinen Altvertrag und übernimmt die komplette Abstimmung mit Deinem neuen
+          Vertragspartner. Du rührst dabei keinen Finger!</p>
+      </div>
     </div>
 
   </section>
@@ -298,6 +295,33 @@ styles:
         <p>This browser does not support the video element.</p>
       </div>
     </amp-video>
+  </section>
+
+  <section class="one-place">
+    <div>
+      <amp-img src="{{ 'assets/WechselGott/Circles.svg' | relative_url }}"
+               width="928" height="928"
+               class="splash" layout="intrinsic"
+               alt="Circles.svg">
+        <div placeholder style="background: transparent"></div>
+      </amp-img>
+      <amp-img src="{{ 'assets/WechselGott/Mockup1.png' | relative_url }}"
+               width="678" height="580"
+               layout="intrinsic"
+               alt="Mockup1.png">
+        <div placeholder style="background: transparent"></div>
+      </amp-img>
+      <amp-img src="{{ 'assets/WechselGott/Phone2.png' | relative_url }}"
+               width="626" height="540"
+               layout="intrinsic"
+               alt="Phone2.png">
+        <div placeholder style="background: transparent"></div>
+      </amp-img>
+    </div>
+    <h4>Vereine all Deine Konten und Verträge
+      am selben Ort.</h4>
+    {% include cta-button.html %}
+
   </section>
 
   <section class="partner"></section>

@@ -6,7 +6,7 @@
     text-align: center;
   }
 
-  button {
+  .cta-button {
     margin-bottom: 16px;
   }
 
@@ -21,9 +21,9 @@
     margin-bottom: 614px;
 
 
-    button {
+    .cta-button {
       margin-top: 64px;
-      margin-bottom: 16px;
+      margin-left: 0;
     }
   }
 
@@ -162,6 +162,36 @@
     amp-video {
       margin-top: 64px;
       display: block;
+    }
+  }
+
+  .one-place {
+
+    div {
+    position: relative;
+      amp-img {
+        position: absolute;
+
+        &:nth-child(1) {
+          display: block;
+          position: inherit;
+        }
+
+        &:nth-child(2) {
+          top: 80px;
+          right: 0;
+        }
+
+        &:nth-child(3) {
+          bottom: 0;
+          left: 129px;
+        }
+      }
+    }
+
+    h4{
+      margin-top: 93px;
+      width: 538px;
     }
   }
 }

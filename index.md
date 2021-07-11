@@ -18,6 +18,10 @@ splashes:
     width: 784
     height: 800
     style: "position: absolute;right: 0;top: 2875px;"
+  - src: assets/WechselGott/Ellipse173.svg
+    width: 800
+    height: 800
+    style: "position: absolute;left: 0;top: 8530px;"
 
 ---
 

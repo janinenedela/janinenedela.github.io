@@ -66,5 +66,9 @@ button, select {
   margin: 1.77777em auto;
   width: fit-content;
   width: -moz-fit-content;
+
+  button {
+    margin: 0;
+  }
 }
 
