@@ -9,7 +9,7 @@ splashes:
   - src: assets/WechselGott/Ellipse161.svg
     width: 800
     height: 800
-    style: "position: absolute;left: 0;top: 343px;"
+    style: "position: absolute;left: -100px;top: 343px;"
   - src: assets/WechselGott/Ellipse173.svg
     width: 495
     height: 495
