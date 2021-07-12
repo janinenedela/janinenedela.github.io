@@ -1,0 +1,41 @@
+.sicherheit .post-content {
+  .wrap {
+    justify-content: space-between;
+    div {
+      width: 544px;
+    }
+  }
+
+  > :nth-child(2).wrap {
+    margin-top: 96px;
+  }
+
+  > :nth-child(1).wrap, > :nth-child(2).wrap {
+    div {
+      width: 745px;
+    }
+
+    amp-img {
+      margin: auto;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .cta {
+    width: 544px;
+    margin: 128px auto auto;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: calc(min(256px, 40vw));
+  }
+
+}
