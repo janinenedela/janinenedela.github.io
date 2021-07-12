@@ -9,6 +9,12 @@ styles:
 ---
 
 <main role="main" class="home page container">
+  <amp-img src="{{ 'assets/WechselGott/IPhone12Pro.png' | relative_url }}"
+           width="543" height="685"
+           class="splash first-img" layout="intrinsic"
+           alt="IPhone12Pro.png">
+    <div placeholder style="background: transparent"></div>
+  </amp-img>
   <header class="page-header">
     <h1>Garantiert Dein letzter Wechsel!</h1>
     <h3>Dauerhafter Vertragswechsel ohne Aufwand und Papierkram!</h3>
@@ -16,16 +22,7 @@ styles:
     {% assign cta = "Jetzt Anmelden" %}
     {% include cta-button.html %}
     <small>* Für immer kostenlos</small>
-
-
   </header>
-  <amp-img src="{{ 'assets/WechselGott/Device1.png' | relative_url }}" width="476" height="651"
-           style="width: calc(min(476px, 100vw)); position: absolute; right: 0; top: 102px; z-index: -1"
-           class="splash" layout="responsive"
-           amp-fx="parallax" data-parallax-factor="0.75"
-           alt="Device1.png">
-    <div placeholder style="background: transparent"></div>
-  </amp-img>
 
 
   <section class="usps">
