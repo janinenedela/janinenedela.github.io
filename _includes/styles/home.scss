@@ -61,7 +61,7 @@
 
     h2 {
       text-align: left;
-      margin: -40px auto -10px auto;
+      margin: -40px auto -10px -10px;
     }
 
     .heading {
@@ -87,6 +87,10 @@
       background: $color-white;
       box-shadow: 0 0 32px rgba(0, 0, 0, 0.08);
       border-radius: 16px;
+
+      h4 {
+        margin-top: 0;
+      }
 
       &:nth-child(2) {
         top: 64px;
