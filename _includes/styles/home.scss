@@ -199,6 +199,7 @@
       @media only screen and (max-width: $mobile-width) {
         position: initial;
         margin-top: -1em;
+        max-width: calc(100vw - 16px * 7);
 
         &:nth-child(3) {
           margin-right: 0;
