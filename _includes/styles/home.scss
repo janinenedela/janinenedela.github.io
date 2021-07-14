@@ -247,6 +247,10 @@
       div {
         width: 448px;
         position: relative;
+
+        @media only screen and (max-width: $mobile-width) {
+          margin: auto;
+        }
       }
     }
 
