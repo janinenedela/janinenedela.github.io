@@ -8,6 +8,12 @@
   position: relative;
 }
 
+figure{
+  img {
+    border-radius: 16px;
+  }
+}
+
 @media only screen and (min-width: $mobile-width) {
   figure {
     position: absolute;
