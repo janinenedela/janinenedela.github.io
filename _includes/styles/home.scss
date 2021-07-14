@@ -152,8 +152,16 @@
     text-align: center;
 
     .relative {
-      amp-img {
-        margin-top: -50px;
+      margin-top: 64px;
+
+      > amp-img {
+        margin-top: -100px;
+        @media only screen and (max-width: $mobile-width) {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          margin-top: 0;
+        }
       }
     }
 
@@ -172,20 +180,33 @@
       }
 
       &:nth-child(2) {
-        top: 64px;
+        top: 0;
       }
 
       &:nth-child(3) {
-        top: 144px;
+        top: 80px;
         right: 0;
       }
 
       &:nth-child(4) {
-        top: 408px;
+        top: 344px;
         left: 0;
         right: 0;
-        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
       }
+
+      @media only screen and (max-width: $mobile-width) {
+        position: initial;
+        margin-top: -1em;
+
+        &:nth-child(3) {
+          margin-right: 0;
+          margin-left: auto;
+          margin-bottom: auto;
+        }
+      }
+
 
       amp-img {
         border-radius: 100%;
@@ -239,6 +260,8 @@
   }
 
   .video {
+    width: 928px;
+
     h2 {
       width: 618px;
     }
