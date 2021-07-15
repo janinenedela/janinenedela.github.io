@@ -329,9 +329,11 @@
 
       div {
         max-width: 352px;
-        height: 96px;
+        height: 17vw;
         width: 30%;
         min-width: 270px;
+        min-height: 50px;
+        max-height: 96px;
       }
 
       amp-img {
