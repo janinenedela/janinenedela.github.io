@@ -233,15 +233,16 @@
 
     .splash {
       position: absolute;
-      bottom: 10px;
+      bottom: 15px;
       left: 0;
       right: 0;
 
       @media only screen and (max-width: $mobile-width) {
         max-width: 100vw;
-        bottom: auto;
+        bottom: unset;
         left: -16px;
         right: -16px;
+        margin-top: -7vw;
       }
     }
 
