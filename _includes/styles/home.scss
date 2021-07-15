@@ -325,14 +325,21 @@
   .partner {
     .wrap {
       margin-top: 64px;
-      justify-content: space-between;
+      justify-content: space-around;
 
       div {
         max-width: 352px;
         height: 96px;
         width: 30%;
         min-width: 270px;
-        min-width: fit-content;
+      }
+
+      amp-img {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        margin: auto;
+        height: fit-content;
       }
     }
   }

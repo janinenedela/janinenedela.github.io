@@ -334,10 +334,10 @@ styles:
     <div class="wrap">
       {% for partner in site.data.partner %}
       {% if partner.logo %}
-      <div>
+      <div class="relative">
         <amp-img src="{{ partner.logo | prepend: 'assets/WechselGott/partner/' | relative_url }}"
-                 width="216" height="26"
-                 layout="intrinsic"
+                 width="{{ partner.width }}" height="{{ partner.height }}"
+                 layout="fixed" style="height:{{ partner.height }}"
                  alt="{{partner.logo}}">
         </amp-img>
       </div>
