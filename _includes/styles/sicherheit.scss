@@ -1,4 +1,4 @@
-.sicherheit .post-content {
+.post-content {
   .wrap {
     justify-content: space-between;
     div {
@@ -6,13 +6,15 @@
     }
   }
 
-  > :nth-child(2).wrap {
-    margin-top: 96px;
+  .wrap.mt {
+    margin-top: 64px;
   }
 
-  > :nth-child(1).wrap, > :nth-child(2).wrap {
+  .wrap.with-image {
     div {
       width: 745px;
+      margin-top: auto;
+      margin-bottom: auto;
     }
 
     amp-img {
@@ -38,4 +40,13 @@
     margin-top: calc(min(256px, 40vw));
   }
 
+  .safety {
+    amp-img {
+      margin-top: 64px;
+      margin-bottom: 32px;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
 }

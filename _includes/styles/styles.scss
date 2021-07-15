@@ -97,6 +97,10 @@ p {
   margin-bottom: calc(min(2rem, 5vw));
 }
 
+.mb {
+  margin-bottom: calc(min(256px, 40vw));
+}
+
 .color-secondary {
   color: $color-secondary;
 }
