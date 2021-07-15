@@ -49,9 +49,9 @@ button, select {
   }
 
   &.stroke {
-    border: 2px solid $color-primary;
+    border: 2px solid $color-secondary;
     background: transparent;
-    color: $color-primary
+    color: $color-secondary
   }
 
   &.grey {
@@ -71,5 +71,9 @@ button, select {
   button {
     margin: 0;
   }
+}
+
+.ampstart-headerbar-logo {
+  text-decoration: none;
 }
 
