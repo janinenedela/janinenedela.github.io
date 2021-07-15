@@ -23,6 +23,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 color:
   primary: "#3FD298"
   secondary: "#1DBAB1"
+  hover: "#1FC7BD"
+  active: "#1BADA5"
 
 logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
 defaultHeaderImage:

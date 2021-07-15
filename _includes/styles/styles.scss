@@ -9,6 +9,8 @@ $color-white: #FFF;
 $color-black: #4C4C4C;
 $color-primary: {% if page.color.primary %} {{page.color.primary}} {% else %} {{site.color.primary}} {% endif %};
 $color-secondary: {% if page.color.secondary %} {{page.color.secondary}} {% else %} {{site.color.secondary}} {% endif %};
+$color-hover: {% if page.color.hover %} {{page.color.hover}} {% else %} {{site.color.hover}} {% endif %};
+$color-active: {% if page.color.active %} {{page.color.active}} {% else %} {{site.color.active}} {% endif %};
 $color-body-background: #FAFAFA;
 
 

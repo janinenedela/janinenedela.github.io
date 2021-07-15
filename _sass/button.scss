@@ -37,13 +37,14 @@ button, select {
   max-width: 100%;
 
   &:hover, &:focus {
-    background-color: $color-darkblue;
+    background-color: $color-hover;
     color: $color-white;
     text-decoration: none;
     cursor: pointer;
   }
 
   &:active {
+    background-color: $color-active;
     opacity: .5;
   }
 
