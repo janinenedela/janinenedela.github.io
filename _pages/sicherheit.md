@@ -1,6 +1,6 @@
 ---
 layout: sicherheit
 title: Sicherheit
-permalink: /sicherheit
+permalink: /datenschutz-sicherheit
 ---
 
