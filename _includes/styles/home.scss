@@ -141,10 +141,14 @@
     h2 {
       text-align: left;
       margin: -40px auto -10px -10px;
+      @media only screen and (max-width: $mobile-width) {
+        margin-left: auto;
+        text-align: center;
+      }
     }
 
     .heading {
-      font-size: calc(min(120px, 8vw));
+      font-size: calc(min(120px, 11.5vw));
     }
   }
 
