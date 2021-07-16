@@ -1,4 +1,4 @@
-.home .page{
+.home .page {
   position: relative;
 
   .first-img {
@@ -290,29 +290,15 @@
   }
 
   .one-place {
-
-    div {
+    > amp-img {
+      display: block;
       position: relative;
+      width: 928px;
+      margin: auto;
 
-      amp-img {
+      > amp-img {
         position: absolute;
-
-        &:nth-child(1) {
-          display: block;
-          position: inherit;
-          width: 928px;
-          margin: auto;
-        }
-
-        &:nth-child(2) {
-          top: 80px;
-          right: 0;
-        }
-
-        &:nth-child(3) {
-          bottom: -70px;
-          left: 129px;
-        }
+        z-index: 1;
       }
     }
 
