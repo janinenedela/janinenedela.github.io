@@ -21,11 +21,12 @@ Werner Kräutlein
 ### Kontakt
 
 Telefon: [+49 (0) 202 2515 57269](tel:+49202251557269)
-<br>
-E-Mail: [kundenservice@wechselgott.com](mailto:kundenservice@wechselgott.com)
-<br>
-Business-Anfragen: [info@wechselgott.com](mailto:info@wechselgott.com)
-
+<amp-script script="mailscript" width="500" height="60">
+<p>E-Mail: <a href="">kundenservicełwechselgott.com</a></p>
+</amp-script>
+<amp-script script="mailscript" width="500" height="60">
+<p>Business-Anfragen: <a href="">infołwechselgott.com</a></p>
+</amp-script>
 <br>
 <br>
 
@@ -45,8 +46,10 @@ Wechselgott GmbH <br>
 Spinnereistr. 7 <br>
 04179 Leipzig <br>
 Telefon +49 (0) 202 2515 57269 <br>
-E-Mail: info@wechselgott.com <br>
-Internet: www.wechselgott.de
+<amp-script script="mailscript" width="500" height="40">
+<p>E-Mail: <a href="">infołwechselgott.com</a></p>
+</amp-script>
+Internet: [www.wechselgott.de](www.wechselgott.de)
 
 Geschäftsführer <br>
 Werner Kräutlein
@@ -100,8 +103,11 @@ Kundenbeschwerden
 Beschwerdewege Für den Fall, dass Sie als Kunde mit unseren Leistungen unzufrieden sind und sich beschweren möchten,
 können Sie jederzeit mit unserem Unternehmen über folgende Wege Kontakt aufnehmen:
 
-Per E-Mail an folgende Adresse:info@wechselgott.com Per Brief an folgende Adresse: Wechselgott GmbH, Spinnereistr. 7,
-Halle 20E, 04179 Leipzig  <br>
+<amp-script script="mailscript" width="800" height="70">
+<p>Per E-Mail an folgende Adresse: <a>infołwechselgott.com</a></p>
+</amp-script>
+Per Brief an folgende Adresse: Wechselgott GmbH, Spinnereistr. 7,
+Halle 20E, 04179 Leipzig
 Ab diesem Zeitpunkt steht Ihnen als Kunde ein zentraler Ansprechpartner für Ihre Beschwerde zur
 Verfügung. Für die Einreichung einer Beschwerde sowie deren Bearbeitung fallen keine Kosten oder Gebühren für Sie an.
 

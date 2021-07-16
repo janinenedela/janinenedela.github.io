@@ -20,8 +20,10 @@ Datenschutzgrundverordnung (DSGVO) verwenden.
 
 Wechselgott GmbH (Impressum).
 
-Sie erreichen unseren Datenschutzbeauftragten unter datenschutz@wechselgott.com.
-
+Sie erreichen unseren Datenschutzbeauftragten unter 
+<amp-script script="mailscript" width="500" height="37">
+<p><a href="">datenschutzłwechselgott.com</a></p>
+</amp-script>
 
 <br>
 <br>
