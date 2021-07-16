@@ -23,11 +23,16 @@
 
   a {
     text-decoration: none;
-    margin: 32px;
+    margin: auto;
   }
 
   .ampstart-headerbar-logo {
     width: 200px;
+    margin-left: 32px;
+  }
+
+  .cta-button{
+    margin-right: 32px;
   }
 
   ul {
@@ -59,12 +64,13 @@
     }
 
     .ampstart-headerbar-logo {
-      width: 99px;
+      width: 132px;
+      margin-left: 20px;
     }
 
     height: 64px;
 
-    a, div[role="button"] {
+    .ampstart-navbar-trigger {
       margin: 20px;
     }
   }
