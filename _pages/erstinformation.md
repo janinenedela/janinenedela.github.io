@@ -19,10 +19,10 @@ Spinnereistr. 7
 <br>
 04179 Leipzig 
 Telefon 0176 – 61330780
-<amp-script script="mailscript" width="500" height="40">
-<p>E-Mail: <a href="">infołwechselgott.com</a></p>
-</amp-script>
-Internet: [www.wechselgott.de](www.wechselgott.de)
+<br>
+E-Mail: info@wechselgott.com
+<br>
+Internet: www.wechselgott.de
 
 <br>
 <br>
@@ -95,10 +95,7 @@ Stimmrechten oder am Kapital der Wechselgott GmbH
 Für den Fall, dass Sie als Kunde mit unseren Leistungen unzufrieden sind und sich beschweren möchten, können Sie
 jederzeit mit unserem Unternehmen über folgende Wege Kontakt aufnehmen:
 
-<amp-script script="mailscript" width="800" height="70">
-<p>Per E-Mail an folgende Adresse: <a>infołwechselgott.com</a></p>
-</amp-script>
-Per Brief an folgende Adresse: Wechselgott GmbH, Spinnereistr. 7,
+Per E-Mail an folgende Adresse:info@wechselgott.com Per Brief an folgende Adresse: Wechselgott GmbH, Spinnereistr. 7,
 Halle 20E, 04179 Leipzig
 <br>
 Ab diesem Zeitpunkt steht Ihnen als Kunde ein zentraler Ansprechpartner für Ihre Beschwerde zur

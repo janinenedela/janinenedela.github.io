@@ -54,9 +54,7 @@
           <br>
           {% endif %}
           {% if site.email %}
-          <amp-script script="mailscript" width="500" height="25">
-            E-Mail: <a href="" target="_blank">{{ site.email | split: "@" | join: "ł"}}</a>
-          </amp-script>
+          E-Mail: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a>
           {% endif %}
       {%- include social.html -%}
       </div>
@@ -64,9 +62,3 @@
   </section>
 </footer>
 <!-- End Footer -->
-<script id="mailscript" type="text/plain" target="amp-script">
-  const a = document.querySelector('a');
-  const mail = a.textContent.split('ł').join('@');
-  a.href = 'mailto:' + mail;
-  a.textContent = mail
-</script>
