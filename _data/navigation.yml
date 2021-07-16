@@ -2,7 +2,7 @@ header:
   - title: "Über uns"
     url: /experten-2
   - title: "Sicherheit"
-    url: /sicherheit
+    url: /datenschutz-sicherheit
   - title: "Kosten"
     url: /kosten
 
@@ -16,7 +16,7 @@ footer:
   - title: "Registrierung"
     url: https://app.wechselgott.com
   - title: "Sicherheit"
-    url: /sicherheit
+    url: /datenschutz-sicherheit
 
 legal:
   - title: "AGB"
