@@ -1,5 +1,5 @@
 ---
-title: "Warum dich dein Coffee-to-go 10.000 Euro kostet"
+title: "Warum dich Dein Coffee-to-go 10.000 Euro kostet"
 date: "2019-02-03"
 categories: 
   - "sparen"
@@ -12,7 +12,7 @@ Immer wieder höre ich von Freunden oder Bekannten, wo denn ihr ganzes Geld gebl
 
 ## Das Sparpotenzial liegt in den Kleinausgaben
 
-Manchmal kann es helfen, die eigenen täglichen Gewohnheiten und Ausgaben kritisch zu hinterfragen und somit völlig neues Sparpotenzial zu entdecken. Denn seien wir doch mal ehrlich. Wer möchte nicht ein kleines Polster an Rücklagen für später oder schlechte Zeiten sein eigen wissen. Mit kleinen Veränderungen im Alltag kannst du auf Dauer viel Geld sparen und für eine langfristige Anlage einsetzen, bei der am Ende richtig viel für dich hängen bleibt.
+Manchmal kann es helfen, die eigenen täglichen Gewohnheiten und Ausgaben kritisch zu hinterfragen und somit völlig neues Sparpotenzial zu entdecken. Denn seien wir doch mal ehrlich. Wer möchte nicht ein kleines Polster an Rücklagen für später oder schlechte Zeiten sein eigen wissen. Mit kleinen Veränderungen im Alltag kannst Du auf Dauer viel Geld sparen und für eine langfristige Anlage einsetzen, bei der am Ende richtig viel für dich hängen bleibt.
 
 ## Die 752 Regel
 
@@ -28,8 +28,8 @@ Die Rechnung kann man auch leicht auf größere Anschaffungen wie z. B. den Aut
 
 ## Der Zinseszins-Effekt
 
-Diese hohe Summe wird durch den Zinseszins-Effekt möglich, welcher nach vielen Jahren Laufzeit eine immense Wirkung entfaltet. Auf diese Art und Weise wächst das Vermögen des Mittzwanzigers über die Zeit auf eine hübsche Summe an. Du siehst also, der Zinseszins-Effekt kann selbst kleine Zahlungen in hohe Sparsummen verwandeln. Natürlich braucht man hierfür Geduld. Wer jedoch früh beginnt selbst die kleinen Werte bei Seite zu legen, kann sich später auf hohe Beträge freuen. Mein Tipp also, fang heute schon an die kleinen Ausgaben deines Alltags zu hinterfragen und falls du auf diese verzichten oder diese reduzieren kannst, verwende das eingesparte Kapital zum Anlegen für später.
+Diese hohe Summe wird durch den Zinseszins-Effekt möglich, welcher nach vielen Jahren Laufzeit eine immense Wirkung entfaltet. Auf diese Art und Weise wächst das Vermögen des Mittzwanzigers über die Zeit auf eine hübsche Summe an. Du siehst also, der Zinseszins-Effekt kann selbst kleine Zahlungen in hohe Sparsummen verwandeln. Natürlich braucht man hierfür Geduld. Wer jedoch früh beginnt selbst die kleinen Werte bei Seite zu legen, kann sich später auf hohe Beträge freuen. Mein Tipp also, fang heute schon an die kleinen Ausgaben Deines Alltags zu hinterfragen und falls Du auf diese verzichten oder diese reduzieren kannst, verwende das eingesparte Kapital zum Anlegen für später.
 
 
-Wir wollen, dass du so viel wie möglich aus deinem Einkommen herausholen kannst. Wechsle jährlich vollautomatisch zum günstigeren Strom- und Gasabieter. wechselGott übernimmt die komplette Tarifrecherche, die Kündigung deines bestehenden Vertrages und den Wechsel zu deinem neuen Tarifpartner. Nutze wechselGott und sichere dir beste Konditionen ohne manuellen Aufwand. It´s time for a change!
+Wir wollen, dass Du so viel wie möglich aus Deinem Einkommen herausholen kannst. Wechsle jährlich vollautomatisch zum günstigeren Strom- und Gasabieter. wechselGott übernimmt die komplette Tarifrecherche, die Kündigung Deines bestehenden Vertrages und den Wechsel zu Deinem neuen Tarifpartner. Nutze wechselGott und sichere Dir beste Konditionen ohne manuellen Aufwand. It´s time for a change!
 

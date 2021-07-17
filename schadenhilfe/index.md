@@ -1,7 +1,7 @@
 ---
 layout: partner 
 title: Garantiert Dein letzter Wechsel!
-subtitle: Dauerhafter Vertragswechsel ohne Aufwand und Papierkram - jetzt mit er WechselGott-App!
+subtitle: Dauerhafter Vertragswechsel ohne Aufwand oder Papierkram - jetzt mit er WechselGott-App!
 
 ---
 

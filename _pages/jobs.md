@@ -15,5 +15,5 @@ entwickeln? Dir ist es wichtig von einem jungen, motivierten Team umgeben zu sei
 Hierachien und einer sehr offenen und modernen Unternehmenskultur?
 
 Dann schau doch einfach mal durch unsere offenen Stellen! Wir freuen uns von Dir zu hören! Wir freuen uns Dich
-kennenzulernen. Sende uns eine Übersicht deiner göttlichen Talente (gerne auch als Initiativbewerbung) an unseren
+kennenzulernen. Sende uns eine Übersicht Deiner göttlichen Talente (gerne auch als Initiativbewerbung) an unseren
 Personalleiter Patrick. Wir melden uns schnellstmöglich mit weiteren Informationen bei Dir.

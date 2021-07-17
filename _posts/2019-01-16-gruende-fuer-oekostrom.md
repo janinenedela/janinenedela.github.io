@@ -24,10 +24,10 @@ Als Stromkunde musst du dabei nicht tatenlos zusehen, denn du hast die Wahl mit 
 
 ## Ökostrom muss nicht teuer sein
 
-Selbst Strom aus regenerativen Energiequellen ist häufig preiswerter als der Basistarif des örtlichen Grundversorgers. So ein Ökostromtarif schont also nicht nur deinen Geldbeutel, sondern auch das Klima und trägt zur Energiewende bei.  
+Selbst Strom aus regenerativen Energiequellen ist häufig preiswerter als der Basistarif des örtlichen Grundversorgers. So ein Ökostromtarif schont also nicht nur Deinen Geldbeutel, sondern auch das Klima und trägt zur Energiewende bei.  
 
 ## Ökostrom ist aber nicht gleich Ökostrom!
 
 
-Wir hoffen, wir konnten euch mit diesem Beitrag ein paar wertvolle Tipps geben und vielleicht konnten wir dich ja von Ökostrom überzeugen. Du möchtest vollautomatisch und jedes Jahr aufs neue deinen Stromanbieter wechseln? Mit unserem automatischen Wechselservice übernehmen wir die komplette Tarifrecherche, die Kündigung deines bestehenden Vertrages und den Wechsel zu deinem neuen Tarifpartner. Nutze wechselGott und sichere dir beste Konditionen ohne manuellen Aufwand. It´s time for a change!
+Wir hoffen, wir konnten euch mit diesem Beitrag ein paar wertvolle Tipps geben und vielleicht konnten wir dich ja von Ökostrom überzeugen. Du möchtest vollautomatisch und jedes Jahr aufs neue Deinen Stromanbieter wechseln? Mit unserem automatischen Wechselservice übernehmen wir die komplette Tarifrecherche, die Kündigung Deines bestehenden Vertrages und den Wechsel zu Deinem neuen Tarifpartner. Nutze wechselGott und sichere Dir beste Konditionen ohne manuellen Aufwand. It´s time for a change!
 
