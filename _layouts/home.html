@@ -16,8 +16,8 @@ styles:
     <div placeholder style="background: transparent"></div>
   </amp-img>
   <header class="page-header">
-    <h1>Garantiert Dein letzter Wechsel!</h1>
-    <h3>Dauerhafter Vertragswechsel ohne Aufwand und Papierkram!</h3>
+    <h1>{{ page.title }}</h1>
+    <h3>{{ page.subtitle }}</h3>
 
     {% assign cta = "Jetzt Anmelden" %}
     {% include cta-button.html %}
@@ -318,67 +318,11 @@ styles:
 
       </amp-img>
 
-    <h4>Vereine all Deine Konten und Verträge
-      am selben Ort.</h4>
+    <h4>Vereine all Deine Konten und Verträge am selben Ort.</h4>
     {% include cta-button.html %}
 
   </section>
 
-  <section class="partner">
-    <h2>Partner & bekannt aus</h2>
-    <div class="wrap">
-      {% for partner in site.data.partner %}
-      {% if partner.logo %}
-      <div class="relative">
-        <amp-img src="{{ partner.logo | prepend: 'assets/WechselGott/partner/' | relative_url }}"
-                 width="{{ partner.width }}" height="{{ partner.height }}"
-                 layout="fixed" style="height:{{ partner.height }}"
-                 alt="{{partner.logo}}">
-        </amp-img>
-      </div>
-      {%endif%}
-      {%endfor%}
-    </div>
-
-  </section>
-
-  <section class="sicherheit wrap">
-    <div>
-      <h2>Datensicherheit</h2>
-      <h4>Unsere Philosophie: Privacy by Design</h4>
-      <p>Aufgrund der Wichtigkeit von Datensicherheit im Umgang mit sensiblen Finanzdaten binden wir in jedem
-        Entwicklungsschritt Sicherheits- und Datenschutzbeauftragte mit ein. So können wir garantieren, dass alle
-        wesentlichen Sicherheitsstandards eingehalten werden.</p>
-    </div>
-
-    <div>
-      <amp-img src="{{ 'assets/WechselGott/Group-2230.png' | relative_url }}"
-               width="288" height="208"
-               layout="intrinsic"
-               alt="Group-2230.png">
-      </amp-img>
-      <a role="button" class="cta-button" href="{{ 'assets/WechselGott/sicherheit' | relative_url }}"
-         {% include data-amp-addparams %}>
-        <button>Mehr dazu</button>
-      </a>
-    </div>
-
-  </section>
-
-  <section class="blog">
-    <h2>Blog</h2>
-    <p>Mit WechselGott holst Du das Beste aus Deinen Verträgen heraus. Entdecke viele weitere Spartipps in unserem
-      Blog. </p>
-
-    {% assign posts = site.posts %}
-    {% assign limit = 3 %}
-    {% include blog-loop.html %}
-
-    <a role="button" class="cta-button" href="{{ '/blog' | relative_url }}"
-       {% include data-amp-addparams %}>
-      <button>Alle Blogartikel</button>
-    </a>
-
-  </section>
+  {{ content }}
 </main>
 {% include splashes.html %}

@@ -1,0 +1,84 @@
+---
+layout: home
+title: Garantiert Dein letzter Wechsel!
+subtitle: Dauerhafter Vertragswechsel ohne Aufwand und Papierkram!
+splashes:
+  - src: assets/WechselGott/Ellipse159.svg
+    width: 495
+    height: 495
+    style: "position: absolute;right: 0;top: 166px;"
+  - src: assets/WechselGott/Ellipse161.svg
+    width: 800
+    height: 800
+    style: "position: absolute;left: -100px;top: 343px;"
+  - src: assets/WechselGott/Ellipse173.svg
+    width: 495
+    height: 495
+    style: "position: absolute;left: 0;top: 2168px;"
+  - src: assets/WechselGott/Frame2283.svg
+    width: 784
+    height: 800
+    style: "position: absolute;right: 0;top: 2875px;"
+  - src: assets/WechselGott/Ellipse173.svg
+    width: 800
+    height: 800
+    style: "position: absolute;left: 0;top: 8530px;"
+
+---
+
+<section class="partner">
+  <h2>Partner & bekannt aus</h2>
+  <div class="wrap">
+    {% for partner in site.data.partner %}
+    {% if partner.logo %}
+    <div class="relative">
+      <amp-img src="{{ partner.logo | prepend: 'assets/WechselGott/partner/' | relative_url }}"
+               width="{{ partner.width }}" height="{{ partner.height }}"
+               layout="fixed" style="height:{{ partner.height }}"
+               alt="{{partner.logo}}">
+      </amp-img>
+    </div>
+    {%endif%}
+    {%endfor%}
+  </div>
+
+</section>
+
+<section class="sicherheit wrap">
+  <div>
+    <h2>Datensicherheit</h2>
+    <h4>Unsere Philosophie: Privacy by Design</h4>
+    <p>Aufgrund der Wichtigkeit von Datensicherheit im Umgang mit sensiblen Finanzdaten binden wir in jedem
+      Entwicklungsschritt Sicherheits- und Datenschutzbeauftragte mit ein. So können wir garantieren, dass alle
+      wesentlichen Sicherheitsstandards eingehalten werden.</p>
+  </div>
+
+  <div>
+    <amp-img src="{{ 'assets/WechselGott/Group-2230.png' | relative_url }}"
+             width="288" height="208"
+             layout="intrinsic"
+             alt="Group-2230.png">
+    </amp-img>
+    <a role="button" class="cta-button" href="{{ 'assets/WechselGott/sicherheit' | relative_url }}"
+       {% include data-amp-addparams %}>
+      <button>Mehr dazu</button>
+    </a>
+  </div>
+
+</section>
+
+<section class="blog">
+  <h2>Blog</h2>
+  <p>Mit WechselGott holst Du das Beste aus Deinen Verträgen heraus. Entdecke viele weitere Spartipps in unserem
+    Blog. </p>
+
+  {% assign posts = site.posts %}
+  {% assign limit = 3 %}
+  {% include blog-loop.html %}
+
+  <a role="button" class="cta-button" href="{{ '/blog' | relative_url }}"
+     {% include data-amp-addparams %}>
+    <button>Alle Blogartikel</button>
+  </a>
+
+</section>
