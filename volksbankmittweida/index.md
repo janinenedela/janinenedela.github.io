@@ -1,7 +1,7 @@
 ---
 layout: partner 
 title: Morgen kann kommen 
-subtitle: Wir machen den Weh frei mit der WechselGott App!
+subtitle: Wir machen den Weg frei mit der WechselGott App!
 
 ---
 
