@@ -61,7 +61,7 @@
   {% if page.script-hash %}
   <meta name="amp-script-src" content="{{page.script-hash}}"/>
   {% endif %}
-  {% if page.amp-fx-collection or layout.amp-fx-collection or page.splashes %}
+  {% if page.amp-fx-collection or layout.amp-fx-collection or page.splashes or layout.splashes %}
   <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
   {% endif %}
   {% if page.amp-video or layout.amp-video %}
