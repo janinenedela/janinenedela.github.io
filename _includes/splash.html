@@ -1,0 +1,22 @@
+{% assign src = item.src | split: '.' %}
+{% if src[1] != "svg" %}
+<amp-img src="{{ src[0] | append: '.webp' | relative_url }}" width="{{ item.width }}" height="{{ item.height }}"
+         style="width: calc(min({{item.width}}px, 100vw)); {{ item.style }}" class="splash" layout="responsive"
+         amp-fx="parallax" data-parallax-factor="0.75"
+         alt=" {{ item.src }}" media="(max-width: 940px)">
+  <amp-img src="{{ item.src | relative_url }}" width="{{ item.width }}" height="{{ item.height }}"
+           style="width: calc(min({{item.width}}px, 100vw)); {{ item.style }}" class="splash" layout="responsive"
+           amp-fx="parallax" data-parallax-factor="0.75"
+           alt=" {{ item.src }}" media="(min-width: 941px)" fallback></amp-img>
+
+  <div placeholder style="background: transparent"></div>
+</amp-img>
+{% else %}
+<amp-img src="{{ item.src | relative_url }}" width="{{ item.width }}" height="{{ item.height }}"
+         style="width: calc(min({{item.width}}px, 100vw)); {{ item.style }}" class="splash" layout="responsive"
+         amp-fx="parallax" data-parallax-factor="0.75"
+         alt=" {{ item.src }}"
+         {% if src[1] !="svg" %}media="(min-width: 941px)" {% endif %}>
+  <div placeholder style="background: transparent"></div>
+</amp-img>
+{% endif %}
