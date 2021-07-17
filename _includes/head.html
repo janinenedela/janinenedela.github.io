@@ -101,7 +101,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon/favicon-16x16.png' | relative_url }}">
   <link rel="manifest" href="{{ 'assets/favicon/manifest.json' | relative_url }}">
   <link rel="mask-icon" href="{{ 'assets/favicon/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
-  <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+  <link rel="shortcut icon" href="{{ 'assets/favicon/favicon.ico' | relative_url }}">
   <meta name="apple-mobile-web-app-title" content="{{ site.short_name | escape }}">
   <meta name="application-name" content="{{ site.short_name | escape }}">
   <meta name="msapplication-TileColor" content="{% if page.color.secondary %}{{page.color.secondary}}{% else %}{{site.color.secondary}}{% endif %}">
