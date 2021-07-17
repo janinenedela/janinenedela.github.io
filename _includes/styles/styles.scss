@@ -58,7 +58,7 @@ button, .button, .ampstart-headerbar {
 
 h1,h2,h3,h4,h5,
 .h1,.h2,.h3,.h4,.h5,
-button, .ampstart-headerbar, .heading{
+button, .ampstart-headerbar, .ampstart-sidebar, .heading{
   font-family: $font-family--heading;
   font-weight: 700;
   line-height: 123%;
@@ -68,11 +68,11 @@ h1, .h1 {
   font-size: calc(min(72px, 8vw));
   line-height: 134%;
   margin: calc(min(2rem, 5vw)) auto;
-  color: $color-secondary;
+  color: $color-black;
 }
 
 h2, .h2 {
-  font-size: calc(min(48px, 8vw));
+  font-size: calc(min(48px, 7vw));
   margin: calc(min(2rem, 5vw)) auto;
 
 }

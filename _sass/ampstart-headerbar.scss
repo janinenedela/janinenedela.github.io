@@ -1,7 +1,7 @@
 .ampstart-headerbar {
   height: $height-header;
   color: $color-gray_5;
-  background: $color-body-background;
+  background: $color-white;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
   position: fixed;
   top: 0;
@@ -80,21 +80,24 @@
   backdrop-filter: blur(32px);
 
   .ampstart-faq-item {
-    margin: 32px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 54px;
+    a {
+      display: block;
+      padding: 1rem;
+    }
   }
 
   ul {
     list-style: none;
     text-align: center;
     padding: 0;
-    margin-bottom: 100px;
     position: absolute;
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
+    margin: auto;
+    height: 400px;
+    height: fit-content;
   }
 
   a {
@@ -171,7 +174,7 @@
 }
 
 body div[aria-hidden="true"] {
-  background: $color-body-background;
+  background: $color-white;
   backdrop-filter: blur(32px);
   z-index: 1;
 }
