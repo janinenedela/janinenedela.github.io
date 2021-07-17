@@ -1,6 +1,7 @@
 header:
   - title: "Über uns"
     url: /experten-2
+    noPartner: True
   - title: "Sicherheit"
     url: /datenschutz-sicherheit
   - title: "Kosten"
@@ -9,12 +10,15 @@ header:
 footer:
   - title: "Über uns"
     url: /experten-2
+    noPartner: True
   - title: "Presse"
     url: /presse
   - title: "Blog"
     url: /blog
+    noPartner: True
   - title: "Registrierung"
     url: https://app.wechselgott.com
+    isLink: True
   - title: "Sicherheit"
     url: /datenschutz-sicherheit
 

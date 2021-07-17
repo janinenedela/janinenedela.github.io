@@ -7,8 +7,11 @@
         <nav>
           <ul>
             {% for link in site.data.navigation.footer %}
-            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item"
+            {% unless partner and link.noPartner %}
+            <li><a href="{% if link.isLink %}{{ link.url }}{%else%}{{ link.url | prepend: partner | relative_url }}{%endif%}"
+                   rel="noopener" class="masthead__menu-item"
                    {% include data-amp-addparams %}>{{ link.title }}</a></li>
+            {% endunless %}
             {% endfor %}
           </ul>
         </nav>
@@ -19,8 +22,13 @@
         <nav>
           <ul>
             {% for link in site.data.navigation.legal %}
-            <li><a href="{{ link.url }}" rel="noopener" class="masthead__menu-item"
+            {% unless partner and link.noPartner %}
+            {{link.isLink}}
+
+            <li><a href="{% if link.isLink %}{{ link.url }}{%else%}{{ link.url | prepend: partner | relative_url }}{%endif%}"
+                   rel="noopener" class="masthead__menu-item"
                    {% include data-amp-addparams %}>{{ link.title }}</a></li>
+            {% endunless %}
             {% endfor %}
           </ul>
         </nav>

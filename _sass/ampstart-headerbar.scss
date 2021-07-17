@@ -27,7 +27,6 @@
   }
 
   .ampstart-headerbar-logo {
-    width: 200px;
     margin-left: 32px;
   }
 
@@ -37,8 +36,7 @@
 
   ul {
     font-size: 1.125rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     grid-gap: 64px;
     list-style: none;
     padding: 0;
@@ -64,7 +62,6 @@
     }
 
     .ampstart-headerbar-logo {
-      width: 132px;
       margin-left: 20px;
     }
 

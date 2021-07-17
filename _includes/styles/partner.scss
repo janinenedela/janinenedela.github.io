@@ -1,0 +1,9 @@
+.partner .page {
+  .this-partner {
+    width: 736px;
+
+    amp-img {
+      margin-bottom: calc(min(2rem, 5vw));
+    }
+  }
+}
