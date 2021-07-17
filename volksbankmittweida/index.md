@@ -2,9 +2,10 @@
 layout: partner 
 title: Morgen kann kommen 
 subtitle: Wir machen den Weh frei mit der WechselGott App!
-logo: volksbankmittweida.svg
 
 ---
+
+#### Volksbank Mitweida eG und WechselGott
 
 Als zukunftsorientierte und innovative Bank bietet die Volksbank Mittweida ihren Kunden mit der vollautomatischen
 Vertragsoptimierung durch WechselGott modernsten und zeitgemäßen Service.
