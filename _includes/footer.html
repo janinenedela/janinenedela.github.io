@@ -52,7 +52,7 @@
           <br>
 
           {% if site.tel %}
-          Telefon: <a href="tel:{{ site.tel }}" target="_blank">{{ site.tel }}</a>
+          Telefon: <a href="tel:{{ site.tel | replace: '+', '00' | replace: ' ', '' | replace: '-', '' }}" target="_blank">{{ site.tel }}</a>
           <br>
           {% endif %}
           {% if site.whatsapp %}
