@@ -17,8 +17,7 @@ footer:
     url: /blog
     noPartner: True
   - title: "Registrierung"
-    url: https://app.wechselgott.com
-    isLink: True
+    isCTA: True
   - title: "Sicherheit"
     url: /datenschutz-sicherheit
 

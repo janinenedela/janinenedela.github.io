@@ -1,16 +1,8 @@
-{% assign cta_default = 'Anmelden' %}
-{% assign cta_href_default = site.cta_href_default %}
-
-{% unless cta %}
-  {% assign cta = cta_default %}
-{% endunless %}
-{% unless cta_href %}
-  {% assign cta_href = cta_href_default %}
-{% else %}
-  {% assign cta_href = cta_href | prepend: site.baseurl %}
-{% endunless %}
+{% assign cta_text = cta_text | default: site.cta_text_default %}
+{% assign cta_href = cta_href | default: page.cta_href_default | default: site.cta_href_default %}
 
 <a role="button" class="cta-button" href={{ cta_href }}
    {% include data-amp-addparams %}>
-  <button>{{ cta }}</button>
+  <button>{{ cta_text }}</button>
 </a>
+

@@ -28,6 +28,7 @@ color:
 
 logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
 defaultHeaderImage:
+cta_text_default: "Anmelden"
 cta_href_default: "https://app.wechselgott.com"
 
 amp-link-variable-allowed-origin: "https://app.wechselgott.com"
@@ -144,6 +145,7 @@ include:
   - _pages
 
 exclude:
+  - .idea/
   - script
   - src
   - screenshot.png

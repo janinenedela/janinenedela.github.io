@@ -2,6 +2,7 @@
 layout: partner 
 title: Morgen kann kommen 
 subtitle: Wir machen den Weg frei mit der WechselGott App!
+cta_href_default: https://wechselgott.page.link/hgn
 
 ---
 

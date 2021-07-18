@@ -39,7 +39,7 @@ splashes:
     <h1>{{ page.title }}</h1>
     <h3>{{ page.subtitle }}</h3>
 
-    {% assign cta = "Jetzt Anmelden" %}
+    {% assign cta_text= "Jetzt Anmelden" %}
     {% include cta-button.html %}
     <small>* Für immer kostenlos</small>
   </header>
@@ -105,10 +105,7 @@ splashes:
   </section>
   <div style="width: 544px; margin: auto;text-align:center;">
     <h4 style="margin-bottom: 32px;">Wir möchten es Dir leicht machen Dein Leben zu leben - ohne Vertragschaos.</h4>
-    <a role="button" href="{{ site.cta_href_default }}"
-       {% include data-amp-addparams %}>
-      <button>Jetzt Anmelden</button>
-    </a>
+    {% include cta-button.html %}
     <br>
     <small>* Für immer kostenlos</small>
   </div>
@@ -196,7 +193,7 @@ splashes:
     </amp-img>
 
     <div class="wrap">
-      <a role="button" href="{{ site.cta_href_default }}"
+      <a role="button" href="{{ cta_href }}"
          {% include data-amp-addparams %}>
         <amp-img src="{{ 'assets/WechselGott/Webapp-Badge.svg' | relative_url }}"
                  width="170" height="48"

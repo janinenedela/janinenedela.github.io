@@ -8,7 +8,7 @@
           <ul>
             {% for link in site.data.navigation.footer %}
             {% unless partner and link.noPartner %}
-            <li><a href="{% if link.isLink %}{{ link.url }}{%else%}{{ link.url | prepend: partner | relative_url }}{%endif%}"
+            <li><a href="{% if link.isCTA %}{{ cta_href }}{%else%}{{ link.url | prepend: partner | relative_url }}{%endif%}"
                    rel="noopener" class="masthead__menu-item"
                    {% include data-amp-addparams %}>{{ link.title }}</a></li>
             {% endunless %}
@@ -23,9 +23,7 @@
           <ul>
             {% for link in site.data.navigation.legal %}
             {% unless partner and link.noPartner %}
-            {{link.isLink}}
-
-            <li><a href="{% if link.isLink %}{{ link.url }}{%else%}{{ link.url | prepend: partner | relative_url }}{%endif%}"
+            <li><a href="{% if link.isCTA %}{{ cta_href }}{%else%}{{ link.url | prepend: partner | relative_url }}{%endif%}"
                    rel="noopener" class="masthead__menu-item"
                    {% include data-amp-addparams %}>{{ link.title }}</a></li>
             {% endunless %}
