@@ -54,7 +54,7 @@ splashes:
           lang
           einen vollkommen automatisierten Wechselservice. Du hast alles unter Kontrolle!</p>
       </div>
-      <amp-img src="{{ 'assets/WechselGott/Mockup_Banking9.png' | relative_url }}"
+      <amp-img src="{{ layout.Mockup_Banking9 | default: 'assets/WechselGott/Mockup_Banking9.png' | relative_url }}"
                width="288" height="580"
                class="splash shadow" layout="intrinsic"
                alt="Mockup_Banking9.png">
@@ -180,7 +180,7 @@ splashes:
 
   <section class="platform relative">
     <h2>Für all Deine Geräte verfügbar</h2>
-    <amp-img src="{{ 'assets/WechselGott/MacbookPro-AlleKonten-noshadow1.png' | relative_url }}"
+    <amp-img src="{{ layout.MacbookPro-AlleKonten-noshadow1 | default: 'assets/WechselGott/MacbookPro-AlleKonten-noshadow1.png' | relative_url }}"
              width="928" height="534" layout="intrinsic"
              alt="MacbookPro-AlleKonten-noshadow1.png">
       <div placeholder style="background: transparent"></div>
