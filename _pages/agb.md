@@ -22,10 +22,10 @@ Mehr dazu können Sie in unseren Datenschutzhinweisen erfahren.
 ### 1. Allgemeines und Geltungsbereich
 
 1.1 Die Wechselgott GmbH (nachfolgend „Wechselgott“oder wir/uns) erbringt gegenüber Ihnen als Nutzer unserer
-Wechselgott-App Leistungen, die wir Ihnen in diesen Allgemeinen Geschäftsbedingungen näher erläutern.
+WechselgottApp Leistungen, die wir Ihnen in diesen Allgemeinen Geschäftsbedingungen näher erläutern.
 
 1.2 Unsere Allgemeinen Geschäftsbedingungen gelten ausschließlich, entgegenstehende oder abweichende
-Geschäftsbedingungen der Nutzer der Wechselgott-App können nur dann Vertragsbestandteil werden, wenn sie mit unseren
+Geschäftsbedingungen der Nutzer der WechselgottApp können nur dann Vertragsbestandteil werden, wenn sie mit unseren
 vorliegenden Allgemeinen Geschäftsbedingungen inhaltlich übereinstimmen oder wir sie ausdrücklich schriftlich
 anerkennen. Dies gilt auch, wenn wir trotz Kenntnis entgegenstehender oder abweichender Geschäftsbedingungen von Ihnen
 unsere Leistungen vorbehaltlos erbringen.
@@ -34,7 +34,7 @@ unsere Leistungen vorbehaltlos erbringen.
 <br> 
 <br>
 
-### 2. Zugang und Verfügbarkeit sowie Inhalt der WechselGott-App
+### 2. Zugang und Verfügbarkeit sowie Inhalt der WechselGottApp
 
 2.1 Um die WechselGott App nutzen zu können, brauchen Sie ein online fähiges Girokonto bei einer europäischen Bank und
 Verträge mit deutschen Anbietern. Zudem müssen Sie sich gegenüber der Bankenschnittstelle unter Nutzung Ihrer
@@ -42,14 +42,14 @@ Login-Daten authentifizieren.
 
 2.2 Wir behalten uns jedoch das Recht vor, unsere Leistungen ohne weitere Begründung einzustellen.
 
-2.3 Über die Wechselgott-App können Sie eine Übersicht über die Finanzbewegungen auf den von Ihnen eingepflegten
+2.3 Über die WechselgottApp können Sie eine Übersicht über die Finanzbewegungen auf den von Ihnen eingepflegten
 Girokonten erhalten und mit uns einen Maklervertrag schließen, mit dem wir Ihre Interessen in den Bereichen Energie,
 Haushaltsverträge und Versicherung vertreten. Wir können die WechselGott App jederzeit ein- oder umzustellen oder in
 sonstiger Weise ändern. Dies gilt insbesondere für den Fall, dass sich die gesetzlichen oder regulatorischen
 Anforderungen für die Erbringung oder in Zusammenhang mit den Leistungen der Wechselgott App ändern.
 
 2.4 Wir bemühen uns, die Wechselgott App mit so wenig Unterbrechungen wie möglich zur Verfügung zu stellen. Allerdings
-übernehmen wir keine Haftung für die ständige Verfügbarkeit der Wechselgott-App. Zudem können wir die Verfügbarkeit
+übernehmen wir keine Haftung für die ständige Verfügbarkeit der WechselgottApp. Zudem können wir die Verfügbarkeit
 zeitweilig beschränken, wenn dies im Hinblick auf Kapazitätsgrenzen, die Sicherheit oder Integrität der Server oder zur
 Durchführung technischer Wartungs- oder Instandsetzungsmaßnahmen erforderlich ist und dies der ordnungsgemäßen oder
 verbesserten Erbringung der Leistungen dient. Wir berücksichtigen in diesen Fällen Ihre die berechtigten Interessen,
@@ -57,7 +57,7 @@ insbesondere durch Vorabinformationen. Die Haftung der Wechselgott GmbH wegen Ve
 unberührt.
 
 2.5 Wir übernehmen keinerlei Gewähr für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität der in der
-Wechselgott-App bereitgestellten Informationen. Haftungsansprüche gegen uns, die sich auf Schäden materieller oder
+WechselgottApp bereitgestellten Informationen. Haftungsansprüche gegen uns, die sich auf Schäden materieller oder
 ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der gegebenen Informationen bzw. durch die Nutzung
 fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern von uns
 nicht nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.
@@ -68,12 +68,12 @@ nicht nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.
 
 ### 3. Leistungen der Wechselgott App
 
-3.1 Die Wechselgott-App erbringt Ihnen über multibankingfähige, auf mobilen Endgeräten und als Webportal nutzbare
+3.1 Die WechselgottApp erbringt Ihnen über multibankingfähige, auf mobilen Endgeräten und als Webportal nutzbare
 Applikation, einen Service zur Analyse der hinterlegten Konten zur Erstellung einer Übersicht über alle Ihre Verträge
 und Ihrer finanziellen Situation. Darüber hinaus bietet die Applikation weiter Funktionen, wie z.B. eine integrierte
 Kündigungsfunktion, nach Maßgabe dieser Allgemeinen Geschäftsbedingungen sowie der gesonderten Datenschutzhinweise.
 
-3.2 Um die Wechselgott-App zwecks Durchführung der Finanzanalysenutzen zu können, analysieren wir Ihr Bankkonto. Diese
+3.2 Um die WechselgottApp zwecks Durchführung der Finanzanalysenutzen zu können, analysieren wir Ihr Bankkonto. Diese
 Kontoanalyse führen wir wie folgt durch:
 
 3.2.1 Ihr Bankkonto wird auf regelmäßige Gutschriften, SEPA-Lastschriften sowie Daueraufträge über standardisierte
@@ -93,12 +93,12 @@ digitale Übersicht Ihrer Verträge.
 optional auch die bei der Bank gespeicherten personenbezogenen Informationen (z.B. Vor- und Nachname, Postadresse und
 E-Mail-Adresse) an uns übertragen werden. Dieser Übermittlung müssen Sie ausdrücklich zustimmen.
 
-3.2.5 Die Nutzung der Wechselgott-App setzt voraus, dass Sie den gesonderten Datenschutzhinweisen zugestimmt haben. Die
+3.2.5 Die Nutzung der WechselgottApp setzt voraus, dass Sie den gesonderten Datenschutzhinweisen zugestimmt haben. Die
 Datenschutzhinweise enthalten auch ausdrücklich Ihr Recht, die Zustimmung jederzeit ganz oder teilweise zu widerrufen.
-Sollten Sie dieses Recht vollständigen oder teilweise ausüben, ist es allerdings nicht mehr möglich, die Wechselgott-App
+Sollten Sie dieses Recht vollständigen oder teilweise ausüben, ist es allerdings nicht mehr möglich, die WechselgottApp
 vollständig oder teilweise weiterzunutzen.
 
-3.2.6 Sie können die Leistungen der Wechselgott-App nur dann nutzen, wenn Sie vor der Authentifizierung mit Ihrem
+3.2.6 Sie können die Leistungen der WechselgottApp nur dann nutzen, wenn Sie vor der Authentifizierung mit Ihrem
 Girokonto ausdrücklich die Allgemeinen Geschäftsbedingungen und die gesonderten Datenschutzhinweise bestätigt haben.
 
 3.3 Sie können bestehende Verträge über unsere Technologiepartner Aboalarm kündigen, dazu müssen Sie die Schaltfläche
@@ -114,18 +114,18 @@ müssen dies ausdrücklich bestätigen.
 
 4.2 Durch die Registrierung durch Eingabe von Name, Adresse, Telefonnummer und-E-Mail Adresse, Einbeziehung der AGB und
 der Kenntnisnahme von unseren Datenschutzhinweisen durch Anklicken, schließen Sie mit uns einen Nutzungsvertrag über den
-Zugriff auf die Leistungen der Wechselgott-App, der auch das Empfangen von Mitteilungen von Wechselgott über Nachrichten
-über die Wechselgott-App enthält, sowie die Verarbeitung Ihrer Daten sowie zur Entgegennahme unserer Leistungen nach
+Zugriff auf die Leistungen der WechselgottApp, der auch das Empfangen von Mitteilungen von Wechselgott über Nachrichten
+über die WechselgottApp enthält, sowie die Verarbeitung Ihrer Daten sowie zur Entgegennahme unserer Leistungen nach
 Maßgabe dieser Allgemeinen Geschäftsbedingungen und der gesonderten Datenschutzhinweise durch die WechselGott GmbH.
 Dieser Vertrag ist für Sie kostenfrei und ohne weitere, über die Nutzungsmöglichkeit hinausgehende Verpflichtungen.
 Durch die Eingabe Ihrer gültigen deutschen Bankverbindungen erhalten Sie in der App die Möglichkeit, sich Ihre
-Kontodaten aufbereiten zu lassen. Erst durch das Erteilen eines Maklermandates über die Wechselgott-App, was Sie in der
+Kontodaten aufbereiten zu lassen. Erst durch das Erteilen eines Maklermandates über die WechselgottApp, was Sie in der
 App gesondert erteilen müssen, geben Sie uns die Möglichkeit, für Sie tätig zu werden und Ihre Interessen im Bereich
 Energie, Haushaltsverträge und Versicherung zu vertreten. Sie können die Eingabe Ihrer Daten vor dem jeweiligen Absenden
 überprüfen und Fehler bei der Eingabe gegebenenfalls korrigieren.
 
-4.3 Sobald Sie die Wechselgott-App von Ihrem Gerät löschen, kündigen Sie den Nutzungsvertrag über die Nutzung der
-Wechselgott-App. Wir werden dann nicht mehr aktiv für Sie tätig, dies berührt jedoch nicht die Wirksamkeit des
+4.3 Sobald Sie die WechselgottApp von Ihrem Gerät löschen, kündigen Sie den Nutzungsvertrag über die Nutzung der
+WechselgottApp. Wir werden dann nicht mehr aktiv für Sie tätig, dies berührt jedoch nicht die Wirksamkeit des
 Maklervertrages. Dieser Maklervertrag ist so lange wirksam, bis Sie ihn uns gegenüber schriftlich kündigen.
 
 4.4 Wechselgott speichert in der App keine Vertragstexte oder hält diese dauerhaft für den Nutzer zum Abruf bereit.
@@ -139,7 +139,7 @@ Kosten für Sie werden Sie informieren, bevor Sie hier rechtsverbindliche Verpfl
 <br> 
 <br>
 
-### 5 Ihre Mitwirkungsleistungen
+### 5. Ihre Mitwirkungsleistungen
 
 5.1 Sie sind zur angemessenen Mitwirkung bei der Nutzung der Leistungen der Wechselgott App verpflichtet, dazu zählt
 insbesondere die Authentifizierung mit den Login-Daten Ihres Online-Bankings (z.B. Kontonummer und PIN) gegenüber der
@@ -160,7 +160,7 @@ Leistungen abzubrechen oder den gewünschten Service nicht durchzuführen.
 von Maklerdienstleistungen von Versicherern Provision erhalten.
 
 6.2 Bei Nutzung der Optimierungsfunktion Ihrer Energieverträge, erhalten wir und unser Partner Wechselpilot von Ihnen
-jeweils ein Honorar in Höhe von 10 % der für Sie gewonnenen jährlichen Ersparnis, bei Vermittlung provisionsfreier
+jeweils ein Honorar in Höhe von 10% der für Sie gewonnenen jährlichen Ersparnis, bei Vermittlung provisionsfreier
 Verträge.
 
 6.3 Weitere Funktionen, wie z.B. die Nutzung der Kündigungsfunktion unseres Technologiepartners Aboalarm sind
@@ -175,7 +175,7 @@ anfallen.
 
 7.1 Die Wechselgott GmbH verarbeitet Ihre personenbezogenen Daten ausschließlich zum Zweck der Erbringung der Leistungen
 der Wechselgott App. Eine darüberhinausgehende Verwendung Ihrer personenbezogenen Daten erfolgt nicht. Hinsichtlich der
-Einzelheiten wird auf die Datenschutzbedingungen der Wechselgott-App verwiesen, die auf der Webseite der Wechselgott
+Einzelheiten wird auf die Datenschutzbedingungen der WechselgottApp verwiesen, die auf der Webseite der Wechselgott
 GmbH und in der Wechselgott App hinterlegt sind und dort jederzeit abgerufen werden können.
 
 7.2 Weiterhin kann es auch zu einer Verarbeitung von anonymisierten Banktransaktionsdaten kommen, die wir zum Trainieren
@@ -186,7 +186,7 @@ der Wechselgott GmbH nach Artikel 6 Abs. 1 lit. f) DSGVO zulässig.
 <br> 
 <br>
 
-### 8 Haftung der Wechselgott GmbH
+### 8. Haftung der Wechselgott GmbH
 
 8.1 Die Wechselgott GmbH haftet auf Schadensersatz nach den gesetzlichen Bestimmungen für Personenschäden und für
 Schäden nach dem Produkthaftungsgesetz. Ebenso haften wir nach den gesetzlichen Bestimmungen für Schäden, die durch

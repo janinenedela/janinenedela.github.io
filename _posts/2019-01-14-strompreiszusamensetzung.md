@@ -12,9 +12,9 @@ Dein Strompreis setzt sich aus verschiedenen Bestandteilen zusammen. Auf dieser 
 
 ## Die einzelnen Strompreiskomponenten
 
-- **Steuern, Abgaben und Umlagen** <br>54,2 % des Strompreises entfällt auf Steuern, Abgaben und Umlagen.
+- **Steuern, Abgaben und Umlagen** <br>54,2% des Strompreises entfällt auf Steuern, Abgaben und Umlagen.
 
-- **Netzentgelte** <br>24,7 % der Kosten für Strom entstehen durch Netzentgelte. Diese werden für die Nutzung der Stromnetze, sprich die Verteilung und den Transport des Stroms von den Netzbetreibern erhoben.
+- **Netzentgelte** <br>24,7% der Kosten für Strom entstehen durch Netzentgelte. Diese werden für die Nutzung der Stromnetze, sprich die Verteilung und den Transport des Stroms von den Netzbetreibern erhoben.
 
 - **Strombeschaffung und Vertrieb** <br>Mit 21,1% entfällt fast ein Fünftel der Gesamtkosten auf die Strombeschaffung, die Verwaltung und den Vertrieb.
 

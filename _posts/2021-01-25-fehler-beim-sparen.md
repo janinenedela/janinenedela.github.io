@@ -27,7 +27,7 @@ Den Punkten „wann und wie viel“ folgt noch ein weiterer wichtiger Punkt – 
 
 ## 4\. Falsche Anlageformen
 
-Während man vor einigen Jahren noch auf dem klassischen Sparbuch seinen Notgroschen (und grundsätzlich jede Ersparnis geparkt hatte), wird heutzutage dringend davon abgeraten. Das Sparbuch erzielt keine Zinsen mehr. Im Gegenteil, durch die Inflationsrate von 1,4 %, die für das Jahr 2021 von Statista prognostiziert wurde, entwertet man sein Geld durch die Besparung des Sparbuches. Um das Beste für sich herauszuholen, sollten Sie sich unbedingt mit einer Fachperson zusammen setzen oder sich selbst einen Überblick verschaffen, welche Anlageform für Sie die Richtige ist. Aufgrund der unendlichen Möglichkeiten könnte zweites jedoch sehr zeitintensiv werden.
+Während man vor einigen Jahren noch auf dem klassischen Sparbuch seinen Notgroschen (und grundsätzlich jede Ersparnis geparkt hatte), wird heutzutage dringend davon abgeraten. Das Sparbuch erzielt keine Zinsen mehr. Im Gegenteil, durch die Inflationsrate von 1,4%, die für das Jahr 2021 von Statista prognostiziert wurde, entwertet man sein Geld durch die Besparung des Sparbuches. Um das Beste für sich herauszuholen, sollten Sie sich unbedingt mit einer Fachperson zusammen setzen oder sich selbst einen Überblick verschaffen, welche Anlageform für Sie die Richtige ist. Aufgrund der unendlichen Möglichkeiten könnte zweites jedoch sehr zeitintensiv werden.
 
 ## 5\. Die richtigen Versicherungen
 

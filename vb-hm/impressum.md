@@ -88,10 +88,10 @@ Zuwendungen dürfen vom Vertriebspartner als Vergütung angenommen und behalten 
 
 Sonstige Hinweise zur Versicherungsvermittlung
 
-Die Wechselgott GmbH hält keine unmittelbaren oder mittelbaren Beteiligungen von mehr als 10 % an den Stimmrechten oder
+Die Wechselgott GmbH hält keine unmittelbaren oder mittelbaren Beteiligungen von mehr als 10% an den Stimmrechten oder
 am Kapital eines Versicherungsunternehmens.
 
-Ein Versicherungsunternehmen hält keine mittelbaren oder unmittelbaren Beteiligungen von mehr als 10 % an den
+Ein Versicherungsunternehmen hält keine mittelbaren oder unmittelbaren Beteiligungen von mehr als 10% an den
 Stimmrechten oder am Kapital der Wechselgott GmbH.
 
 Kundenbeschwerden
