@@ -1,5 +1,5 @@
 ---
 layout: kosten
-title: WechselGott <br>ist gütig
+title: Volle Transparenz, keine versteckten Kosten!
 ---
 
