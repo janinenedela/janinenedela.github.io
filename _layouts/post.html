@@ -9,11 +9,12 @@ styles:
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
 
-    {% if page.coverImage %}
-    {% assign alt = page.coverImage | split: '.' %}
+    {% if page.thumbnail %}
+    {% assign alt = page.thumbnail | split: '.' %}
     <figure>
-      <amp-img height="630px" width="1120px" alt="{{ alt[0] }}" layout="responsive"
-               src='{{ page.coverImage | prepend: "/assets/post/" | relative_url }}'></amp-img>
+      <amp-img width="{{page.thumbnailWidth | default: page.width}}"
+               height="{{page.thumbnailHeight | default: page.height}}" alt="{{ alt[0] }}" layout="responsive"
+               src='{{ page.thumbnail | prepend: "/assets/post/" | relative_url }}'></amp-img>
     </figure>
     {% endif %}
 
@@ -30,14 +31,15 @@ styles:
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
 
-    <br>
-    <br>
-    <h3>Finanzen optimieren, ohne Aufwand und Papierkram</h3>
-    <p>Nie wieder an lästige Fristen denken oder diese gar verpassen, kein Papierkrieg mehr und vor allem: nie wieder zu
-      viel bezahlen! Wer nun ganz entspannt sparen will, der sollte unbedingt bei app.wechselgott.com vorbei schauen und
-      langfristig profitieren!</p>
-    {% assign cta_text= 'Jetzt anmelden' %}
-    {% include cta-button.html %}
+    {% assign static = page.images | prepend: "/assets/post/" | append: "/" %}
+    {% for image in site.static_files %}
+    {% if image.path contains static %}
+
+    {% assign alt = image.path | replace:'/assets/post/','' | split: '.' %}
+    <amp-img width="{{page.width}}" height="{{page.height}}" alt="{{ alt[0] }}" layout="responsive"
+             src='{{ image.path | relative_url }}'></amp-img>
+    {% endif %}
+    {% endfor %}
 
   </div>
 

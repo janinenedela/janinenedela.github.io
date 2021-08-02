@@ -1,24 +1,17 @@
 lang: "de"
-title: WechselGott
-short_name: WechselGott
-email: kundenservice@wechselgott.com
-tel: +4989 4141 7897-3
-whatsapp: +49 176 57800298
-whatsapp_link: https://api.whatsapp.com/send/?phone=004917657800298&text&app_absent=0
-author: WechselGott GmbH
-address: >
-  Spinnereistraße 7 <br>
-  04179 Leipzig
+title: Johannes Lesser Fotografie
+short_name: Johannes Lesser
+email: info@JohannesLesser.com
+tel:
+whatsapp:
+whatsapp_link:
+author: Johannes Lesser Fotografie
+address: false
+
 description: > # this means to ignore newlines until "show_excerpts:"
-  Nie wieder zu viel für Energie zahlen!
-  ✓ Strom & Gas jedes Jahr automatisch wechseln
-  ✓ Kein Aufwand
-  ✓ Unabhängige Tarife.
-  Jetzt testen!
+
 
 show_excerpts: true # set to true to show excerpts on the homepage
-
-
 
 color:
   primary: "#3FD298"
@@ -26,12 +19,13 @@ color:
   hover: "#1FC7BD"
   active: "#1BADA5"
 
-logo: assets/WechselGott/Logo-WechselGott-Typo-Right.svg
+logo:
 defaultHeaderImage:
-cta_text_default: "Anmelden"
-cta_href_default: "https://app.wechselgott.com"
+cta_active: false
+cta_text_default:
+cta_href_default:
 
-amp-link-variable-allowed-origin: "https://app.wechselgott.com"
+amp-link-variable-allowed-origin: "https://app.Johannes Lesser.com"
 data-amp-addparams:
   - campaignName
   - campaignId
@@ -46,17 +40,17 @@ data-amp-addparams:
 static_email:
 
 # Consent
-consent: true
+consent: false
 
 # Analytics
 analytics:
-  provider: true # false (default), "google", "google-universal", "custom"
-  googleadwords:
-    tracking_id: AW-756554075
+  provider: false # false (default), "google", "google-universal", "custom"
+#  googleadwords:
+#    tracking_id: AW-756554075
 #  gtag:
 #    tracking_id: GTM-5BC7R55
-  googleanalytics:
-    tracking_id: UA-132798592-1
+#  googleanalytics:
+#    tracking_id: UA-132798592-1
 #  facebookpixel:
 #    tracking_id: 000000000000
 
@@ -71,10 +65,10 @@ minima:
 #    github:  jekyll
 #    rss: rss
     # dribbble: jekyll
-     facebook: wechselgott
+     facebook: FotografieJohannesLesser
     # flickr:   jekyll
-     instagram: wechselgott_app
-     linkedin: wechselgott
+     instagram: johannes_lesser
+     linkedin: johannes-lesser-9960a2189
 #     xing: company/finum
     # pinterest: jekyll
     # youtube: jekyll

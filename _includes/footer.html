@@ -37,19 +37,19 @@
 
       <div>
         <h4>Kontakt</h4>
+          {% if site.address %}
           <address>
             {% if site.author %}
             {{ site.author }}
             <br>
             {% endif %}
 
-            {% if site.address %}
             {{ site.address }}
             <br>
-            {% endif %}
           </address>
-
           <br>
+          {% endif %}
+
 
           {% if site.tel %}
           Telefon: <a href="tel:{{ site.tel | replace: '+', '00' | replace: ' ', '' | replace: '-', '' }}" target="_blank">{{ site.tel }}</a>

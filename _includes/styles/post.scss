@@ -1,5 +1,7 @@
-.post-content, .post-meta, .post-header > h1 {
-  max-width: $container-max-width-small;
+.post-content {
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-meta{

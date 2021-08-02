@@ -1,21 +1,12 @@
 <div class="frame">
-  {% unless limit %}
-  {% assign limit = site.paginate %}
-  {% endunless %}
-
-  {% for post in posts limit: limit %}
-  {% if post.author and site.data.authors[post.author] %}
-  {% assign author = site.data.authors[post.author] %}
-  {% else %}
-  {% assign author = site.author %}
-  {% endif %}
+  {% for post in site.posts %}
   <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url" {% include data-amp-addparams %}>
     <article itemprop="blogPost" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-      {% if post.coverImage %}
-      {% assign alt = post.coverImage | split: '.' %}
+      {% if post.thumbnail %}
+      {% assign alt = post.thumbnail | split: '.' %}
       <figure>
-        <amp-img height="630px" width="1120px" alt="{{ alt[0] }}" layout="responsive"
-                 src='{{ post.coverImage | prepend: "/assets/post/" | relative_url }}'></amp-img>
+        <amp-img width="{{post.thumbnailWidth | default: post.width}}" height="{{post.thumbnailHeight | default: post.height}}" alt="{{ alt[0] }}" layout="responsive"
+                 src='{{ post.thumbnail | prepend: "/assets/post/" | relative_url }}'></amp-img>
       </figure>
       {% endif %}
       <div class="article-item">

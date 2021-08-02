@@ -30,6 +30,10 @@
     margin-left: 32px;
   }
 
+  .ampstart-headerbar-title {
+    margin-left: 1rem;
+  }
+
   .cta-button{
     margin-right: 32px;
   }
@@ -48,15 +52,7 @@
   }
 }
 
-
-@media only screen and (min-width: $mobile-width) {
-  .ampstart-navbar-trigger {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: $mobile-width) {
-  .ampstart-headerbar {
+.ampstart-headerbar {
     nav, a[role="button"] {
       display: none;
     }
@@ -71,7 +67,6 @@
       margin: 20px;
     }
   }
-}
 
 .ampstart-sidebar {
   z-index: 998;

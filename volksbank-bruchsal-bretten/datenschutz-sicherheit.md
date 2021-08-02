@@ -1,5 +1,0 @@
----
-layout: sicherheit
-title: Sicherheit
----
-

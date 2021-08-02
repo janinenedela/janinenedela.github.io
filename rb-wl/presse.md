@@ -1,4 +1,0 @@
----
-layout: presse
-title: Pressebereich
----

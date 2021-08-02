@@ -1,32 +1,9 @@
 header:
-  - title: "Über uns"
-    url: /experten-2
-    noPartner: True
-  - title: "Sicherheit"
-    url: /datenschutz-sicherheit
-  - title: "Kosten"
-    url: /kosten
+  - title: "About"
+    url: /about
 
 footer:
-  - title: "Über uns"
-    url: /experten-2
-    noPartner: True
-  - title: "Presse"
-    url: /presse
-  - title: "Blog"
-    url: /blog
-    noPartner: True
-  - title: "Registrierung"
-    isCTA: True
-  - title: "Sicherheit"
-    url: /datenschutz-sicherheit
+  - title: "About"
+    url: /about
 
 legal:
-  - title: "AGB"
-    url: /agb
-  - title: "Datenschutz"
-    url: /datenschutz
-  - title: "Impressum"
-    url: /impressum
-  - title: "Erstinformation"
-    url: /erstinformation
