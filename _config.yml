@@ -1,15 +1,19 @@
 lang: "de"
 title: Johannes Lesser Fotografie
 short_name: Johannes Lesser
-email: info@JohannesLesser.com
-tel:
+email: johannes-lesser@web.de
+tel: 01525 5799613
 whatsapp:
 whatsapp_link:
 author: Johannes Lesser Fotografie
-address: false
+address: >
+  Eschenweg 20 <br>
+  85354 Freising
 
 description: > # this means to ignore newlines until "show_excerpts:"
-
+  description Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+  sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et a
 
 show_excerpts: true # set to true to show excerpts on the homepage
 

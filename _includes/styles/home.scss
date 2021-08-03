@@ -12,6 +12,11 @@
       text-decoration: none;
     }
 
+    article {
+      max-width: 50vh;
+      margin: auto;
+    }
+
     .post-excerpt, .post-meta {
       display: none;
     }

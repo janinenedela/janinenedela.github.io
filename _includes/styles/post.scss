@@ -9,3 +9,13 @@
   height: 128px;
   margin: 0;
 }
+
+.post-header {
+  figure {
+    margin: auto;
+    max-width: calc(min(50vh, 50vw));
+  }
+  h1{
+    display: none;
+  }
+}
