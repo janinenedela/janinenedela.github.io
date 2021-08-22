@@ -1,16 +1,8 @@
 ---
 title: "About"
-excerpt: "excerpt12"
 layout: about
 permalink: /about
 ---
 
-
-### Lorem ipsum dolor
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-amet.
+Dies ist das Portfolio von Johannes Lesser. Fotograf und Filmer aus Freising. Der Fokus seiner bisherigen Arbeit liegt
+in den Bereichen Portrait, Reportage, Werbung und Sport.
