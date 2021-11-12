@@ -1,6 +1,6 @@
 $mobile-width: 940px;
-$font-family--primary: 'Gowun Batang', serif;
-$font-family--heading: 'Gowun Batang', serif;
+$font-family--primary: 'Outfit', serif;
+$font-family--heading: 'Philosopher', serif;
 $container-max-width: 1120px;
 $container-max-width-small: 736px;
 $height-header: 64px;
@@ -14,14 +14,11 @@ $color-active: {% if page.color.active %} {{page.color.active}} {% else %} {{sit
 $color-body-background: #FAFAFA;
 
 
-$color-lightblue: #009FE3;
-$color-darkblue: #144569;
-$color-darkblue_40: rgba(20, 69, 105, 0.4);
-$color-darkblue_60: rgba(20, 69, 105, 0.6);
-$color-darkblue_80: rgba(20, 69, 105, 0.8);
 $color-gray_5: #808080;
 $color-body-background-blend-color: #777;
-$color-footer-background: #4C4C4C;
+
+$color-footer-background: #BFAC9B;
+$color-text: #403C34;
 
 @import 'ampstart-headerbar';
 @import 'ampstart-footer';
@@ -38,7 +35,7 @@ body, input, textarea {
   font-family: $font-family--primary;
   font-weight: 400;
   letter-spacing: 0.01em;
-  color: $color-black;
+  color: $color-text;
   line-height: 1.666666666;
 
   * {
@@ -67,7 +64,7 @@ h1, .h1 {
   font-size: calc(min(72px, 8vw));
   line-height: 134%;
   margin: calc(min(2rem, 5vw)) auto;
-  color: $color-black;
+  color: $color-text;
 }
 
 h2, .h2 {

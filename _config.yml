@@ -1,17 +1,17 @@
 lang: "de"
-title: Johannes Lesser Fotografie
-short_name: Johannes Lesser
-email: johannes-lesser@web.de
-tel: 01525 5799613
+title: Janine Nedela Portfolio
+short_name: Janine Nedela
+email: janinenedela@outlook.de
+tel: 0176 32366210
 whatsapp:
 whatsapp_link:
-author: Johannes Lesser Fotografie
+author: Janine Nedela
 address: >
-  Eschenweg 20 <br>
-  85354 Freising
+  Kolbstraße 12 <br>
+  82110 Germering
 
 description: > # this means to ignore newlines until "show_excerpts:"
-  Johannes Lesser, Fotograf und Filmer im Bereich Reportage, Werbung und Sport
+  Janine Nedela, Praktikantin im Bereich Papierrestaurierung
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -27,16 +27,8 @@ cta_active: false
 cta_text_default:
 cta_href_default:
 
-amp-link-variable-allowed-origin: "https://app.Johannes Lesser.com"
+amp-link-variable-allowed-origin:
 data-amp-addparams:
-  - campaignName
-  - campaignId
-  - utm_source
-  - utm_content
-  - utm_campaign
-  - apn
-  - ibi
-  - isi
 
 # Contact
 static_email:
@@ -67,10 +59,10 @@ minima:
 #    github:  jekyll
 #    rss: rss
     # dribbble: jekyll
-     facebook: FotografieJohannesLesser
+#     facebook: jekyll
     # flickr:   jekyll
-     instagram: johannes_lesser
-     linkedin: johannes-lesser-9960a2189
+#     instagram: jekyll
+#     linkedin: jekyll
 #     xing: company/finum
     # pinterest: jekyll
     # youtube: jekyll
